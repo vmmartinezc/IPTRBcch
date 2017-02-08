@@ -1,0 +1,614 @@
+
+  ___  ____  ____  ____  ____ (R)
+ /__    /   ____/   /   ____/
+___/   /   /___/   /   /___/   12.0   Copyright 1985-2011 StataCorp LP
+  Statistics/Data Analysis            StataCorp
+                                      4905 Lakeway Drive
+                                      College Station, Texas 77845 USA
+                                      800-STATA-PC        http://www.stata.com
+                                      979-696-4600        stata@stata.com
+                                      979-696-4601 (fax)
+
+Single-user Stata network perpetual license:
+       Serial number:  93611859953
+         Licensed to:  STATAforAll
+                       STATA
+
+Notes:
+      1.  Command line editing disabled
+      2.  Stata running in batch mode
+
+Note:  Your site can add messages to the introduction by editing the file
+       stata.msg in the directory where Stata is installed.
+
+. do /home/ruben/Dropbox/IPTR/proc/amb_prueba/od_bdfv_d_v0.20/stata/do/main.do 
+
+. ////////////////////////////////////////////////////
+> //// Author:    V’ctor Mart’nez
+> //// Date:              05 Enero 2016
+> //// Proyect:   Verduras ODEPA.
+> //// dofile:    Busca ordenar los datos en 
+> ////                    indicadores y presentarlos en Latex
+> ////////////////////////////////////////////////////      
+> 
+. set more off
+
+. 
+. // Define variables de sistema 
+. ***************************************************
+. global version `c(version)'
+
+. global opsys `c(os)'
+
+. global hostname `c(hostname)'
+
+. global machinetype `c(machine_type)'  
+
+. global usrname `c(username)'  
+
+. 
+. // Define directorios base 
+. ***************************************************
+. if "$opsys" == "Unix" {
+.         global basePath `"/home/`c(username)'/Dropbox/IPTR"'
+. }
+
+. else if "$opsys" == "MacOSX" {
+.         if "$usrname" == "ruben" {
+.                 global basePath `"/users/$usrname/Dropbox/Proyectos/IPTR"'
+.         }
+.         else if "$usrname" == "victormartinez" {
+.                 global basePath `"/users/$usrname/Dropbox/IPTR"'
+.         }
+.         else {
+.                 global basePath `"/users/$usrname/Dropbox/IPTR"'
+.         }
+.                 
+. }
+
+. else {
+. di "No se pudo definir basepath para el proceso"
+. exit
+. }
+
+. 
+. di "En $opsys - $hostname el directorio a utilizar es $basePath"
+En Unix -  el directorio a utilizar es /home/ruben/Dropbox/IPTR
+
+. cd $basePath
+/home/ruben/Dropbox/IPTR
+
+. 
+. 
+. // Identificar Directorio Proyecto y subdirectorios de trabajo
+. ***************************************************
+. global projectVer "od_bdfv_d_v0.20"                                          
+>                                                            /* Definimos versi
+> on de proyecto en que estamos trabajando */
+
+. global tipoAmbiente "amb_prueba"
+
+. global projPath "${basePath}/proc/${tipoAmbiente}/${projectVer}/"
+
+. cd ${projPath}
+/home/ruben/Dropbox/IPTR/proc/amb_prueba/od_bdfv_d_v0.20
+
+. 
+. global doPath "${projPath}/stata/do/"
+
+. global csvPath "${projPath}/output_files/"
+
+. global dtaPath "${projPath}/stata/dta/"
+
+. global texPath "${projPath}/tex/"
+
+. global pngPath "${projPath}/png/"
+
+. global epsPath "${projPath}/eps/"
+
+. global pdfPath "${projPath}/pdf/"
+
+. global plotPath "${projPath}/plot/"
+
+. 
+. // 0. Instalamos Softare e Inicializamos Stata
+. ***************************************************
+. *do "${doPath}/installAdo.do"
+. 
+. // 1. Actualizamos database madre
+. ***************************************************
+. do "${doPath}/actMaster.do"
+
+. // Cargamos lista de archivos a tempFileList
+. ***************************************************
+. clear
+
+. gen files = ""
+
+. 
+. local filelist: dir "${csvPath}" files "*.csv", respectcase
+
+. local num=0
+
+. local appendlist
+
+. 
+. foreach file of local filelist {
+  2.    quietly set obs `++num'
+  3.    *display as text in smcl  "working on file number {it:`num'}, `file'...
+> "
+.    quietly replace files = "`file'" if [_n] == `num'
+  4.    *display as text in smcl  "... finished working on file number {it:`num
+> '}"
+.    *save `file`num''
+. }
+
+. 
+. if $version != 12 {
+. saveold "${dtaPath}/tempFileList.dta", replace
+. }
+
+. else {
+. save "${dtaPath}/tempFileList.dta", replace
+file /home/ruben/Dropbox/IPTR/proc/amb_prueba/od_bdfv_d_v0.20//stata/dta//tempF
+> ileList.dta saved
+. }
+
+. 
+. // Contrastamos la lista de procesados y la temp
+. ***************************************************
+. use "${dtaPath}/procFileList.dta", replace
+
+. merge 1:1 files using ${dtaPath}/tempFileList.dta
+
+    Result                           # of obs.
+    -----------------------------------------
+    not matched                             3
+        from master                         3  (_merge==1)
+        from using                          0  (_merge==2)
+
+    matched                               372  (_merge==3)
+    -----------------------------------------
+
+. keep if _merge == 2
+(375 observations deleted)
+
+. drop _merge
+
+. 
+. if $version != 12 {
+. saveold "${dtaPath}/tempFileListToProccess.dta", replace
+. }
+
+. else {
+. save "${dtaPath}/tempFileListToProccess.dta", replace
+(note: dataset contains 0 observations)
+file /home/ruben/Dropbox/IPTR/proc/amb_prueba/od_bdfv_d_v0.20//stata/dta//tempF
+> ileListToProccess.dta saved
+. }
+
+. 
+. 
+. // Procesamos los archivos
+. ***************************************************
+. if [_N] > 0 {
+.         local nobs = [_N]
+.         di "N es mayor que 0, es `nobs'"
+.         forvalues fnum = 1/`nobs' {
+  2.                 global fileName = file[`fnum']
+  3.                 di "Iniciando importaci—n de archivo nœmero {it:`fnum'}: {
+> bf: ${fileName}}"
+  4.                 preserve
+  5.                         clear
+  6.                         * Agregamos archivo a masterdataset 
+.                         do "${doPath}/importFile.do"
+  7.                         * Agregamos nombre del archivo a lista de procesad
+> os
+.                         use "${dtaPath}/procFileList.dta", replace
+  8.                         local nproc = [_N] + 1
+  9.                         set obs `nproc'
+ 10.                         quietly replace files = "${fileName}" if [_n] == `
+> nproc'
+ 11.                         if $version != 12 {
+ 12.                                 saveold "${dtaPath}/procFileList.dta", rep
+> lace
+ 13.                         }
+ 14.                         else {
+ 15.                                 save "${dtaPath}/procFileList.dta", replac
+> e
+ 16.                         }
+ 17.                         restore
+ 18.         }
+. }
+
+. 
+end of do-file
+
+. 
+. 
+. // 2. Realizamos C‡lculos
+. ***************************************************
+. use "${dtaPath}/basePrincipal.dta", clear 
+
+. do "${doPath}/recodeDb.do"                 
+
+. ////////////////////////////////////////////////////
+> //// Author:    V’ctor Mart’nez
+> //// Date:              05 Enero 2016
+> //// Proyect:   Verduras ODEPA.
+> //// dofile:    Busca ordenar los datos en 
+> ////                    indicadores y presentarlos en Latex
+> ////////////////////////////////////////////////////      
+> 
+. 
+. if [_N] > 0 {
+. 
+. // Reemplaza caracteres raros
+. ********************************************
+. 
+. 
+.         * Codificacion de variables de texto
+.         foreach var of varlist producto unidad variedad mercado calidad {
+  2.                 replace `var' = subinstr(`var'," ","_",.)
+  3.                 replace `var' = subinstr(`var',"(","",.)
+  4.                 replace `var' = subinstr(`var',")","",.)
+  5.                 replace `var' = subinstr(`var',"Ì©","e",.)
+  6.                 replace `var' = subinstr(`var',"Ì?","i",.)
+  7.                 replace `var' = subinstr(`var',"ÃƒÂ­","i",.)
+  8.                 replace `var' = subinstr(`var',"ÃƒÂº","o",.)
+  9.                 replace `var' = subinstr(`var',"ÃƒÂº","u",.)
+ 10.                 replace `var' = subinstr(`var',"ÃƒÂ±","n",.)
+ 11.                 replace `var' = subinstr(`var',"ÌÁ","a",.)
+ 12.                 replace `var' = subinstr(`var',"ÃƒÂ¡","a",.)
+ 13.                 replace `var' = subinstr(`var',"ÃƒÂ³","o",.)
+ 14.                 replace `var' = subinstr(`var',"Ã¡","a",.)
+ 15.                 replace `var' = subinstr(`var',"Ã³","o",.)
+ 16.                 replace `var' = subinstr(`var',"Ã­","i",.)
+ 17.                 replace `var' = subinstr(`var',"ÃƒÂ©","e",.)
+ 18.                 replace `var' = subinstr(`var',"Ã©","e",.)
+ 19.                 replace `var' = subinstr(`var',"Ã±","n",.)
+ 20.                 }
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(35378 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(11405 real changes made)
+(55522 real changes made)
+(257 real changes made)
+(1135 real changes made)
+(987 real changes made)
+(6523 real changes made)
+(5 real changes made)
+(247 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(576793 real changes made)
+(84697 real changes made)
+(84697 real changes made)
+(0 real changes made)
+(0 real changes made)
+(15 real changes made)
+(4179 real changes made)
+(0 real changes made)
+(28816 real changes made)
+(0 real changes made)
+(4472 real changes made)
+(9916 real changes made)
+(60 real changes made)
+(175 real changes made)
+(17 real changes made)
+(13572 real changes made)
+(14 real changes made)
+(173 real changes made)
+(968255 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(18437 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(8635 real changes made)
+(9333 real changes made)
+(741 real changes made)
+(379 real changes made)
+(1387 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(169663 real changes made)
+(167009 real changes made)
+(167009 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(3402 real changes made)
+(0 real changes made)
+(118 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+(0 real changes made)
+. 
+.         * Variables a nœmeros reales
+.         foreach x in preciomin precioprom preciomax volumen {
+  2.         replace `x'= subinstr(`x',".","",.)
+  3.         capture drop `x'1
+  4.         gen `x'1=real(`x')
+  5.         drop if `x'1==.
+  6.         }
+(0 real changes made)
+(0 observations deleted)
+(0 real changes made)
+(0 observations deleted)
+(0 real changes made)
+(0 observations deleted)
+(0 real changes made)
+(0 observations deleted)
+.         
+.         * Construyo una variable de tiempo:
+.         capture drop fecha
+.         gen fecha=date(url,"DMY",2000)
+.         format fecha %td
+. 
+.         split url, parse(/)
+variables created as string: 
+url1  url2  url3
+.         local t=1
+.         foreach x in dia mes year {
+  2.         capture drop `x'
+  3.         gen `x'=real(url`t')
+  4.         drop url`t'
+  5.         local t=`t'+1
+  6.         }
+. 
+.                 * Creaci—n de producto nuevo
+.         sort producto fecha variedad calidad
+.         capture drop prod_b
+.         gen prod_b=producto+" "+variedad
+.         
+.         // genero escalares para el proceso
+.         scalar day=dia
+.         scalar month=mes
+.         scalar yr=year
+. 
+.         *ren precioprom1 preciooriginal
+.         *gen precioprom1=preciooriginal/unidad1
+.                 
+. }
+
+. 
+end of do-file
+
+. do "${doPath}/encodeDb.do"
+
+. // Este dofile recodifica la variable unidad y la lleva a 
+. // una comparable y numŽrica. Para esto uso el comando regexe.
+. /////////////////////////////////////////////////////////////
+> set more 1
+
+. 
+. 
+. // Escribo la variable Unidad con minœscula
+. capture drop unidadl
+
+. gen unidadl=lower(unidad)
+
+. drop unidad
+
+. ren unidadl unidad
+
+. 
+. capture drop und_cant
+
+. capture drop und_nomb
+
+. gen und_cant=regexs(0) if regexm(unidad,"[\/][k][i][l][o]|[d][o][c][e][n][a]|
+> [c][i][e][n]|[m][i][l]|[m][e][d][i][a][\_][d][o][c][e][n][a]|[\_][0-9]+") // 
+> identifico la unidad
+(56369 missing values generated)
+
+. replace und_cant=regexs(0) if regexm(unidad,"[\/][a-z]+") & und_cant=="" // i
+> dentifico la unidad
+(56369 real changes made)
+
+. replace und_cant=subinstr(und_cant,"_","",.)
+(415232 real changes made)
+
+. replace und_cant=subinstr(und_cant,"/","",.)
+(116503 real changes made)
+
+. replace und_cant=subinstr(und_cant,"cien","100",.)
+(310579 real changes made)
+
+. replace und_cant=subinstr(und_cant,"mil","1000",.)
+(83697 real changes made)
+
+. replace und_cant=subinstr(und_cant,"mediadocena","6",.)
+(22 real changes made)
+
+. replace und_cant=subinstr(und_cant,"docena","12",.)
+(98780 real changes made)
+
+. replace und_cant=subinstr(und_cant,"atado","1",.)
+(1588 real changes made)
+
+. replace und_cant=subinstr(und_cant,"kilo","1",.)
+(60134 real changes made)
+
+. replace und_cant=subinstr(und_cant,"unidad","1",.)
+(54242 real changes made)
+
+. replace und_cant=subinstr(und_cant,"paquete","1",.)
+(539 real changes made)
+
+. 
+. ren und_cant und_cantaux
+
+. gen und_cant=real(und_cantaux)
+
+. drop und_cantaux
+
+. 
+. gen und_nomb=regexs(0) if regexm(unidad,"[\_][a-z]+$")
+(434489 missing values generated)
+
+. // transformo los gramos a kilos
+. replace und_nomb=regexs(0) if regexm(unidad,"[0-9]+[\_][g][r][a][m][o][s]")
+(65 real changes made)
+
+. replace und_nomb="sincategoria" if und_nomb==""
+und_nomb was str10 now str12
+(434489 real changes made)
+
+. capture drop undaux1_
+
+. capture drop undaux1
+
+. gen undaux1_=regexs(0) if regexm(und_nomb,"[0-9]+")
+(1024726 missing values generated)
+
+. gen undaux1=real(undaux1_)
+(1024726 missing values generated)
+
+. replace und_cant=(und_cant*undaux1)/1000 if undaux1!=.
+(65 real changes made)
+
+. replace und_nomb="_kilos" if undaux1!=.
+(65 real changes made)
+
+. 
+. ** Homologo segœn la informaci—n obtenida:
+. ******************************************
+. capture drop precioh
+
+. gen precioh=.
+(1024791 missing values generated)
+
+. replace precioh=precioprom1/und_cant   
+(1024791 real changes made)
+
+. /*
+> capture log c
+> log using "/Users/victormartinez/Dropbox/IPTR/proc/amb_prueba/od_bdfv_d_v0.20
+> /encode_promedios.log"
+> sum producto1
+> local max=r(max)
+> forval i=1(1)`max'{
+> tabstat precioprom1 precioh if producto1==`i', by(unidad) stat(p50)
+> }
+> log c
+> */
+. 
+end of do-file
+
+. do "${doPath}/calcMaster.do"
+
+. ** TERCERO: Tomo la base actualizada y revisada y produzco los gr‡ficos
+. *****************************************************************************
+> **
+. 
+. // Gr‡fico 1: Agrupo por fecha y producto, la idea es hacer una estad’stica g
+> eneral 
+. // obviando las variables: variedad, calidad, mercado, unidades.
+. *****************************************************************************
+> ***
+. /*
+> Defino Establecimiento: como la calidad+mercado. El mismo mercado con distint
+> as 
+> calidades se tomar‡ como un Establecimiento distinto. Para calcular el promed
+> io de una variedad se tomar‡ la media geomŽtrica
+> */
+. sort fecha prod_b
+
+. egen fechavar=group(fecha prod_b)
+
+. sort fecha producto
+
+. egen fechaprod=group(fecha producto)
+
+. 
+. ** Calculo ahora lo siguiente:
+. * Paso 1. Calculo la media geomŽtrica de la variedad (tomo todos los establec
+> imientos)
+. * Paso 2 calculo la media geomŽtrica del producto (tomo todas las variedades)
+. *****************************************************************************
+> **
+. local t=1
+
+. foreach x in  precioh pvar {
+  2. if `t'==1 {                                                               
+>       // paso 1.
+  3. gen log`x'=log(`x')
+  4. egen meanl`x'=mean(log`x'), by(fechavar)
+  5. gen gm`x'=exp(meanl`x')
+  6. ren gmprecioh pvar                                                        
+>       // Fijo el nombre (ojo!)
+  7. }
+  8. else if `t'==2 {                                                          
+>       // paso 2
+  9. gen log`x'=log(`x')
+ 10. egen meanl`x'=mean(log`x'), by(fechaprod)
+ 11. gen gm`x'=exp(meanl`x')
+ 12. ren gmpvar pprod                                                        //
+>  Fijo el nombre (ojo!)
+ 13. }
+ 14. local t=`t'+1
+ 15. }
+
+. 
+. // Enumero a los integrantes de una familia de productos por fecha. 
+. // Cada d’a hay un 1
+. bysort fechaprod: gen pco1=_n 
+
+. 
+. // Enumerar grupos de productos por d’a:
+. egen auxtime=group(pco1 producto) // Genera un id por producto para cada dia
+
+. 
+. sort pco1 producto fecha
+
+. bysort pco1 producto: gen time=_n
+
+. 
+. encode producto, gen(producto1)
+
+. 
+end of do-file
+
+. 
+. fin
+unrecognized command:  fin
+r(199);
+
+end of do-file
+r(199);

@@ -1,0 +1,1 @@
+/usr/local/stata/./stata do /home/ruben/Dropbox/IPTR/proc/amb_prueba/od_bdfv_d_v0.20/stata/do/main.do 
