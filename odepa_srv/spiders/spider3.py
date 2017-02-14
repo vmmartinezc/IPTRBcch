@@ -14,19 +14,21 @@ from FrutasyVerduras.items import *
 class VerdurasyFrutas(Spider):
     name="verduras y frutas"
     start_urls = ["http://www.verduras-y-frutas.cl/filesweb/verduras-y-frutas.cl/carro.php"]
+    allow_domains = ['verduras-y-frutas.cl']
     
     def parse(self, response):
-    	sel = Selector(response)
-        #problema al entregar los tr desde el id de la tabla, 
-        #se genera busqueda temporal por caracteristicas de tr
-    	verdurasfrutas = sel.xpath('//tr[@align ="center"]')
-        for sel in verdurasfrutas:
-            item = Atributos()
+        sel = Selector(response)
+        item = Atributos()
+        #Los unicos input hidden en la pagina contienen los precios de las verduras
+        precios =  sel.xpath('.//input[@type="hidden"]/@value').extract()
+        #print len(sel.xpath('//tr[@align ="center"]'))
+        for sel in sel.xpath('//tr[@align ="center"]'):
             #falta precio
-            item['Precio'] = sel.xpath('td[4]/text()').extract()
+            item['Precio'] = sel.xpath('input[@type="hidden"]/@value').extract()
             item['Producto'] = sel.xpath('td[2]/a/b/text()').extract()
             item['Observaciones'] = sel.xpath('td[3]/center/text()').extract()
             item['Fuente'] = "www.verduras-y-frutas.cl"
+
             yield item
     	
 

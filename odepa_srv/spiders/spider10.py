@@ -11,18 +11,16 @@ from FrutasyVerduras.items import *
 #Página : http://laferiadelivery.cl/
 class FeriaDelivery(Spider):
     name="La Feria Delivery "
-    start_urls = ["http://laferiadelivery.cl/categoria-producto/feria/verduras"]
-    #//*[@id="ajax-content-wrap"]/div[1]/div/div/ul/li[1]/div/div/div[1]/span/span/text()
-    #////*[@id="ajax-content-wrap"]/div[1]/div/div/ul/li[8]/div/div/div[1]/span/span
-    #//*[@id="ajax-content-wrap"]/div[1]/div/div/ul/li[1]/h3
+    #Estructura html igual.
+    start_urls = ["http://laferiadelivery.cl/categoria-producto/feria/verduras",
+    			 "http://laferiadelivery.cl/categoria-producto/feria/frutas"]
+    allow_domains = ['laferiadelivery.cl']
     def parse(self, response):
         sel = Selector(response)
-        verdurasfrutas = sel.xpath('//ul[@class="products"]/li')
-        for sel in verdurasfrutas:
+        for sel in sel.xpath('//ul[@class="products"]/li'):
             item = Atributos()
             item['Producto'] = sel.xpath('h3/text()').extract()
-            #Revisar Precio
-            item['Precio'] = sel.xpath('div/div/div[1]/span/text()').extract()
+            item['Precio'] = sel.xpath('.//span[@class="woocommerce-Price-amount amount"]/text()').extract()
             item['Fuente'] = "http://laferiadelivery.cl/"
-            yield item
+            print (item)
 

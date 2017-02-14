@@ -13,19 +13,22 @@ from FrutasyVerduras.items import *
 class FullMercado(Spider):
     name="Vega virtual "
     start_urls = ["https://www.fullmercado.cl/tienda/"]
+    allow_domains = ['fullmercado.cl']
+    
     def parse(self, response):
         sel = Selector(response)
-        item1 = Atributos()
-        item2 = Atributos()
+        item = Atributos()
         verduras = sel.xpath('//div[@class="et_pb_module et_pb_shop  et_pb_shop_1"]/div/ul/li')
         for sel in verduras:
-            item1['Producto'] = sel.xpath('a/h3/text()').extract()
-            item1['Precio'] = sel.xpath('a/span[2]/span/text()').extract()
-            print item1
+            item['Producto'] = sel.xpath('a/h3/text()').extract()
+            item['Precio'] = sel.xpath('a/span[2]/span/text()').extract()
+            
+            print (item) #print (item['Precio'][0]).encode('utf-8')
 
+        #formato \xa0
         frutas = sel.xpath('//div[@class="et_pb_module et_pb_shop  et_pb_shop_2"]/div/ul/li') 
         for sel in frutas:
-            item2['Producto'] = sel.xpath('a/h3/text()').extract()
-            item2['Precio'] = sel.xpath('a/span[2]/span/text()').extract()
-            print item2
+            item['Producto'] = sel.xpath('a/h3/text()').extract()
+            item['Precio'] = sel.xpath('a/span[2]/span/text()').extract()
+            print (item)#(item['Producto'][0]).encode('utf-8')
 

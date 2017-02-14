@@ -35,7 +35,7 @@
 
 import csv
 import codecs
-import items
+from odepa_srv import items
 from odepa_srv import settings
 
 # producto,volumen,url,precioProm,calidad,variedad,precioMin,mercado,precioMax,unidad

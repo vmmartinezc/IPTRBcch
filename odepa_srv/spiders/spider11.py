@@ -11,15 +11,21 @@ from FrutasyVerduras.items import *
 #Página : http://www.elverdulero.cl
 class Verdulero(Spider):
     name="El verdulero "
-    start_urls = ["http://www.elverdulero.cl/verduras/"]
+    start_urls = ["http://www.elverdulero.cl/verduras/",
+                    "http://www.elverdulero.cl/frutas/"]
+    allow_domains = ['elverdulero.cl']
 
     def parse(self, response):
         sel = Selector(response)
-        verdurasfrutas = sel.xpath('//div[@id="mainZone"]/div/div/div')
-        for sel in verdurasfrutas:
+        for sel in sel.xpath('//div[@id="mainZone"]/div/div/div'):
             item = Atributos()
             item['Producto'] = sel.xpath('h3/a/text()').extract()
             item['Precio'] = sel.xpath('div/p[2]/ins/text()').extract()
             item['Fuente'] = "http://www.elverdulero.cl"
+
+            #Opcional convertir a string y manipular datos
+            #p = (item['Producto'])#.encode('utf-8').split('-')
+            #datos_precio = (item['Precio'][0]).encode('utf-8').strip("$")
+            #row = {'Producto': p, 'Precio': datos_precio,'Fuente': item['Fuente'], 'Observaciones':""}
             yield item
 

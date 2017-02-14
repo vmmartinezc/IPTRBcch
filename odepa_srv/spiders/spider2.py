@@ -15,13 +15,18 @@ from FrutasyVerduras.items import *
 class TodoFruta(Spider):
     name="Todo Fruta "
     start_urls = ["http://www.todofruta.cl/index.php/frutas"]
-    #gkComponent > div.browse-view > div:nth-child(5) > div:nth-child(1) > div > div.width70.floatright > h2 > a
+    allow_domains = ['todofruta.cl']
+    
+
     def parse(self, response):
         sel = Selector(response)
-        verdurasfrutas = sel.xpath('//div[@class="browse-view"]/div[@class="row"]/div')
-        for sel in verdurasfrutas:
+        
+        for sel in sel.xpath('//div[@class="browse-view"]/div[@class="row"]/div'):
+            print (sel)
             item = Atributos()
             item['Precio'] = sel.xpath('div/div[2]/div/div/span[2]/text()').extract()
             item['Producto'] = sel.xpath('div/div[2]/h2/a/text()').extract()
             item['Fuente'] = "www.todofruta.cl"
-            yield item
+
+            print (item)
+
