@@ -6,7 +6,7 @@ from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
 from scrapy.contrib.loader import ItemLoader
-from FrutasyVerduras.items import *
+from odepa_srv.items import *
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
@@ -27,11 +27,11 @@ class Jumbo(Spider):
         s = BeautifulSoup(html,'lxml')
         nombres = s.find_all(id ='ficha')
         precios = s.find_all('div', 'txt_precio_h')
-        item = Atributos()
+        item  = OdepaSrvItem()
 
         for i in xrange(len(nombres)):
-            item['Producto'] = nombres[i].find('b').renderContents()
-            item['Precio']=  precios[i].renderContents().strip("$")
-            item ['Fuente'] = "http://www.jumbo.cl"
+            item['producto'] = nombres[i].find('b').renderContents()
+            item['precio']=  precios[i].renderContents().strip("$")
+            item ['fuente'] = "http://www.jumbo.cl"
             print (item)
         	

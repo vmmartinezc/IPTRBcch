@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from scrapy.item import Field
-from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from scrapy.contrib.loader import ItemLoader
-from FrutasyVerduras.items import *
-
+from odepa_srv.items import *
 #Página : https://www.buencampo.cl/
 
 class Buencampo(Spider):
@@ -16,13 +12,12 @@ class Buencampo(Spider):
     allow_domains =['buencampo.cl']
     def parse(self, response):
         sel = Selector(response)
-        item = Atributos()
         for sel in sel.xpath('//div[@class="view-content"]/div'):
-            item['Producto'] = sel.xpath('article/h2/a/text()').extract()
-            item['Precio'] = sel.xpath('article/div/div[2]/div/div/text()').extract()
-            item['Fuente'] = "https://www.buencampo.cl/"
-            #Opcional convertir a string y manipular datos
-            p = (item['Producto'][0]).encode('utf-8').split('-')
-            datos_precio = (item['Precio'][0]).encode('utf-8').strip("$")
-            row = {'Producto': p[0], 'Precio': datos_precio,'Fuente': item['Fuente'], 'Observaciones':p[1]}
-            print (row)
+            if (sel.xpath('article/h2/a/text()').extract() and sel.xpath('article/div/div[2]/div/div/text()').extract()):
+                item  = OdepaSrvItem()
+                aux = sel.xpath('article/h2/a/text()').extract()[0].split('-')
+                item['precio']  = sel.xpath('article/div/div[2]/div/div/text()').extract()[0]
+                item['producto']= aux[0].title()
+                item['unidad'] = aux[1]
+                item['fuente'] = "https://www.buencampo.cl/"
+                print (item)

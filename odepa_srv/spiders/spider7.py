@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from scrapy.item import Field
-from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from scrapy.contrib.loader import ItemLoader
-from FrutasyVerduras.items import *
-
+from odepa_srv.items import *
 #Página : https://www.fullmercado.cl/
 
 class FullMercado(Spider):
@@ -17,18 +13,21 @@ class FullMercado(Spider):
     
     def parse(self, response):
         sel = Selector(response)
-        item = Atributos()
         verduras = sel.xpath('//div[@class="et_pb_module et_pb_shop  et_pb_shop_1"]/div/ul/li')
         for sel in verduras:
-            item['Producto'] = sel.xpath('a/h3/text()').extract()
-            item['Precio'] = sel.xpath('a/span[2]/span/text()').extract()
-            
-            print (item) #print (item['Precio'][0]).encode('utf-8')
+            if(sel.xpath('a/h3/text()').extract() and sel.xpath('a/span[2]/span/text()').extract()):
+                item  = OdepaSrvItem()
+                item['producto'] = sel.xpath('a/h3/text()').extract()[0].title()
+                item['precio'] = sel.xpath('a/span[2]/span/text()').extract()[0].strip("\xa0")
+                item['fuente'] = "www.fullmercado.cl"
+                print (item) 
 
-        #formato \xa0
         frutas = sel.xpath('//div[@class="et_pb_module et_pb_shop  et_pb_shop_2"]/div/ul/li') 
         for sel in frutas:
-            item['Producto'] = sel.xpath('a/h3/text()').extract()
-            item['Precio'] = sel.xpath('a/span[2]/span/text()').extract()
-            print (item)#(item['Producto'][0]).encode('utf-8')
+            if (sel.xpath('a/h3/text()').extract() and sel.xpath('a/span[2]/span/text()').extract()):
+                item  = OdepaSrvItem()
+                item['producto'] = sel.xpath('a/h3/text()').extract()[0].title()
+                item['precio'] = sel.xpath('a/span[2]/span/text()').extract()[0].strip("\xa0")
+                item['fuente'] = "www.fullmercado.cl"
+                print (item)
 

@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
-from scrapy.item import Field
-from scrapy.item import Item
+
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from scrapy.loader import ItemLoader
-from scrapy.selector import HtmlXPathSelector
-from FrutasyVerduras.items import *
-
+from odepa_srv.items import *
 
 # Página  : www.lagranjaexpress.cl/
 
@@ -17,12 +13,11 @@ class GranjaExpress(Spider):
 
     def parse(self, response):
         sel = Selector(response)
-        '''
         for sel in sel.xpath('//form[@name="formulario"]/table[4]/tr'):
-            item = Atributos()
-            item['Producto'] = sel.xpath('.//td[3]/text()').extract()
-            item['Precio'] = sel.xpath('.//td[5]/div/text()').extract()
-            item['Observaciones'] = sel.xpath('.//td[4]/div/text()').extract()
-            item ['Fuente'] = "www.lagranjaexpress.cl"
-            yield item#str(item['Producto'][0]).replace(u'\xa0', ' ').encode('utf-8')
-'''
+            if(sel.xpath('.//td[3]/text()').extract() and sel.xpath('.//td[5]/div/text()').extract()):
+                item  = OdepaSrvItem()
+                item['producto'] = sel.xpath('.//td[3]/text()').extract()[0].strip("\xa0").title()
+                item['precio'] = sel.xpath('.//td[5]/div/text()').extract()[0].strip("\xa0")
+                item['unidad'] = sel.xpath('.//td[4]/div/text()').extract()
+                item ['fuente'] = "www.lagranjaexpress.cl"
+                print (item)

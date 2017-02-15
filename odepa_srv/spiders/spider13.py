@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from scrapy.item import Field
-from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from scrapy.contrib.loader import ItemLoader
-from FrutasyVerduras.items import *
-
+from odepa_srv.items import *
 #Página : https://www.luki.cl/
 class luki(Spider):
     name="Luki "
@@ -18,13 +14,10 @@ class luki(Spider):
     def parse(self, response):
         sel = Selector(response)
         for sel in sel.xpath('//section[@id="product-name"]'):
-            item = Atributos()
-            item['Producto'] = sel.xpath('div[1]/center/h6/a/text()').extract()
-            item['Precio'] = sel.xpath('div[2]/b/span[2]/text()').extract()
-            item['Fuente']="http://www.luki.cl/"
-            
-            #Opcional convertir a string y manipular datos
-            p = (item['Producto'][0]).encode('utf-8')#.split('-')
-            datos_precio = (item['Precio'][0]).encode('utf-8').strip("$")
-            row = {'Producto': p, 'Precio': datos_precio,'Fuente': item['Fuente'], 'Observaciones':""}
-            print (row)
+            if(sel.xpath('div[1]/center/h6/a/text()').extract() and sel.xpath('div[2]/b/span[2]/text()').extract()):
+                item  = OdepaSrvItem()
+                #Se hace split en producto y almacenamos solo el primer valor de la lista generada, ya que el segundo no da informacion
+                item['producto'] = sel.xpath('div[1]/center/h6/a/text()').extract()[0].split("-")[0].title()
+                item['precio'] = sel.xpath('div[2]/b/span[2]/text()').extract()
+                item['fuente']="http://www.luki.cl/"
+                print (item)

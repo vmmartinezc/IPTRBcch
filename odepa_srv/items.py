@@ -1,36 +1,25 @@
+# -*- coding: utf-8 -*-
+from scrapy import *
 from scrapy.item import Field
 from scrapy.item import Item
-
-#Se designan atributos globales 
-class Atributos(Item):
-	Producto = Field()
-	Precio = Field()
-	Observaciones = Field()
-	Fuente = Field() 
-# -*- coding: utf-8 -*-
-
-# Define here the models for your scraped items
-#
-# See documentation in:
-# http://doc.scrapy.org/en/latest/topics/items.html
-
-import scrapy
 from scrapy.loader import ItemLoader, XPathItemLoader
 from scrapy.loader.processors import TakeFirst, MapCompose, Join, Compose
 
 # see the docs for the required imports
 
-class OdepaSrvItem(scrapy.Item):
-    mercado = scrapy.Field()
-    producto = scrapy.Field()
-    variedad = scrapy.Field()
-    calidad = scrapy.Field()
-    volumen = scrapy.Field()
-    precioMin = scrapy.Field()
-    precioMax = scrapy.Field()
-    precioProm = scrapy.Field()
-    unidad = scrapy.Field()
-    url = scrapy.Field()
+class OdepaSrvItem(Item):
+    mercado = Field()
+    producto = Field()
+    variedad = Field()
+    calidad = Field()
+    volumen = Field()
+    precioMin = Field()
+    precioMax = Field()
+    precioProm = Field()
+    precio  = Field()
+    unidad = Field()
+    url = Field()
+    fuente  = Field()
 
 class ReviewLoader(XPathItemLoader):
     default_item_class = OdepaSrvItem

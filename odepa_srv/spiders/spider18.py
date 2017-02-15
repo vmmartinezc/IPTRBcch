@@ -6,7 +6,8 @@ from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
 from scrapy.contrib.loader import ItemLoader
-from FrutasyVerduras.items import *
+from odepa_srv.items import *
+import re
 
 #Página : http://www.tottus.cl/
 
@@ -29,18 +30,13 @@ class tottus(Spider):
     def parse(self, response):
         sel = Selector(response)
         for sel in sel.xpath('//div[@class=" item-product-caption"]'):
-            item = Atributos()
-            item['Producto'] = sel.xpath('div[3]/div[1]/a/h5/div/text()').extract()
-            #Recordar precio anterior y precio oferta
-            item['Precio']= sel.xpath('div[3]/div[4]/span/span[1]/text()').extract()
-            #item['Precio'] = sel.xpath('div[3]/div[5]/text()').extract()   #Precio por unidad
-            item['Observaciones'] = sel.xpath('div[3]/div[2]/text()').extract()
-            item['Fuente'] = "www.tottus.cl"
-            #print type(item['Producto'][0])
-            #yield item ((item['Producto'][0]).encode('utf-8')).lstrip(" ")
-            #Opcional convertir a string y manipular datos
-            p = (item['Producto'][0]).encode('utf-8')#.split('-')
-            datos_precio = (item['Precio'][0]).encode('utf-8').strip("$")
-            row = {'Producto': p, 'Precio': datos_precio,'Fuente': item['Fuente'], 'Observaciones':""}
-            print (row)
+            if sel.xpath('div[3]/div[1]/a/h5/div/text()') and sel.xpath('div[3]/div[4]/span/span[1]/text()').extract():
+                item  = OdepaSrvItem()
+                item['producto'] = sel.xpath('div[3]/div[1]/a/h5/div/text()').extract()[0].strip().strip("\n")
+                #Recordar precio anterior y precio oferta
+                item['precio']= sel.xpath('div[3]/div[4]/span/span[1]/text()').extract()[0].strip().strip("\n").strip("$")
+                #item['Precio'] = sel.xpath('div[3]/div[5]/text()').extract()   #Precio por unidad
+                item['unidad'] = sel.xpath('div[3]/div[2]/text()').extract()
+                item['fuente'] = "www.tottus.cl"
+                print (item)
     

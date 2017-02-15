@@ -42,7 +42,8 @@ from odepa_srv import settings
 
 class WriteToCsv(object):
     def __init__(self):
-        self.file_name = csv.writer(open('output.csv', 'wb'))
+        #se modifico el valor 'wb' a 'w' por error de escritura en python 3.x
+        self.file_name = csv.writer(open('output.csv', 'w'))
         self.file_name.writerow(['url', 'producto','variedad','mercado', 'volumen','calidad','precioMin', 'precioProm','precioMax','unidad'])
 
     def process_item(self, item, spider):

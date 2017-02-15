@@ -9,8 +9,7 @@ from scrapy.contrib.loader import ItemLoader
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-from FrutasyVerduras.items import *
-
+from odepa_srv.items import *
 #Página : http://www.superdespacho.cl
 
 class SuperDespacho(Spider):
