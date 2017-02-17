@@ -36,7 +36,21 @@ class tottus(Spider):
                 #Recordar precio anterior y precio oferta
                 item['precio']= sel.xpath('div[3]/div[4]/span/span[1]/text()').extract()[0].strip().strip("\n").strip("$")
                 #item['Precio'] = sel.xpath('div[3]/div[5]/text()').extract()   #Precio por unidad
-                item['unidad'] = sel.xpath('div[3]/div[2]/text()').extract()
                 item['fuente'] = "www.tottus.cl"
+
+                #La unidad de medida y su cantidad se encuentra en el nombre, por lo tanto es el parámatro de entrada para normalizar
+                unidad_tmp = sel.xpath('div[3]/div[2]/text()').extract()[0]
+                unidad_norm = Normalization.unidad(unidad_tmp)
+                item['unidad'] = unidad_norm['unidad']
+                item['cantidad'] = unidad_norm['cantidad']
+                #item['producto'] = unidad_norm['producto']
+                
+                #Descomentar para comprobar normalizacion visualmente
+                '''
+                print (unidad_tmp)
+                print (item['unidad'])
+                print (item['cantidad'])
+                print ("*************")
+                '''                
                 print (item)
     

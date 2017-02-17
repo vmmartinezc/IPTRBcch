@@ -15,8 +15,21 @@ class FeriaDelivery(Spider):
         for sel in sel.xpath('//ul[@class="products"]/li'):
             if (sel.xpath('.//span[@class="woocommerce-Price-amount amount"]/text()').extract() and sel.xpath('h3/text()').extract()):
                 item  = OdepaSrvItem()
-                item['producto'] = sel.xpath('h3/text()').extract()
                 item['precio'] = sel.xpath('.//span[@class="woocommerce-Price-amount amount"]/text()').extract()
                 item['fuente'] = "http://laferiadelivery.cl/"
+                #La unidad de medida y su cantidad se encuentra en el nombre, por lo tanto es el parámatro de entrada para normalizar
+                unidad_tmp = sel.xpath('h3/text()').extract()[0]
+                unidad_norm = Normalization.unidad(unidad_tmp)
+                item['unidad'] = unidad_norm['unidad']
+                item['cantidad'] = unidad_norm['cantidad']
+                item['producto'] = unidad_norm['producto']
+                
+                #Descomentar para comprobar normalizacion visualmente
+                '''
+                print (unidad_tmp)
+                print (item['unidad'])
+                print (item['cantidad'])
+                print ("*************")
+                '''                
                 print (item)
 

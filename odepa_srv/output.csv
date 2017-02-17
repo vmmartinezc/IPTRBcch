@@ -1,1011 +1,703 @@
-url,producto,variedad,mercado,volumen,calidad,precioMin,precioProm,precioMax,unidad
-02/12/2016,Aj√≠,Americana (o),Agr√≠cola del Norte S.A. de Arica,65,Primera,2.941,3.167,3.361,$/caja 15 kilos
-02/12/2016,Aj√≠,Americana (o),Agr√≠cola del Norte S.A. de Arica,55,Segunda,2.101,2.483,2.941,$/caja 15 kilos
-02/12/2016,Aj√≠,Cristal,Agr√≠cola del Norte S.A. de Arica,60,Primera,2.941,3.116,3.361,$/caja 15 kilos
-02/12/2016,Aj√≠,Cristal,Agr√≠cola del Norte S.A. de Arica,45,Segunda,2.101,2.568,2.941,$/caja 15 kilos
-02/12/2016,Aj√≠,Inferno,Agr√≠cola del Norte S.A. de Arica,45,Primera,2.941,3.175,3.361,$/caja 15 kilos
-02/12/2016,Aj√≠,Inferno,Agr√≠cola del Norte S.A. de Arica,55,Segunda,2.101,2.406,2.941,$/caja 15 kilos
-02/12/2016,Cereza,Early Burlat,Agr√≠cola del Norte S.A. de Arica,200,Primera,16.807,18.908,21.008,$/caja 18 kilos
-02/12/2016,Durazno,Early Treat,Agr√≠cola del Norte S.A. de Arica,250,Segunda,20.168,20.840,21.849,$/caja 16 kilos granel
-02/12/2016,Lim√≥n,Sutil De Gase,Agr√≠cola del Norte S.A. de Arica,350,Primera,21.849,22.329,22.689,$/caja 24 kilos
-02/12/2016,Mango,Sin especificar,Agr√≠cola del Norte S.A. de Arica,500,Especial,3.361,3.361,3.361,$/bandeja 4 kilos
-02/12/2016,Alcachofa,Madrigal,Agr√≠cola del Norte S.A. de Arica,100,Primera,8.403,9.412,10.084,$/caja 40 unidades
-02/12/2016,Betarraga,Sin especificar,Agr√≠cola del Norte S.A. de Arica,750,Primera,210,249,294,$/paquete 4 unidades
-02/12/2016,Betarraga,Sin especificar,Agr√≠cola del Norte S.A. de Arica,1.000,Segunda,210,252,294,$/paquete 5 unidades
-02/12/2016,Caigua,Sin especificar,Agr√≠cola del Norte S.A. de Arica,1.500,Primera,336,387,420,$/kilo
-02/12/2016,Mango,Sin especificar,Agr√≠cola del Norte S.A. de Arica,600,Extra,3.613,3.613,3.613,$/bandeja 4 kilos
-02/12/2016,Mango,Sin especificar,Agr√≠cola del Norte S.A. de Arica,800,Primera,3.361,3.487,3.613,$/bandeja 4 kilos
-02/12/2016,Pl√°tano,Sin especificar,Agr√≠cola del Norte S.A. de Arica,100,Pint√≥n,5.882,6.092,6.303,$/caja 20 kilos
-02/12/2016,Pl√°tano,Sin especificar,Agr√≠cola del Norte S.A. de Arica,180,Verde,6.723,6.909,7.143,$/caja 20 kilos
-02/12/2016,Ar√°ndano (blue),Sin especificar,Central Lo Valledor de Santiago,100,Primera,4.202,4.202,4.202,$/bandeja 12 canastillos 170 gramos
-02/12/2016,Cebolla,Morada(o),Agr√≠cola del Norte S.A. de Arica,250,1a nueva(o),5.714,5.815,5.882,$/malla 18 kilos
-02/12/2016,Cebolla,Morada(o),Agr√≠cola del Norte S.A. de Arica,250,2a nueva(o),5.042,5.294,5.462,$/malla 18 kilos
-02/12/2016,Cebolla,Morada(o),Agr√≠cola del Norte S.A. de Arica,350,3a nueva (o),4.202,4.562,5.042,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Agr√≠cola del Norte S.A. de Arica,1.200,1a nueva(o),1.681,1.891,2.101,$/malla 18 kilos
-02/12/2016,Ar√°ndano (blue),Sin especificar,Central Lo Valledor de Santiago,50,Primera,3.361,3.361,3.361,$/bandeja 2 kilos
-02/12/2016,Cereza,Bing,Central Lo Valledor de Santiago,600,Especial,7.143,7.353,7.563,$/caja 7 kilos
-02/12/2016,Cereza,Bing,Central Lo Valledor de Santiago,250,Primera,9.244,9.580,10.084,$/bandeja 10 kilos
-02/12/2016,Cereza,Coraz√≥n de paloma,Central Lo Valledor de Santiago,68,Primera,10.924,10.924,10.924,$/caja 13 kilos
-02/12/2016,Cebolla,Sin especificar,Agr√≠cola del Norte S.A. de Arica,1.500,2a nueva(o),1.261,1.261,1.261,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Agr√≠cola del Norte S.A. de Arica,2.700,3a nueva (o),840,1.074,1.261,$/malla 18 kilos
-02/12/2016,Choclo,Choclero,Agr√≠cola del Norte S.A. de Arica,120,Primera,3.361,3.852,4.202,$/malla 60 unidades
-02/12/2016,Choclo,Choclero,Agr√≠cola del Norte S.A. de Arica,100,Segunda,2.521,2.941,3.361,$/malla 70 unidades
-02/12/2016,Cereza,Lapins,Central Lo Valledor de Santiago,230,Primera,7.143,7.353,7.563,$/caja 8 kilos
-02/12/2016,Cereza,Rainier,Central Lo Valledor de Santiago,100,Especial,10.924,10.924,10.924,$/bandeja 10 kilos
-02/12/2016,Choclo,Dulce o Americano,Agr√≠cola del Norte S.A. de Arica,550,Primera,2.521,2.903,3.361,$/malla 70 unidades
-02/12/2016,Choclo,Dulce o Americano,Agr√≠cola del Norte S.A. de Arica,350,Segunda,1.681,2.041,2.521,$/malla 100 unidades
-02/12/2016,Coliflor,Sin especificar,Agr√≠cola del Norte S.A. de Arica,550,Segunda,504,519,546,$/unidad
-02/12/2016,Cereza,Rainier,Central Lo Valledor de Santiago,80,Especial,16.387,16.597,16.807,$/caja 15 kilos
-02/12/2016,Cereza,Rainier,Central Lo Valledor de Santiago,150,Especial,9.244,9.664,10.084,$/caja 8 kilos
-02/12/2016,Cereza,Rainier,Central Lo Valledor de Santiago,200,Primera,9.244,9.664,10.084,$/bandeja 10 kilos
-02/12/2016,Cereza,Royal Dawn,Central Lo Valledor de Santiago,320,Especial,15.126,15.126,15.126,$/caja 15 kilos
-02/12/2016,Cereza,Royal Dawn,Central Lo Valledor de Santiago,1.260,Primera,4.202,4.202,4.202,$/bandeja 5 kilos
-02/12/2016,Coliflor,Sin especificar,Agr√≠cola del Norte S.A. de Arica,900,Tercera,420,439,462,$/unidad
-02/12/2016,Lechuga,Escarola,Agr√≠cola del Norte S.A. de Arica,700,Primera,1.681,1.921,2.101,$/caja 12 unidades
-02/12/2016,Lechuga,Escarola,Agr√≠cola del Norte S.A. de Arica,500,Segunda,1.681,1.891,2.101,$/caja 18 unidades
-02/12/2016,Lechuga,Marina,Agr√≠cola del Norte S.A. de Arica,200,Primera,840,1.050,1.261,$/caja 12 unidades
-02/12/2016,Lechuga,Marina,Agr√≠cola del Norte S.A. de Arica,180,Segunda,840,1.050,1.261,$/caja 18 unidades
-02/12/2016,Locoto,Sin especificar,Agr√≠cola del Norte S.A. de Arica,1.100,Primera,1.345,1.406,1.513,$/kilo
-02/12/2016,Cereza,Santina,Central Lo Valledor de Santiago,100,Primera,8.403,8.403,8.403,$/bandeja 10 kilos
-02/12/2016,Cereza,Santina,Central Lo Valledor de Santiago,150,Primera,5.882,5.882,5.882,$/bandeja 7 kilos
-02/12/2016,Locoto,Sin especificar,Agr√≠cola del Norte S.A. de Arica,800,Segunda,1.261,1.297,1.345,$/kilo
-02/12/2016,Pepino dulce,Cultivar IV Regi√≥n,Agr√≠cola del Norte S.A. de Arica,45,Cuarta,4.202,4.669,5.042,$/caja 15 kilos
-02/12/2016,Cereza,Santina,Central Lo Valledor de Santiago,125,Primera,8.403,8.403,8.403,$/caja 8 kilos
-02/12/2016,Cereza,Sweet Heart,Central Lo Valledor de Santiago,200,Primera,5.882,6.303,6.723,$/bandeja 7 kilos
-02/12/2016,Cereza,Van,Central Lo Valledor de Santiago,400,Especial,7.563,7.773,7.983,$/caja 8 kilos
-02/12/2016,Damasco,Castle Brite,Central Lo Valledor de Santiago,10,Primera,210.084,210.084,210.084,$/bins (500 kilos)
-02/12/2016,Pepino dulce,Cultivar IV Regi√≥n,Agr√≠cola del Norte S.A. de Arica,60,Primera,8.403,9.104,10.084,$/caja 15 kilos
-02/12/2016,Pepino dulce,Cultivar IV Regi√≥n,Agr√≠cola del Norte S.A. de Arica,60,Segunda,6.723,7.143,7.563,$/caja 15 kilos
-02/12/2016,Pepino dulce,Cultivar IV Regi√≥n,Agr√≠cola del Norte S.A. de Arica,75,Tercera,5.042,5.434,5.882,$/caja 15 kilos
-02/12/2016,Pepino ensalada,Sin especificar,Agr√≠cola del Norte S.A. de Arica,170,Primera,1.681,2.274,2.941,$/caja 70 unidades
-02/12/2016,Damasco,Castle Brite,Central Lo Valledor de Santiago,240,Primera,9.244,9.804,10.084,$/caja 18 kilos granel
-02/12/2016,Pimiento,Cuatro cascos rojo,Agr√≠cola del Norte S.A. de Arica,220,Primera,2.521,2.712,2.941,$/caja 15 kilos
-02/12/2016,Damasco,Castle Brite,Central Lo Valledor de Santiago,186,Segunda,7.563,7.563,7.563,$/caja 16 kilos granel
-02/12/2016,Damasco,Castle Brite,Central Lo Valledor de Santiago,305,Segunda,7.563,7.763,7.983,$/caja 18 kilos granel
-02/12/2016,Pimiento,Cuatro cascos rojo,Agr√≠cola del Norte S.A. de Arica,260,Segunda,2.101,2.424,2.521,$/caja 15 kilos
-02/12/2016,Pimiento,Cuatro cascos rojo,Agr√≠cola del Norte S.A. de Arica,170,Tercera,1.681,1.878,2.101,$/caja 15 kilos
-02/12/2016,Pimiento,Cuatro cascos verde,Agr√≠cola del Norte S.A. de Arica,80,Primera,2.521,2.784,2.941,$/caja 15 kilos
-02/12/2016,Pimiento,Cuatro cascos verde,Agr√≠cola del Norte S.A. de Arica,80,Segunda,2.101,2.311,2.521,$/caja 15 kilos
-02/12/2016,Damasco,Castle Brite,Central Lo Valledor de Santiago,210,Tercera,5.882,5.882,5.882,$/caja 16 kilos granel
-02/12/2016,Damasco,Castle Brite,Central Lo Valledor de Santiago,185,Tercera,5.042,5.428,5.882,$/caja 18 kilos granel
-02/12/2016,Damasco,Modesto,Central Lo Valledor de Santiago,10,Primera,252.101,252.101,252.101,$/bins (500 kilos)
-02/12/2016,Durazno,Florida King,Central Lo Valledor de Santiago,14,Segunda,109.244,109.244,109.244,$/bins (400 kilos)
-02/12/2016,Pimiento,Cuatro cascos verde,Agr√≠cola del Norte S.A. de Arica,80,Tercera,1.681,1.891,2.101,$/caja 15 kilos
-02/12/2016,Durazno,Florida King,Central Lo Valledor de Santiago,8,Tercera,84.034,84.034,84.034,$/bins (400 kilos)
-02/12/2016,Durazno,Polar King,Central Lo Valledor de Santiago,20,Especial,14.286,14.286,14.286,$/caja 18 kilos empedrada
-02/12/2016,Durazno,Polar King,Central Lo Valledor de Santiago,70,Primera,11.765,11.765,11.765,$/caja 18 kilos empedrada
-02/12/2016,Durazno,Polar King,Central Lo Valledor de Santiago,65,Segunda,10.084,10.084,10.084,$/caja 18 kilos empedrada
-02/12/2016,Poroto granado,Sin especificar,Agr√≠cola del Norte S.A. de Arica,1.400,Primera,1.261,1.309,1.345,$/kilo
-02/12/2016,Tomate,Larga vida,Agr√≠cola del Norte S.A. de Arica,800,Especial,1.681,1.864,2.101,$/caja 18 kilos
-02/12/2016,Tomate,Larga vida,Agr√≠cola del Norte S.A. de Arica,1.100,Primera,1.681,1.872,2.101,$/caja 18 kilos
-02/12/2016,Durazno,Polar King,Central Lo Valledor de Santiago,28,Tercera,5.042,5.042,5.042,$/caja 15 kilos granel
-02/12/2016,Durazno,Royal Glory,Central Lo Valledor de Santiago,53,Especial,10.924,10.924,10.924,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Royal Glory,Central Lo Valledor de Santiago,85,Primera,9.244,9.244,9.244,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Royal Glory,Central Lo Valledor de Santiago,67,Segunda,7.563,7.563,7.563,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Springcrest,Central Lo Valledor de Santiago,65,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Tomate,Larga vida,Agr√≠cola del Norte S.A. de Arica,1.300,Segunda,840,1.034,1.261,$/caja 18 kilos
-02/12/2016,Tomate,Larga vida,Agr√≠cola del Norte S.A. de Arica,950,Tercera,840,1.061,1.261,$/caja 18 kilos
-02/12/2016,Zanahoria,Sin especificar,Agr√≠cola del Norte S.A. de Arica,45,Primera,17.647,18.114,18.487,$/saco 40 kilos
-02/12/2016,Acelga,Sin especificar,Central Lo Valledor de Santiago,79,Primera,9.244,9.637,10.084,$/docena de atados
-02/12/2016,Durazno,Springcrest,Central Lo Valledor de Santiago,83,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Springcrest,Central Lo Valledor de Santiago,50,Segunda,5.882,5.882,5.882,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Springcrest,Central Lo Valledor de Santiago,25,Tercera,3.361,3.361,3.361,$/caja 16 kilos granel
-02/12/2016,Frambuesa,Sin especificar,Central Lo Valledor de Santiago,50,Primera,4.202,4.202,4.202,$/bandeja 2 kilos
-02/12/2016,Acelga,Sin especificar,Central Lo Valledor de Santiago,79,Segunda,7.563,8.010,8.403,$/docena de atados
-02/12/2016,Ajo,Chino,Central Lo Valledor de Santiago,960,Primera,16.807,17.201,17.647,$/caja 10 kilos
-02/12/2016,Aj√≠,Americana (o),Central Lo Valledor de Santiago,150,Primera,8.403,8.852,9.244,$/caja 25 kilos
-02/12/2016,Aj√≠,Americana (o),Central Lo Valledor de Santiago,170,Primera,8.403,9.095,10.084,$/caja 28 kilos
-02/12/2016,Frutilla,Sin especificar,Central Lo Valledor de Santiago,2.600,Especial,5.042,5.422,5.882,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Central Lo Valledor de Santiago,1.400,Primera,3.782,4.292,4.622,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Central Lo Valledor de Santiago,580,Segunda,2.521,2.890,3.361,$/bandeja 7 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,1.766,1a amarillo,8.403,8.948,9.244,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,3.654,1a amarillo,8.824,9.088,9.244,$/malla 18 kilos
-02/12/2016,Aj√≠,Americana (o),Central Lo Valledor de Santiago,50,Segunda,6.723,6.723,6.723,$/caja 25 kilos
-02/12/2016,Aj√≠,Americana (o),Central Lo Valledor de Santiago,80,Segunda,6.723,6.723,6.723,$/caja 28 kilos
-02/12/2016,Aj√≠,Chilena(o),Central Lo Valledor de Santiago,65,Primera,23.529,24.434,25.210,$/caja 25 kilos
-02/12/2016,Aj√≠,Chilena(o),Central Lo Valledor de Santiago,25,Segunda,16.807,16.807,16.807,$/caja 25 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,928,1a amarillo,8.403,8.617,8.824,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,24,1a plateado,218.487,218.487,218.487,$/bins (450 kilos)
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,1.705,1a plateado,9.244,9.454,9.664,$/malla 18 kilos
-02/12/2016,Aj√≠,Inferno,Central Lo Valledor de Santiago,80,Primera,8.403,8.403,8.403,$/caja 25 kilos
-02/12/2016,Aj√≠,Inferno,Central Lo Valledor de Santiago,40,Segunda,6.723,6.723,6.723,$/caja 25 kilos
-02/12/2016,Apio,Americana (o),Central Lo Valledor de Santiago,820,Primera,5.042,5.308,5.882,$/docena de matas
-02/12/2016,Apio,Americana (o),Central Lo Valledor de Santiago,800,Segunda,2.521,2.910,3.361,$/docena de matas
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,1.689,1a plateado,9.664,9.664,9.664,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,5.806,1a plateado,9.244,9.604,10.084,$/malla 18 kilos
-02/12/2016,Arveja Verde,Perfection,Central Lo Valledor de Santiago,300,Primera,9.244,9.804,10.084,$/saco 40 kilos
-02/12/2016,Arveja Verde,Sin especificar,Central Lo Valledor de Santiago,220,Primera,7.983,8.174,8.403,$/saco 30 kilos
-02/12/2016,Betarraga,Sin especificar,Central Lo Valledor de Santiago,43.000,Primera,67,72,76,$/unidad
-02/12/2016,Betarraga,Sin especificar,Central Lo Valledor de Santiago,42.000,Segunda,50,54,59,$/unidad
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,4.378,1a plateado,9.244,9.787,10.084,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,580,2a amarillo,5.882,6.463,6.723,$/malla 18 kilos
-02/12/2016,Betarraga,Sin especificar,Central Lo Valledor de Santiago,24.000,Tercera,34,38,42,$/unidad
-02/12/2016,Br√≥coli,Sin especificar,Central Lo Valledor de Santiago,9.500,Primera,210,230,252,$/unidad
-02/12/2016,Br√≥coli,Sin especificar,Central Lo Valledor de Santiago,6.900,Segunda,168,176,185,$/unidad
-02/12/2016,Cebolla,Morada(o),Central Lo Valledor de Santiago,31.000,1a nueva(o),1.513,1.578,1.681,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,915,2a amarillo,5.882,6.257,6.723,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,251,2a amarillo,5.882,6.110,6.303,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,8,2a plateado,193.277,193.277,193.277,$/bins (450 kilos)
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,687,2a plateado,6.723,7.240,7.563,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,532,2a plateado,7.563,7.789,7.983,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,1.420,1a nueva(o),3.866,4.024,4.202,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,72.000,1a nueva(o),1.261,1.301,1.345,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,70.000,1a nueva(o),1.261,1.300,1.345,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,1.060,2a nueva(o),3.193,3.374,3.529,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,1.291,2a plateado,6.723,7.370,7.983,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,928,2a plateado,6.723,7.655,7.983,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,223,3a amarillo,3.361,3.919,4.202,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,291,3a amarillo,3.361,3.584,4.202,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,57.000,2a nueva(o),924,970,1.008,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,61.000,2a nueva(o),924,968,1.008,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,91,3a amarillo,3.361,3.491,3.782,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,66,3a plateado,4.202,4.444,4.622,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,124,3a plateado,4.622,4.751,5.042,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,52.000,3a nueva (o),588,633,672,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,53.000,3a nueva (o),588,633,672,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,467,3a plateado,4.202,4.664,5.042,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Central Lo Valledor de Santiago,268,3a plateado,4.202,4.837,5.042,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Central Lo Valledor de Santiago,3.150,Primera,3.950,4.082,4.202,$/malla 18 kilos
-02/12/2016,Ceboll√≠n,Sin especificar,Central Lo Valledor de Santiago,1.410,Primera,1.933,2.013,2.101,$/paquete 36 unidades
-02/12/2016,Ceboll√≠n,Sin especificar,Central Lo Valledor de Santiago,880,Segunda,1.513,1.606,1.681,$/paquete 36 unidades
-02/12/2016,Choclo,Choclero,Central Lo Valledor de Santiago,430,Primera,10.924,11.413,11.765,$/malla 50 unidades
-02/12/2016,Choclo,Choclero,Central Lo Valledor de Santiago,48.000,Primera,109,113,118,$/unidad
-02/12/2016,Mandarina,Murcott,Central Lo Valledor de Santiago,20,Primera,168.067,178.571,189.076,$/bins (450 kilos)
-02/12/2016,Choclo,Choclero,Central Lo Valledor de Santiago,155.000,Primera,59,70,84,$/unidad
-02/12/2016,Choclo,Choclero,Central Lo Valledor de Santiago,135.000,Primera,76,84,92,$/unidad
-02/12/2016,Choclo,Choclero,Central Lo Valledor de Santiago,25.000,Segunda,84,84,84,$/unidad
-02/12/2016,Choclo,Choclero,Central Lo Valledor de Santiago,80.000,Segunda,50,50,50,$/unidad
-02/12/2016,Mandarina,Murcott,Central Lo Valledor de Santiago,12,Segunda,134.454,134.454,134.454,$/bins (450 kilos)
-02/12/2016,Choclo,Choclero,Central Lo Valledor de Santiago,60.000,Segunda,59,59,59,$/unidad
-02/12/2016,Choclo,Dulce o Americano,Central Lo Valledor de Santiago,53.000,Primera,76,80,84,$/unidad
-02/12/2016,Choclo,Dulce o Americano,Central Lo Valledor de Santiago,65.000,Primera,76,80,84,$/unidad
-02/12/2016,Choclo,Dulce o Americano,Central Lo Valledor de Santiago,20.000,Segunda,59,59,59,$/unidad
-02/12/2016,Choclo,Dulce o Americano,Central Lo Valledor de Santiago,40.000,Segunda,59,59,59,$/unidad
-02/12/2016,Mandarina,Murcott,Central Lo Valledor de Santiago,20,Tercera,96.639,105.042,113.445,$/bins (450 kilos)
-02/12/2016,Manzana,Fuji royal,Central Lo Valledor de Santiago,12,Especial,151.260,151.260,151.260,$/bins (400 kilos)
-02/12/2016,Manzana,Fuji royal,Central Lo Valledor de Santiago,16,Primera,134.454,134.454,134.454,$/bins (400 kilos)
-02/12/2016,Ciboulette,Sin especificar,Central Lo Valledor de Santiago,67,Primera,672,672,672,$/docena de atados
-02/12/2016,Cilantro,Sin especificar,Central Lo Valledor de Santiago,46,Primera,5.042,5.042,5.042,$/docena de atados
-02/12/2016,Cilantro,Sin especificar,Central Lo Valledor de Santiago,38,Segunda,4.202,4.202,4.202,$/docena de atados
-02/12/2016,Coliflor,Sin especificar,Central Lo Valledor de Santiago,9.200,Primera,210,231,252,$/unidad
-02/12/2016,Coliflor,Sin especificar,Central Lo Valledor de Santiago,7.300,Segunda,168,176,185,$/unidad
-02/12/2016,Manzana,Granny Smith,Central Lo Valledor de Santiago,8,Especial,142.857,142.857,142.857,$/bins (400 kilos)
-02/12/2016,Manzana,Granny Smith,Central Lo Valledor de Santiago,10,Primera,126.050,126.050,126.050,$/bins (400 kilos)
-02/12/2016,Manzana,Granny Smith,Central Lo Valledor de Santiago,5,Segunda,109.244,109.244,109.244,$/bins (400 kilos)
-02/12/2016,Manzana,Granny Smith,Central Lo Valledor de Santiago,24,Tercera,67.227,78.431,84.034,$/bins (400 kilos)
-02/12/2016,Espinaca,Sin especificar,Central Lo Valledor de Santiago,430,Primera,4.202,4.202,4.202,$/cuna 10 kilos
-02/12/2016,Espinaca,Sin especificar,Central Lo Valledor de Santiago,290,Segunda,3.361,3.361,3.361,$/cuna 10 kilos
-02/12/2016,Manzana,Royal Gala,Central Lo Valledor de Santiago,18,Primera,134.454,134.454,134.454,$/bins (400 kilos)
-02/12/2016,Manzana,Royal Gala,Central Lo Valledor de Santiago,12,Segunda,117.647,117.647,117.647,$/bins (400 kilos)
-02/12/2016,Naranja,Lane Late,Central Lo Valledor de Santiago,10,Especial,134.454,134.454,134.454,$/bins (400 kilos)
-02/12/2016,Haba,Sin especificar,Central Lo Valledor de Santiago,650,Primera,5.882,6.270,6.723,$/saco 30 kilos
-02/12/2016,Lechuga,Conconina(o),Central Lo Valledor de Santiago,800,Primera,2.101,2.342,2.521,$/caja 10 unidades
-02/12/2016,Lechuga,Conconina(o),Central Lo Valledor de Santiago,850,Primera,2.101,2.294,2.521,$/caja 10 unidades
-02/12/2016,Lechuga,Conconina(o),Central Lo Valledor de Santiago,650,Segunda,1.681,1.753,1.849,$/caja 10 unidades
-02/12/2016,Lechuga,Conconina(o),Central Lo Valledor de Santiago,280,Segunda,1.681,1.681,1.681,$/caja 10 unidades
-02/12/2016,Naranja,Lane Late,Central Lo Valledor de Santiago,30,Especial,134.454,134.454,134.454,$/bins (400 kilos)
-02/12/2016,Lechuga,Escarola,Central Lo Valledor de Santiago,830,Primera,2.521,2.708,2.941,$/caja 15 unidades
-02/12/2016,Naranja,Lane Late,Central Lo Valledor de Santiago,24,Primera,117.647,121.849,126.050,$/bins (400 kilos)
-02/12/2016,Naranja,Thompson,Central Lo Valledor de Santiago,20,Primera,109.244,109.244,109.244,$/bins (400 kilos)
-02/12/2016,Naranja,Valencia,Central Lo Valledor de Santiago,20,Primera,126.050,130.252,134.454,$/bins (400 kilos)
-02/12/2016,Nectar√≠n,Armqueen,Central Lo Valledor de Santiago,47,Especial,13.445,13.445,13.445,$/caja 18 kilos empedrada
-02/12/2016,Nectar√≠n,Armqueen,Central Lo Valledor de Santiago,195,Primera,11.765,11.765,11.765,$/caja 18 kilos empedrada
-02/12/2016,Lechuga,Escarola,Central Lo Valledor de Santiago,1.210,Segunda,1.681,1.913,2.101,$/caja 18 unidades
-02/12/2016,Lechuga,Marina,Central Lo Valledor de Santiago,830,Primera,2.521,2.754,2.941,$/caja 15 unidades
-02/12/2016,Lechuga,Marina,Central Lo Valledor de Santiago,990,Segunda,1.681,1.863,2.101,$/caja 18 unidades
-02/12/2016,Lechuga,Milanesa,Central Lo Valledor de Santiago,500,Primera,2.941,2.941,2.941,$/caja 20 unidades
-02/12/2016,Nectar√≠n,Armqueen,Central Lo Valledor de Santiago,114,Segunda,10.084,10.084,10.084,$/caja 18 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Glo,Central Lo Valledor de Santiago,20,Especial,12.605,12.605,12.605,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Glo,Central Lo Valledor de Santiago,80,Primera,10.924,10.924,10.924,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Glo,Central Lo Valledor de Santiago,45,Segunda,9.244,9.244,9.244,$/caja 16 kilos empedrada
-02/12/2016,Lechuga,Milanesa,Central Lo Valledor de Santiago,430,Segunda,2.101,2.101,2.101,$/caja 20 unidades
-02/12/2016,Mel√≥n,Calame√±o,Central Lo Valledor de Santiago,4.900,Primera,462,500,546,$/unidad
-02/12/2016,Mel√≥n,Calame√±o,Central Lo Valledor de Santiago,2.300,Segunda,294,345,378,$/unidad
-02/12/2016,Mel√≥n,Calame√±o,Central Lo Valledor de Santiago,2.400,Tercera,210,229,252,$/unidad
-02/12/2016,Nectar√≠n,Artic Star,Central Lo Valledor de Santiago,10,Especial,294.118,294.118,294.118,$/bins (420 kilos)
-02/12/2016,Nectar√≠n,Artic Star,Central Lo Valledor de Santiago,85,Especial,11.765,11.765,11.765,$/caja 16 kilos empedrada
-02/12/2016,Mel√≥n,Tuna,Central Lo Valledor de Santiago,3.600,Cuarta,126,126,126,$/unidad
-02/12/2016,Mel√≥n,Tuna,Central Lo Valledor de Santiago,3.400,Extra (muy buena),504,544,588,$/unidad
-02/12/2016,Mel√≥n,Tuna,Central Lo Valledor de Santiago,4.100,Primera,378,398,420,$/unidad
-02/12/2016,Mel√≥n,Tuna,Central Lo Valledor de Santiago,2.800,Segunda,252,272,294,$/unidad
-02/12/2016,Nectar√≠n,Artic Star,Central Lo Valledor de Santiago,85,Especial,13.445,13.445,13.445,$/caja 18 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Star,Central Lo Valledor de Santiago,12,Primera,252.101,252.101,252.101,$/bins (420 kilos)
-02/12/2016,Mel√≥n,Tuna,Central Lo Valledor de Santiago,2.700,Tercera,168,205,252,$/unidad
-02/12/2016,Or√©gano,Sin especificar,Central Lo Valledor de Santiago,37,Primera,5.882,5.882,5.882,$/docena de atados
-02/12/2016,Nectar√≠n,Artic Star,Central Lo Valledor de Santiago,105,Primera,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Papa,Asterix,Central Lo Valledor de Santiago,1.560,1a nueva(o),7.143,7.797,8.403,$/saco 50 kilos
-02/12/2016,Papa,Asterix,Central Lo Valledor de Santiago,1.460,1a nueva(o),6.723,7.120,7.563,$/saco 50 kilos
-02/12/2016,Papa,Cardinal,Central Lo Valledor de Santiago,1.520,1a nueva(o),5.882,6.623,7.563,$/saco 50 kilos
-02/12/2016,Nectar√≠n,Artic Star,Central Lo Valledor de Santiago,140,Primera,11.765,11.765,11.765,$/caja 18 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Star,Central Lo Valledor de Santiago,120,Segunda,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Star,Central Lo Valledor de Santiago,86,Segunda,10.084,10.084,10.084,$/caja 18 kilos empedrada
-02/12/2016,Nectar√≠n,Big John,Central Lo Valledor de Santiago,45,Especial,8.824,8.824,8.824,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Big John,Central Lo Valledor de Santiago,112,Primera,7.563,7.563,7.563,$/caja 16 kilos empedrada
-02/12/2016,Papa,Cardinal,Central Lo Valledor de Santiago,1.360,1a nueva(o),5.882,6.284,6.723,$/saco 50 kilos
-02/12/2016,Nectar√≠n,Big John,Central Lo Valledor de Santiago,140,Segunda,5.882,5.882,5.882,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Big John,Central Lo Valledor de Santiago,48,Segunda,4.202,4.202,4.202,$/caja 16 kilos granel
-02/12/2016,Papa,Patagonia,Central Lo Valledor de Santiago,1.810,1a nueva(o),5.462,6.068,6.723,$/saco 50 kilos
-02/12/2016,Papa,Patagonia,Central Lo Valledor de Santiago,1.560,1a nueva(o),5.882,6.680,7.563,$/saco 50 kilos
-02/12/2016,Papa,Pukar√°,Central Lo Valledor de Santiago,1.560,1a nueva(o),5.042,5.392,5.882,$/saco 50 kilos
-02/12/2016,Pepino ensalada,Sin especificar,Central Lo Valledor de Santiago,83,Primera,4.622,4.809,5.042,$/caja 70 unidades
-02/12/2016,Pepino ensalada,Sin especificar,Central Lo Valledor de Santiago,1.500,Primera,5.042,5.490,5.882,$/caja 80 unidades
-02/12/2016,Nectar√≠n,Early Diamond,Central Lo Valledor de Santiago,86,Primera,9.244,9.244,9.244,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Early Diamond,Central Lo Valledor de Santiago,112,Segunda,7.563,7.563,7.563,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Early Diamond,Central Lo Valledor de Santiago,128,Tercera,5.042,5.042,5.042,$/caja 16 kilos granel
-02/12/2016,Nectar√≠n,May Glo,Central Lo Valledor de Santiago,10,Especial,210.084,210.084,210.084,$/bins (420 kilos)
-02/12/2016,Pepino ensalada,Sin especificar,Central Lo Valledor de Santiago,250,Segunda,4.202,4.370,4.622,$/caja 100 unidades
-02/12/2016,Perejil,Sin especificar,Central Lo Valledor de Santiago,42,Primera,4.202,4.202,4.202,$/docena de atados
-02/12/2016,Perejil,Sin especificar,Central Lo Valledor de Santiago,26,Segunda,3.361,3.361,3.361,$/docena de atados
-02/12/2016,Pimiento,Cuatro cascos verde,Central Lo Valledor de Santiago,500,Primera,3.782,4.034,4.202,$/caja 18 kilos
-02/12/2016,Nectar√≠n,May Glo,Central Lo Valledor de Santiago,12,Primera,168.067,168.067,168.067,$/bins (420 kilos)
-02/12/2016,Nectar√≠n,May Glo,Central Lo Valledor de Santiago,15,Segunda,100.840,100.840,100.840,$/bins (420 kilos)
-02/12/2016,Nectar√≠n,May Glo,Central Lo Valledor de Santiago,12,Tercera,67.227,67.227,67.227,$/bins (420 kilos)
-02/12/2016,Nectar√≠n,Royal Glo,Central Lo Valledor de Santiago,142,Especial,11.765,11.765,11.765,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Royal Glo,Central Lo Valledor de Santiago,85,Primera,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Pimiento,Cuatro cascos verde,Central Lo Valledor de Santiago,250,Segunda,2.941,2.941,2.941,$/caja 18 kilos
-02/12/2016,Pimiento,Zafiro verde,Central Lo Valledor de Santiago,820,Primera,5.042,5.452,5.882,$/caja 18 kilos
-02/12/2016,Pimiento,Zafiro verde,Central Lo Valledor de Santiago,350,Segunda,4.202,4.202,4.202,$/caja 18 kilos
-02/12/2016,Nectar√≠n,Royal Glo,Central Lo Valledor de Santiago,65,Segunda,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Palta,Edranol,Central Lo Valledor de Santiago,135,Primera,1.092,1.092,1.092,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,150,Cuarta,840,840,840,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,299,Cuarta,840,879,924,$/kilo (en caja de 15 kilos)
-02/12/2016,Poroto granado,Sin especificar,Central Lo Valledor de Santiago,900,Primera,23.529,24.276,25.210,$/saco 30 kilos
-02/12/2016,Poroto granado,Sin especificar,Central Lo Valledor de Santiago,850,Primera,23.529,24.320,25.210,$/saco 30 kilos
-02/12/2016,Poroto verde,Magnum,Central Lo Valledor de Santiago,430,Primera,9.244,9.635,10.084,$/saco 30 kilos
-02/12/2016,Poroto verde,Magnum,Central Lo Valledor de Santiago,150,Primera,8.403,8.403,8.403,$/saco 30 kilos
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,128,Cuarta,840,840,840,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,125,Especial,1.597,1.597,1.597,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,374,Especial,1.597,1.638,1.681,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,260,Especial,1.597,1.653,1.681,$/kilo (en caja de 15 kilos)
-02/12/2016,Poroto verde,Magnum,Central Lo Valledor de Santiago,100,Segunda,6.723,6.723,6.723,$/saco 30 kilos
-02/12/2016,Poroto verde,Sin especificar,Central Lo Valledor de Santiago,220,Primera,14.286,14.668,15.126,$/saco 30 kilos
-02/12/2016,Poroto verde,Sin especificar,Central Lo Valledor de Santiago,80,Segunda,10.084,10.084,10.084,$/saco 30 kilos
-02/12/2016,Rabanito,Sin especificar,Central Lo Valledor de Santiago,4.200,Primera,1.681,1.681,1.681,$/atado
-02/12/2016,Rabanito,Sin especificar,Central Lo Valledor de Santiago,3.700,Segunda,1.261,1.261,1.261,$/atado
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,400,Primera,1.345,1.392,1.429,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,430,Primera,1.345,1.382,1.429,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,515,Primera,1.345,1.402,1.429,$/kilo (en caja de 15 kilos)
-02/12/2016,Repollo,Copenhague,Central Lo Valledor de Santiago,6.500,Primera,252,279,294,$/unidad
-02/12/2016,Repollo,Copenhague,Central Lo Valledor de Santiago,6.300,Segunda,168,193,210,$/unidad
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,231,Segunda,1.176,1.193,1.261,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,396,Segunda,1.176,1.216,1.261,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,442,Segunda,1.176,4.702,12.605,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,176,Tercera,1.008,1.008,1.008,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,327,Tercera,1.008,1.029,1.050,$/kilo (en caja de 15 kilos)
-02/12/2016,Repollo,Crespo record,Central Lo Valledor de Santiago,4.200,Primera,252,252,252,$/unidad
-02/12/2016,Repollo,Crespo record,Central Lo Valledor de Santiago,3.700,Segunda,168,168,168,$/unidad
-02/12/2016,Sandia,Sin especificar,Central Lo Valledor de Santiago,4.800,Extra (muy buena),252,270,294,$/kilo (volumen en unidades)
-02/12/2016,Sandia,Sin especificar,Central Lo Valledor de Santiago,4.100,Primera,2.521,2.638,2.773,$/unidad
-02/12/2016,Palta,Hass,Central Lo Valledor de Santiago,164,Tercera,1.008,1.008,1.008,$/kilo (en caja de 15 kilos)
-02/12/2016,Pera,Packham's Triumph,Central Lo Valledor de Santiago,8,Especial,176.471,176.471,176.471,$/bins (450 kilos)
-02/12/2016,Pera,Packham's Triumph,Central Lo Valledor de Santiago,16,Primera,151.260,151.260,151.260,$/bins (450 kilos)
-02/12/2016,Pera,Packham's Triumph,Central Lo Valledor de Santiago,10,Segunda,126.050,126.050,126.050,$/bins (450 kilos)
-02/12/2016,Sandia,Sin especificar,Central Lo Valledor de Santiago,5.200,Segunda,2.017,2.098,2.185,$/unidad
-02/12/2016,Sandia,Sin especificar,Central Lo Valledor de Santiago,2.950,Tercera,1.429,1.548,1.681,$/unidad
-02/12/2016,Tomate,Larga vida,Central Lo Valledor de Santiago,3.300,Primera,3.782,4.163,4.622,$/bandeja 18 kilos
-02/12/2016,Tomate,Larga vida,Central Lo Valledor de Santiago,1.100,Primera,4.622,4.813,5.042,$/caja 18 kilos
-02/12/2016,Pera,Winter Nelis,Central Lo Valledor de Santiago,12,Primera,142.857,142.857,142.857,$/bins (450 kilos)
-02/12/2016,Pi√±a,Caramelo,Central Lo Valledor de Santiago,162,Especial,12.185,12.185,12.185,$/caja 10 unidades
-02/12/2016,Pi√±a,Caramelo,Central Lo Valledor de Santiago,54,Primera,12.605,12.605,12.605,$/caja 12 unidades
-02/12/2016,Pi√±a,Caramelo,Central Lo Valledor de Santiago,162,Segunda,12.605,12.605,12.605,$/caja 14 unidades
-02/12/2016,Tomate,Larga vida,Central Lo Valledor de Santiago,2.800,Segunda,2.941,3.136,3.361,$/bandeja 18 kilos
-02/12/2016,Tomate,Larga vida,Central Lo Valledor de Santiago,950,Segunda,3.361,3.582,3.782,$/caja 18 kilos
-02/12/2016,Tomate,Larga vida,Central Lo Valledor de Santiago,200,Tercera,1.681,1.891,2.101,$/bandeja 18 kilos
-02/12/2016,Tomate,Larga vida,Central Lo Valledor de Santiago,280,Tercera,2.101,2.326,2.521,$/caja 18 kilos
-02/12/2016,Pi√±a,Caramelo,Central Lo Valledor de Santiago,270,Tercera,11.345,11.849,12.185,$/caja 16 unidades
-02/12/2016,Pi√±a,Caramelo,Central Lo Valledor de Santiago,150,Tercera,6.723,6.723,6.723,$/caja 8 unidades
-02/12/2016,Pi√±a,Caramelo,Central Lo Valledor de Santiago,183,Tercera,6.975,7.044,7.143,$/caja 8 unidades
-02/12/2016,Pl√°tano,Barraganete,Central Lo Valledor de Santiago,54,Primera,14.286,14.286,14.286,$/caja 20 kilos
-02/12/2016,Pl√°tano,Sin especificar,Central Lo Valledor de Santiago,640,Maduro,5.882,6.145,6.723,$/caja 20 kilos
-02/12/2016,Tomate,Semiduro,Central Lo Valledor de Santiago,400,Primera,4.202,4.202,4.202,$/bandeja 18 kilos
-02/12/2016,Tomate,Semiduro,Central Lo Valledor de Santiago,300,Segunda,3.361,3.361,3.361,$/bandeja 18 kilos
-02/12/2016,Tomate,Semiduro,Central Lo Valledor de Santiago,300,Tercera,2.101,2.101,2.101,$/bandeja 18 kilos
-02/12/2016,Zanahoria,Sin especificar,Central Lo Valledor de Santiago,580,Primera,9.244,9.620,10.084,$/saco 50 kilos
-02/12/2016,Pl√°tano,Sin especificar,Central Lo Valledor de Santiago,9.330,Pint√≥n,6.303,6.759,7.563,$/caja 20 kilos
-02/12/2016,Pl√°tano,Sin especificar,Central Lo Valledor de Santiago,760,Verde,6.303,6.568,7.143,$/caja 20 kilos
-02/12/2016,Cereza,Bing,Femacal de La Calera,130,Primera,924,970,1.008,$/kilo (en caja de 15 kilos)
-02/12/2016,Cereza,Bing,Femacal de La Calera,50,Segunda,840,840,840,$/kilo (en caja de 15 kilos)
-02/12/2016,Zanahoria,Sin especificar,Central Lo Valledor de Santiago,650,Segunda,7.563,8.041,8.403,$/saco 50 kilos
-02/12/2016,Zapallo,Camote,Central Lo Valledor de Santiago,2.800,1a nueva(o),462,485,504,$/kilo (volumen en unidades)
-02/12/2016,Zapallo,Camote,Central Lo Valledor de Santiago,2.200,2a nueva(o),378,401,420,$/kilo (volumen en unidades)
-02/12/2016,Cereza,Royal Dawn,Femacal de La Calera,70,Primera,5.042,5.042,5.042,$/bandeja 5 kilos
-02/12/2016,Cereza,Santina,Femacal de La Calera,50,Especial,11.765,11.765,11.765,$/bandeja 10 kilos
-02/12/2016,Cereza,Santina,Femacal de La Calera,70,Primera,10.084,10.084,10.084,$/bandeja 10 kilos
-02/12/2016,Cereza,Santina,Femacal de La Calera,65,Segunda,8.403,8.403,8.403,$/bandeja 10 kilos
-02/12/2016,Zapallo,Paine,Central Lo Valledor de Santiago,3.800,1a nueva(o),109,119,126,$/kilo (volumen en unidades)
-02/12/2016,Zapallo,Paine,Central Lo Valledor de Santiago,2.500,2a nueva(o),84,89,92,$/kilo (volumen en unidades)
-02/12/2016,Damasco,Castle Brite,Femacal de La Calera,70,Primera,8.403,8.403,8.403,$/caja 18 kilos empedrada
-02/12/2016,Zapallo italiano,Sin especificar,Central Lo Valledor de Santiago,1.250,Primera,2.941,3.143,3.361,$/caja 70 unidades
-02/12/2016,Zapallo italiano,Sin especificar,Central Lo Valledor de Santiago,180,Segunda,2.101,2.288,2.521,$/caja 36 unidades
-02/12/2016,Acelga,Sin especificar,Femacal de La Calera,165,Primera,1.345,1.431,1.513,$/atado
-02/12/2016,Damasco,Castle Brite,Femacal de La Calera,70,Segunda,6.723,6.723,6.723,$/caja 18 kilos empedrada
-02/12/2016,Damasco,Castle Brite,Femacal de La Calera,50,Tercera,5.042,5.042,5.042,$/caja 18 kilos empedrada
-02/12/2016,Durazno,Crown princess,Femacal de La Calera,50,Especial,11.765,11.765,11.765,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Crown princess,Femacal de La Calera,80,Primera,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Achicoria,Sin especificar,Femacal de La Calera,45,Primera,3.782,3.782,3.782,$/caja 16 unidades
-02/12/2016,Ajo,Chino,Femacal de La Calera,100,1a nueva(o),1.597,1.639,1.681,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Ajo,Chino,Femacal de La Calera,55,2a nueva(o),1.176,1.176,1.176,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Durazno,Crown princess,Femacal de La Calera,70,Segunda,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Florida King,Femacal de La Calera,50,Primera,6.723,6.723,6.723,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Florida King,Femacal de La Calera,45,Segunda,5.042,5.042,5.042,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Florida King,Femacal de La Calera,35,Tercera,3.361,3.361,3.361,$/caja 15 kilos granel
-02/12/2016,Durazno,Springcrest,Femacal de La Calera,70,Primera,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Ajo,Chino,Femacal de La Calera,25,Primera,15.966,16.303,16.807,$/caja 10 kilos
-02/12/2016,Ajo,Chino,Femacal de La Calera,10,Primera,20.168,20.168,20.168,$/malla 10 kilos
-02/12/2016,Aj√≠,Americana (o),Femacal de La Calera,38,Primera,8.403,8.846,9.244,$/caja 15 kilos
-02/12/2016,Albahaca,Sin especificar,Femacal de La Calera,35,Primera,2.101,2.101,2.101,$/docena de matas
-02/12/2016,Durazno,Springcrest,Femacal de La Calera,60,Segunda,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Frutilla,Sin especificar,Femacal de La Calera,60,Especial,5.042,5.042,5.042,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Femacal de La Calera,80,Primera,4.202,4.202,4.202,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Femacal de La Calera,75,Segunda,3.361,3.361,3.361,$/bandeja 7 kilos
-02/12/2016,Apio,Americana (o),Femacal de La Calera,75,Primera,6.723,6.723,6.723,$/docena de matas
-02/12/2016,Apio,Americana (o),Femacal de La Calera,50,Segunda,5.042,5.042,5.042,$/docena de matas
-02/12/2016,Betarraga,Sin especificar,Femacal de La Calera,800,Primera,294,294,294,$/paquete 4 unidades
-02/12/2016,Betarraga,Sin especificar,Femacal de La Calera,550,Segunda,252,252,252,$/paquete 4 unidades
-02/12/2016,Br√≥coli,Sin especificar,Femacal de La Calera,750,Primera,336,336,336,$/unidad
-02/12/2016,Lim√≥n,Sin especificar,Femacal de La Calera,120,1a amarillo,8.403,8.403,8.403,$/malla 18 kilos
-02/12/2016,Br√≥coli,Sin especificar,Femacal de La Calera,700,Segunda,252,252,252,$/unidad
-02/12/2016,Cebolla,Morada(o),Femacal de La Calera,40,Primera,8.403,8.403,8.403,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Femacal de La Calera,185,1a plateado,8.403,8.858,9.244,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Femacal de La Calera,175,2a amarillo,7.143,7.383,7.563,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Femacal de La Calera,100,2a plateado,7.563,7.563,7.563,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Femacal de La Calera,60,3a plateado,5.042,5.042,5.042,$/malla 18 kilos
-02/12/2016,Mango,Sin especificar,Femacal de La Calera,228,Segunda,4.202,4.202,4.202,$/bandeja 4 kilos
-02/12/2016,Cebolla,Sin especificar,Femacal de La Calera,4.400,1a nueva(o),1.597,1.635,1.681,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Cebolla,Sin especificar,Femacal de La Calera,2.400,2a nueva(o),1.008,1.008,1.008,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Cebolla,Sin especificar,Femacal de La Calera,3.200,3a nueva (o),504,599,672,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Manzana,Fuji royal,Femacal de La Calera,50,Especial,10.924,10.924,10.924,$/caja 16 kilos empedrada
-02/12/2016,Manzana,Fuji royal,Femacal de La Calera,60,Primera,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Femacal de La Calera,50,Especial,10.924,10.924,10.924,$/caja 16 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Femacal de La Calera,80,Primera,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Femacal de La Calera,60,Segunda,9.244,9.244,9.244,$/caja 16 kilos empedrada
-02/12/2016,Cebolla,Sin especificar,Femacal de La Calera,50,Primera,4.202,4.202,4.202,$/malla 18 kilos
-02/12/2016,Ceboll√≠n,Sin especificar,Femacal de La Calera,70,Primera,2.521,2.521,2.521,$/paquete 36 unidades
-02/12/2016,Ceboll√≠n,Sin especificar,Femacal de La Calera,60,Segunda,2.101,2.101,2.101,$/paquete 36 unidades
-02/12/2016,Choclo,Choclero,Femacal de La Calera,2.300,Primera,185,189,193,$/unidad
-02/12/2016,Naranja,Navel Late,Femacal de La Calera,50,Primera,4.202,4.202,4.202,$/malla 13 kilos
-02/12/2016,Naranja,Navel Late,Femacal de La Calera,70,Segunda,3.361,3.361,3.361,$/malla 13 kilos
-02/12/2016,Nectar√≠n,Nectar Crest,Femacal de La Calera,150,Primera,10.084,10.868,11.765,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Nectar Crest,Femacal de La Calera,60,Segunda,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Choclo,Dulce o Americano,Femacal de La Calera,2.100,Primera,126,139,151,$/unidad
-02/12/2016,Nectar√≠n,Royal Glo,Femacal de La Calera,60,Primera,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Royal Glo,Femacal de La Calera,70,Segunda,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Royal Glo,Femacal de La Calera,50,Tercera,5.882,5.882,5.882,$/caja 15 kilos granel
-02/12/2016,Palta,Hass,Femacal de La Calera,30,Cuarta,756,756,756,$/kilo (en caja de 15 kilos)
-02/12/2016,Choclo,Dulce o Americano,Femacal de La Calera,900,Segunda,84,84,84,$/unidad
-02/12/2016,Coliflor,Sin especificar,Femacal de La Calera,600,Primera,336,336,336,$/unidad
-02/12/2016,Palta,Hass,Femacal de La Calera,50,Primera,1.261,1.261,1.261,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Femacal de La Calera,50,Segunda,1.092,1.092,1.092,$/kilo (en caja de 15 kilos)
-02/12/2016,Coliflor,Sin especificar,Femacal de La Calera,650,Segunda,252,252,252,$/unidad
-02/12/2016,Espinaca,Sin especificar,Femacal de La Calera,50,Primera,2.101,2.101,2.101,$/docena de 3 kilos
-02/12/2016,Esp√°rragos,Verde,Femacal de La Calera,380,Primera,840,882,924,$/kilo
-02/12/2016,Esp√°rragos,Verde,Femacal de La Calera,150,Segunda,672,672,672,$/kilo
-02/12/2016,Palta,Hass,Femacal de La Calera,60,Tercera,924,924,924,$/kilo (en caja de 15 kilos)
-02/12/2016,Lechuga,Conconina(o),Femacal de La Calera,70,Primera,2.773,2.857,2.941,$/caja 10 unidades
-02/12/2016,Lechuga,Escarola,Femacal de La Calera,50,Primera,3.782,3.782,3.782,$/caja 15 unidades
-02/12/2016,Lechuga,Francesa morada,Femacal de La Calera,35,Primera,3.782,3.782,3.782,$/caja 18 unidades
-02/12/2016,Pera,Packham's Triumph,Femacal de La Calera,50,Especial,10.924,10.924,10.924,$/caja 18 kilos empedrada
-02/12/2016,Pera,Packham's Triumph,Femacal de La Calera,60,Primera,10.084,10.084,10.084,$/caja 18 kilos empedrada
-02/12/2016,Pi√±a,Caramelo,Femacal de La Calera,108,Primera,13.445,13.445,13.445,$/caja 12 unidades
-02/12/2016,Lechuga,Marina,Femacal de La Calera,35,Primera,3.782,3.782,3.782,$/caja 18 unidades
-02/12/2016,Lechuga,Milanesa,Femacal de La Calera,50,Primera,2.941,2.941,2.941,$/caja 20 unidades
-02/12/2016,Mel√≥n,Tuna,Femacal de La Calera,290,Segunda,588,588,588,$/unidad
-02/12/2016,Mel√≥n,Tuna,Femacal de La Calera,280,Tercera,336,336,336,$/unidad
-02/12/2016,Papa,Cardinal,Femacal de La Calera,50,1a nueva(o),8.403,8.403,8.403,$/saco 50 kilos
-02/12/2016,Pi√±a,Caramelo,Femacal de La Calera,108,Segunda,13.445,13.445,13.445,$/caja 14 unidades
-02/12/2016,Pl√°tano,Sin especificar,Femacal de La Calera,160,Maduro,6.723,6.723,6.723,$/caja 20 kilos
-02/12/2016,Pl√°tano,Sin especificar,Femacal de La Calera,560,Pint√≥n,8.403,8.553,8.824,$/caja 20 kilos
-02/12/2016,Cereza,Coraz√≥n de paloma,Feria Lagunitas de Puerto Montt,80,Segunda,13.866,13.866,13.866,$/caja 12 kilos
-02/12/2016,Papa,Patagonia,Femacal de La Calera,50,1a nueva(o),8.403,8.403,8.403,$/saco 50 kilos
-02/12/2016,Papa,Rosara,Femacal de La Calera,105,1a nueva(o),8.403,8.804,9.244,$/saco 50 kilos
-02/12/2016,Cereza,Early Burlat,Feria Lagunitas de Puerto Montt,90,Segunda,13.445,13.445,13.445,$/caja 12 kilos
-02/12/2016,Cereza,Early Burlat,Feria Lagunitas de Puerto Montt,230,Segunda,5.042,5.590,5.882,$/caja 7 kilos
-02/12/2016,Chirimoya,Cultivar IV Regi√≥n,Feria Lagunitas de Puerto Montt,40,Primera,1.429,1.460,1.513,$/kilo (en caja de 15 kilos)
-02/12/2016,Papa,Rosara,Femacal de La Calera,50,2a nueva(o),7.563,7.563,7.563,$/saco 50 kilos
-02/12/2016,Pepino ensalada,Sin especificar,Femacal de La Calera,75,Primera,7.563,7.787,7.983,$/caja 80 unidades
-02/12/2016,Pimiento,Zafiro rojo,Femacal de La Calera,45,Primera,7.563,7.937,8.403,$/caja 15 kilos
-02/12/2016,Pimiento,Zafiro rojo,Femacal de La Calera,35,Segunda,5.882,5.882,5.882,$/caja 15 kilos
-02/12/2016,Pimiento,Zafiro verde,Femacal de La Calera,33,Primera,8.403,8.862,9.244,$/caja 18 kilos
-02/12/2016,Ciruela,Red Beaut,Feria Lagunitas de Puerto Montt,150,Segunda,8.403,8.403,8.403,$/caja 18 kilos granel
-02/12/2016,Durazno,Crown princess,Feria Lagunitas de Puerto Montt,65,Especial,9.244,9.244,9.244,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Crown princess,Feria Lagunitas de Puerto Montt,90,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Florida King,Feria Lagunitas de Puerto Montt,200,Primera,8.403,8.403,8.403,$/caja 15 kilos empedrada
-02/12/2016,Pimiento,Zafiro verde,Femacal de La Calera,20,Segunda,6.723,6.723,6.723,$/caja 18 kilos
-02/12/2016,Poroto granado,Sin especificar,Femacal de La Calera,15,Primera,25.210,25.210,25.210,$/saco 30 kilos
-02/12/2016,Poroto verde,Magnum,Femacal de La Calera,28,Primera,10.084,10.084,10.084,$/kilo
-02/12/2016,Rabanito,Sin especificar,Femacal de La Calera,50,Primera,1.681,1.681,1.681,$/cien unidades (volumen en unidades)
-02/12/2016,Durazno,Polar King,Feria Lagunitas de Puerto Montt,65,Primera,8.403,8.403,8.403,$/caja 18 kilos empedrada
-02/12/2016,Repollo,Crespo record,Femacal de La Calera,750,Primera,336,336,336,$/unidad
-02/12/2016,Durazno,Polar King,Feria Lagunitas de Puerto Montt,90,Segunda,8.403,8.403,8.403,$/caja 18 kilos empedrada
-02/12/2016,Repollo,Crespo record,Femacal de La Calera,800,Segunda,252,252,252,$/unidad
-02/12/2016,Sandia,Sin especificar,Femacal de La Calera,70,Segunda,2.521,2.521,2.521,$/unidad
-02/12/2016,Sandia,Sin especificar,Femacal de La Calera,50,Tercera,1.176,1.176,1.176,$/unidad
-02/12/2016,Tomate,Larga vida,Femacal de La Calera,165,Primera,4.622,4.826,5.042,$/caja 15 kilos
-02/12/2016,Frutilla,Sin especificar,Feria Lagunitas de Puerto Montt,330,Primera,6.723,7.105,7.563,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Feria Lagunitas de Puerto Montt,200,Segunda,5.462,5.462,5.462,$/bandeja 7 kilos
-02/12/2016,Lim√≥n,Sin especificar,Feria Lagunitas de Puerto Montt,150,1a plateado,11.765,11.765,11.765,$/malla 16 kilos
-02/12/2016,Lim√≥n,Sin especificar,Feria Lagunitas de Puerto Montt,150,1a plateado,12.605,12.997,13.445,$/malla 18 kilos
-02/12/2016,Tomate,Larga vida,Femacal de La Calera,80,Segunda,3.782,3.782,3.782,$/caja 15 kilos
-02/12/2016,Zanahoria,Sin especificar,Femacal de La Calera,55,Primera,9.244,9.244,9.244,$/saco 40 kilos
-02/12/2016,Zapallo,Camote,Femacal de La Calera,50,1a nueva(o),840,840,840,$/kilo (volumen en unidades)
-02/12/2016,Zapallo italiano,Hurac√°n,Femacal de La Calera,50,Primera,2.941,2.941,2.941,$/caja 36 unidades
-02/12/2016,Mandarina,Murcott,Feria Lagunitas de Puerto Montt,60,Segunda,5.042,5.042,5.042,$/caja 10 kilos granel
-02/12/2016,Mandarina,Murcott,Feria Lagunitas de Puerto Montt,80,Tercera,4.202,4.202,4.202,$/caja 10 kilos granel
-02/12/2016,Manzana,Fuji,Feria Lagunitas de Puerto Montt,90,Primera,8.403,8.403,8.403,$/caja 15 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Feria Lagunitas de Puerto Montt,60,Primera,8.403,8.403,8.403,$/caja 15 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Feria Lagunitas de Puerto Montt,30,Segunda,6.723,6.723,6.723,$/caja 15 kilos empedrada
-02/12/2016,Zapallo italiano,Sin especificar,Femacal de La Calera,50,Primera,2.941,2.941,2.941,$/caja 36 unidades
-02/12/2016,Acelga,Sin especificar,Feria Lagunitas de Puerto Montt,190,Primera,504,504,504,$/atado
-02/12/2016,Ajo,Chino,Feria Lagunitas de Puerto Montt,70,Primera,18.487,18.908,19.328,$/caja 10 kilos
-02/12/2016,Aj√≠,Inferno,Feria Lagunitas de Puerto Montt,20,Primera,14.286,14.706,15.126,$/caja 25 kilos
-02/12/2016,Manzana,Pink Lady,Feria Lagunitas de Puerto Montt,55,Primera,8.403,8.403,8.403,$/caja 15 kilos empedrada
-02/12/2016,Manzana,Royal Gala,Feria Lagunitas de Puerto Montt,65,Primera,8.403,8.403,8.403,$/caja 15 kilos empedrada
-02/12/2016,Naranja,Navel Late,Feria Lagunitas de Puerto Montt,220,Primera,8.824,8.824,8.824,$/caja 15 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Glo,Feria Lagunitas de Puerto Montt,50,Segunda,9.244,9.244,9.244,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Early John,Feria Lagunitas de Puerto Montt,150,Segunda,9.244,9.244,9.244,$/caja 15 kilos empedrada
-02/12/2016,Arveja Verde,Sin especificar,Feria Lagunitas de Puerto Montt,30,Primera,10.084,10.084,10.084,$/saco 30 kilos
-02/12/2016,Betarraga,Sin especificar,Feria Lagunitas de Puerto Montt,580,Primera,588,588,588,$/paquete 5 unidades
-02/12/2016,Br√≥coli,Sin especificar,Feria Lagunitas de Puerto Montt,800,Primera,588,588,588,$/unidad
-02/12/2016,Palta,Hass,Feria Lagunitas de Puerto Montt,20,Calibre 36,1.597,1.597,1.597,$/kilo (en caja de 17 kilos)
-02/12/2016,Palta,Hass,Feria Lagunitas de Puerto Montt,25,Primera,1.513,1.513,1.513,$/kilo (en caja de 17 kilos)
-02/12/2016,Br√≥coli,Sin especificar,Feria Lagunitas de Puerto Montt,400,Segunda,504,504,504,$/unidad
-02/12/2016,Cebolla,Sin especificar,Feria Lagunitas de Puerto Montt,320,1a nueva(o),5.882,5.882,5.882,$/malla 18 kilos
-02/12/2016,Ceboll√≠n,Sin especificar,Feria Lagunitas de Puerto Montt,210,Primera,3.782,3.782,3.782,$/paquete 36 unidades
-02/12/2016,Choclo,Dulce o Americano,Feria Lagunitas de Puerto Montt,80,Primera,9.244,9.244,9.244,$/malla 70 unidades
-02/12/2016,Ciboulette,Sin especificar,Feria Lagunitas de Puerto Montt,50,Primera,3.361,3.361,3.361,$/docena de atados
-02/12/2016,Pi√±a,Caramelo,Feria Lagunitas de Puerto Montt,60,Tercera,13.445,13.445,13.445,$/caja 16 unidades
-02/12/2016,Pl√°tano,Sin especificar,Feria Lagunitas de Puerto Montt,180,Pint√≥n,9.664,9.944,10.084,$/caja 20 kilos
-02/12/2016,Cilantro,Sin especificar,Feria Lagunitas de Puerto Montt,230,Primera,2.521,2.521,2.521,$/docena de atados
-02/12/2016,Coliflor,Sin especificar,Feria Lagunitas de Puerto Montt,750,Primera,588,588,588,$/unidad
-02/12/2016,Esp√°rragos,Verde,Feria Lagunitas de Puerto Montt,30,Primera,1.261,1.261,1.261,$/kilo
-02/12/2016,Lechuga,Escarola,Feria Lagunitas de Puerto Montt,290,Primera,5.042,5.042,5.042,$/caja 15 unidades
-02/12/2016,Pomelo,Start Ruby,Feria Lagunitas de Puerto Montt,60,Primera,5.882,5.882,5.882,$/caja 14 kilos empedrada
-02/12/2016,Uva,Crimpson Seedless,Feria Lagunitas de Puerto Montt,45,Segunda,10.924,10.924,10.924,$/bandeja 8 kilos
-02/12/2016,Uva,Superior Seedless,Feria Lagunitas de Puerto Montt,30,Segunda,10.924,10.924,10.924,$/bandeja 8 kilos
-02/12/2016,Cereza,Lapins,Macroferia Regional de Talca,200,Primera,924,924,924,$/caja 10 kilos
-02/12/2016,Cereza,Lapins,Macroferia Regional de Talca,110,Segunda,756,756,756,$/caja 10 kilos
-02/12/2016,Mel√≥n,Calame√±o,Feria Lagunitas de Puerto Montt,50,Extra (muy buena),7.563,7.563,7.563,$/caja 12 unidades
-02/12/2016,Mel√≥n,Tuna,Feria Lagunitas de Puerto Montt,30,Extra (muy buena),7.563,7.563,7.563,$/caja 12 unidades
-02/12/2016,Papa,Patagonia,Feria Lagunitas de Puerto Montt,100,1a nueva(o),10.924,11.345,11.765,$/saco 50 kilos
-02/12/2016,Papa,Pukar√°,Feria Lagunitas de Puerto Montt,100,1a nueva(o),10.924,11.345,11.765,$/saco 50 kilos
-02/12/2016,Ciruela,Early Queen,Macroferia Regional de Talca,200,Segunda,6.723,6.723,6.723,$/caja 15 kilos granel
-02/12/2016,Ciruela,Early Queen,Macroferia Regional de Talca,140,Tercera,5.882,5.882,5.882,$/caja 15 kilos granel
-02/12/2016,Pepino ensalada,Sin especificar,Feria Lagunitas de Puerto Montt,90,Primera,7.563,7.563,7.563,$/caja 80 unidades
-02/12/2016,Perejil,Sin especificar,Feria Lagunitas de Puerto Montt,80,Primera,2.521,2.521,2.521,$/docena de atados
-02/12/2016,Pimiento,Zafiro rojo,Feria Lagunitas de Puerto Montt,70,Primera,8.403,8.403,8.403,$/caja 15 kilos
-02/12/2016,Pimiento,Zafiro verde,Feria Lagunitas de Puerto Montt,70,Primera,8.403,8.403,8.403,$/caja 18 kilos
-02/12/2016,Durazno,Manon,Macroferia Regional de Talca,210,Segunda,8.403,8.403,8.403,$/caja 15 kilos empedrada
-02/12/2016,Durazno,Manon,Macroferia Regional de Talca,80,Tercera,5.882,5.882,5.882,$/caja 15 kilos granel
-02/12/2016,Frutilla,Sin especificar,Macroferia Regional de Talca,350,Especial,5.042,5.042,5.042,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Macroferia Regional de Talca,200,Especial,5.042,5.042,5.042,$/caja 7 kilos
-02/12/2016,Repollo,Copenhague,Feria Lagunitas de Puerto Montt,400,Primera,672,714,756,$/unidad
-02/12/2016,Repollo,Copenhague,Feria Lagunitas de Puerto Montt,200,Segunda,588,588,588,$/unidad
-02/12/2016,Repollo,Crespo record,Feria Lagunitas de Puerto Montt,400,Primera,672,714,756,$/unidad
-02/12/2016,Repollo,Crespo record,Feria Lagunitas de Puerto Montt,200,Segunda,588,588,588,$/unidad
-02/12/2016,Repollo,Morada(o),Feria Lagunitas de Puerto Montt,150,Primera,756,756,756,$/unidad
-02/12/2016,Frutilla,Sin especificar,Macroferia Regional de Talca,200,Primera,4.202,4.202,4.202,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Macroferia Regional de Talca,190,Primera,4.202,4.202,4.202,$/caja 7 kilos
-02/12/2016,Lim√≥n,Sin especificar,Macroferia Regional de Talca,310,1a amarillo,9.244,9.244,9.244,$/malla 16 kilos
-02/12/2016,Lim√≥n,Sin especificar,Macroferia Regional de Talca,400,1a plateado,10.084,10.084,10.084,$/malla 16 kilos
-02/12/2016,Repollo,Morada(o),Feria Lagunitas de Puerto Montt,150,Segunda,588,588,588,$/unidad
-02/12/2016,Sandia,Sin especificar,Feria Lagunitas de Puerto Montt,100,Primera,672,672,672,$/kilo (volumen en unidades)
-02/12/2016,Tomate,Larga vida,Feria Lagunitas de Puerto Montt,500,Primera,7.563,7.983,8.403,$/caja 18 kilos
-02/12/2016,Tomate,Larga vida,Feria Lagunitas de Puerto Montt,240,Primera,7.563,7.983,8.403,$/caja 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Macroferia Regional de Talca,320,1a plateado,10.084,10.084,10.084,$/malla 16 kilos
-02/12/2016,Lim√≥n,Sin especificar,Macroferia Regional de Talca,200,2a amarillo,8.403,8.403,8.403,$/malla 16 kilos
-02/12/2016,Mango,Sin especificar,Macroferia Regional de Talca,210,Primera,4.622,4.622,4.622,$/bandeja 4 kilos
-02/12/2016,Naranja,Valencia,Macroferia Regional de Talca,300,Primera,4.622,4.622,4.622,$/caja 15 kilos granel
-02/12/2016,Nectar√≠n,Early John,Macroferia Regional de Talca,350,Especial,10.084,10.084,10.084,$/caja 15 kilos empedrada
-02/12/2016,Tomate,Larga vida,Feria Lagunitas de Puerto Montt,120,Segunda,5.882,5.882,5.882,$/caja 18 kilos
-02/12/2016,Zanahoria,Sin especificar,Feria Lagunitas de Puerto Montt,160,Primera,15.966,16.387,16.807,$/saco 40 kilos
-02/12/2016,Zapallo,Jamboree,Feria Lagunitas de Puerto Montt,600,1a nueva(o),504,525,546,$/kilo (volumen en unidades)
-02/12/2016,Nectar√≠n,Early John,Macroferia Regional de Talca,210,Primera,9.244,9.244,9.244,$/caja 15 kilos empedrada
-02/12/2016,Nectar√≠n,Early John,Macroferia Regional de Talca,150,Segunda,8.403,8.403,8.403,$/caja 15 kilos empedrada
-02/12/2016,Zapallo,Jamboree,Feria Lagunitas de Puerto Montt,300,2a nueva(o),420,420,420,$/kilo (volumen en unidades)
-02/12/2016,Zapallo italiano,Sin especificar,Feria Lagunitas de Puerto Montt,180,Primera,5.882,6.303,6.723,$/caja 70 unidades
-02/12/2016,Nectar√≠n,Early John,Macroferia Regional de Talca,100,Tercera,7.563,7.563,7.563,$/caja 15 kilos granel
-02/12/2016,Zapallo italiano,Sin especificar,Feria Lagunitas de Puerto Montt,90,Segunda,4.202,4.202,4.202,$/caja 70 unidades
-02/12/2016,Acelga,Sin especificar,Macroferia Regional de Talca,2.000,Primera,1.008,1.008,1.008,"$/atado 1 a 1,5 kilos"
-02/12/2016,Ajo,Chino,Macroferia Regional de Talca,500,Primera,15.966,15.966,15.966,$/caja 10 kilos
-02/12/2016,Apio,Americana (o),Macroferia Regional de Talca,1.000,Primera,6.723,6.723,6.723,$/docena de matas
-02/12/2016,Arveja Verde,Sin especificar,Macroferia Regional de Talca,1.000,Primera,9.244,9.244,9.244,$/saco 30 kilos
-02/12/2016,Palta,Hass,Macroferia Regional de Talca,220,Cuarta,588,588,588,$/kilo (en caja de 8 kilos )
-02/12/2016,Palta,Hass,Macroferia Regional de Talca,100,Especial,1.261,1.261,1.261,$/kilo (en caja de 20 kilos)
-02/12/2016,Palta,Hass,Macroferia Regional de Talca,120,Primera,1.092,1.092,1.092,$/kilo (en caja de 20 kilos)
-02/12/2016,Palta,Hass,Macroferia Regional de Talca,500,Primera,1.092,1.092,1.092,$/kilo (en caja de 8 kilos )
-02/12/2016,Arveja Verde,Sin especificar,Macroferia Regional de Talca,500,Primera,7.563,7.563,7.563,$/saco 30 kilos
-02/12/2016,Betarraga,Sin especificar,Macroferia Regional de Talca,5.000,Primera,504,504,504,$/paquete 5 unidades
-02/12/2016,Betarraga,Sin especificar,Macroferia Regional de Talca,5.000,Segunda,420,420,420,$/paquete 5 unidades
-02/12/2016,Betarraga,Sin especificar,Macroferia Regional de Talca,2.000,Tercera,252,252,252,$/paquete 5 unidades
-02/12/2016,Palta,Hass,Macroferia Regional de Talca,80,Segunda,1.008,1.008,1.008,$/kilo (en caja de 20 kilos)
-02/12/2016,Palta,Hass,Macroferia Regional de Talca,450,Segunda,924,924,924,$/kilo (en caja de 8 kilos )
-02/12/2016,Palta,Hass,Macroferia Regional de Talca,300,Tercera,756,756,756,$/kilo (en caja de 8 kilos )
-02/12/2016,Pi√±a,Caramelo,Macroferia Regional de Talca,120,Segunda,13.025,13.025,13.025,$/caja 14 unidades
-02/12/2016,Br√≥coli,Sin especificar,Macroferia Regional de Talca,8.000,Primera,294,294,294,$/unidad
-02/12/2016,Br√≥coli,Sin especificar,Macroferia Regional de Talca,2.000,Segunda,168,168,168,$/unidad
-02/12/2016,Cebolla,Sin especificar,Macroferia Regional de Talca,100.000,1a nueva(o),1.261,1.303,1.345,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Pl√°tano,Sin especificar,Macroferia Regional de Talca,300,Maduro,7.563,7.563,7.563,$/caja 20 kilos
-02/12/2016,Pl√°tano,Sin especificar,Macroferia Regional de Talca,910,Pint√≥n,8.403,8.403,8.403,$/caja 20 kilos
-02/12/2016,Cebolla,Sin especificar,Macroferia Regional de Talca,3.000,Primera,2.521,2.521,2.521,$/malla 18 kilos
-02/12/2016,Choclo,Choclero,Macroferia Regional de Talca,20.000,Primera,126,126,126,$/unidad
-02/12/2016,Choclo,Choclero,Macroferia Regional de Talca,3.000,Segunda,84,84,84,$/unidad
-02/12/2016,Uva,Flame Seedless,Macroferia Regional de Talca,110,Primera,11.765,11.765,11.765,$/bandeja 12 kilos
-02/12/2016,Coliflor,Sin especificar,Macroferia Regional de Talca,8.000,Primera,336,336,336,$/unidad
-02/12/2016,Coliflor,Sin especificar,Macroferia Regional de Talca,2.000,Segunda,210,210,210,$/unidad
-02/12/2016,Haba,Sin especificar,Macroferia Regional de Talca,200,Primera,8.403,8.403,8.403,$/saco 30 kilos
-02/12/2016,Lechuga,Conconina(o),Macroferia Regional de Talca,1.500,Primera,2.941,2.941,2.941,$/caja 20 unidades
-02/12/2016,Cereza,Lapins,Terminal Hortofrut√≠cola de Chill√°n,100,Primera,10.924,11.345,11.765,$/caja 13 kilos
-02/12/2016,Cereza,Lapins,Terminal Hortofrut√≠cola de Chill√°n,50,Segunda,9.244,9.580,10.084,$/caja 13 kilos
-02/12/2016,Cereza,Santina,Terminal Hortofrut√≠cola de Chill√°n,50,Primera,9.664,9.874,10.084,$/bandeja 10 kilos
-02/12/2016,Cereza,Santina,Terminal Hortofrut√≠cola de Chill√°n,30,Segunda,7.563,7.983,8.403,$/bandeja 10 kilos
-02/12/2016,Damasco,Castle Brite,Terminal Hortofrut√≠cola de Chill√°n,50,Primera,9.244,9.580,10.084,$/caja 16 kilos granel
-02/12/2016,Lechuga,Escarola,Macroferia Regional de Talca,2.000,Primera,2.521,2.521,2.521,$/caja 15 unidades
-02/12/2016,Lechuga,Milanesa,Macroferia Regional de Talca,1.000,Primera,2.941,2.941,2.941,$/caja 25 unidades
-02/12/2016,Papa,Pukar√°,Macroferia Regional de Talca,800,1a nueva(o),4.202,4.622,5.042,$/saco 50 kilos
-02/12/2016,Papa,Rosara,Macroferia Regional de Talca,1.000,1a nueva(o),5.042,5.462,5.882,$/saco 50 kilos
-02/12/2016,Damasco,Castle Brite,Terminal Hortofrut√≠cola de Chill√°n,35,Segunda,7.563,7.923,8.403,$/caja 16 kilos granel
-02/12/2016,Durazno,Florida King,Terminal Hortofrut√≠cola de Chill√°n,50,Primera,9.244,9.580,10.084,$/caja 16 kilos empedrada
-02/12/2016,Pepino ensalada,Sin especificar,Macroferia Regional de Talca,3.000,Primera,5.042,5.042,5.042,$/caja 80 unidades
-02/12/2016,Pepino ensalada,Sin especificar,Macroferia Regional de Talca,500,Segunda,3.361,3.361,3.361,$/caja 110 unidades
-02/12/2016,Pimiento,Zafiro rojo,Macroferia Regional de Talca,800,Primera,5.882,5.882,5.882,$/caja 15 kilos
-02/12/2016,Durazno,Florida King,Terminal Hortofrut√≠cola de Chill√°n,108,Segunda,7.563,7.952,8.403,$/caja 16 kilos empedrada
-02/12/2016,Frutilla,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,50,Especial,5.042,5.210,5.462,$/caja 7 kilos
-02/12/2016,Pimiento,Zafiro verde,Macroferia Regional de Talca,1.000,Primera,6.723,6.723,6.723,$/caja 15 kilos
-02/12/2016,Pimiento,Zafiro verde,Macroferia Regional de Talca,800,Primera,5.882,5.882,5.882,$/caja 15 kilos
-02/12/2016,Poroto granado,Sin especificar,Macroferia Regional de Talca,50,Primera,33.613,33.613,33.613,$/saco 30 kilos
-02/12/2016,Poroto verde,Sin especificar,Macroferia Regional de Talca,2.000,Primera,7.563,7.563,7.563,$/saco 30 kilos
-02/12/2016,Frutilla,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,100,Primera,4.202,4.412,4.622,$/caja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,50,Segunda,2.941,3.109,3.361,$/caja 7 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,80,1a amarillo,9.244,9.244,9.244,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,120,1a plateado,10.084,10.504,10.924,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,60,2a amarillo,9.664,9.664,9.664,$/malla 18 kilos
-02/12/2016,Repollo,Crespo record,Macroferia Regional de Talca,10.000,Primera,504,504,504,$/unidad
-02/12/2016,Repollo,Crespo record,Macroferia Regional de Talca,5.000,Segunda,420,420,420,$/unidad
-02/12/2016,Repollo,Crespo record,Macroferia Regional de Talca,2.000,Tercera,252,252,252,$/unidad
-02/12/2016,Sandia,Sin especificar,Macroferia Regional de Talca,5.000,Primera,252,252,252,$/kilo (volumen en unidades)
-02/12/2016,Tomate,Larga vida,Macroferia Regional de Talca,15.000,Primera,2.941,2.941,2.941,$/caja 15 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,50,2a plateado,9.244,9.244,9.244,$/malla 18 kilos
-02/12/2016,Manzana,Fuji royal,Terminal Hortofrut√≠cola de Chill√°n,50,Especial,7.983,8.151,8.403,$/caja 16 kilos empedrada
-02/12/2016,Manzana,Fuji royal,Terminal Hortofrut√≠cola de Chill√°n,50,Primera,6.303,6.471,6.723,$/caja 16 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Terminal Hortofrut√≠cola de Chill√°n,50,Especial,7.983,8.151,8.403,$/caja 16 kilos empedrada
-02/12/2016,Tomate,Larga vida,Macroferia Regional de Talca,5.000,Segunda,2.101,2.101,2.101,$/caja 15 kilos
-02/12/2016,Tomate,Larga vida,Macroferia Regional de Talca,2.000,Tercera,1.261,1.261,1.261,$/caja 15 kilos
-02/12/2016,Zanahoria,Sin especificar,Macroferia Regional de Talca,500,Primera,9.244,9.244,9.244,$/saco 40 kilos
-02/12/2016,Zapallo italiano,Sin especificar,Macroferia Regional de Talca,2.000,Primera,2.521,2.521,2.521,$/caja 70 unidades
-02/12/2016,Tomate,Larga vida,Mapocho venta directa de Santiago,1.270,Primera,4.202,4.397,4.622,$/bandeja 18 kilos
-02/12/2016,Manzana,Granny Smith,Terminal Hortofrut√≠cola de Chill√°n,100,Primera,6.303,6.513,6.723,$/caja 16 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Terminal Hortofrut√≠cola de Chill√°n,50,Segunda,5.462,5.630,5.882,$/caja 16 kilos empedrada
-02/12/2016,Palta,Hass,Terminal Hortofrut√≠cola de Chill√°n,50,Especial,1.513,1.546,1.597,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Terminal Hortofrut√≠cola de Chill√°n,50,Primera,1.345,1.378,1.429,$/kilo (en caja de 15 kilos)
-02/12/2016,Tomate,Larga vida,Mapocho venta directa de Santiago,1.130,Segunda,2.941,3.138,3.361,$/bandeja 18 kilos
-02/12/2016,Tomate,Larga vida,Mapocho venta directa de Santiago,930,Tercera,1.681,1.884,2.101,$/bandeja 18 kilos
-02/12/2016,Ajo,Chino,Terminal Hortofrut√≠cola de Chill√°n,7.000,1a nueva(o),2.101,2.101,2.101,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Ajo,Chino,Terminal Hortofrut√≠cola de Chill√°n,5.000,2a nueva(o),1.681,1.681,1.681,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Ajo,Chino,Terminal Hortofrut√≠cola de Chill√°n,2.000,3a nueva (o),1.261,1.261,1.261,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Palta,Hass,Terminal Hortofrut√≠cola de Chill√°n,50,Segunda,1.176,1.210,1.261,$/kilo (en caja de 15 kilos)
-02/12/2016,Aj√≠,Americana (o),Terminal Hortofrut√≠cola de Chill√°n,50,Primera,588,630,672,$/kilo
-02/12/2016,Pl√°tano,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,620,Pint√≥n,7.143,7.346,7.563,$/caja 20 kilos
-02/12/2016,Ar√°ndano (blue),Sin especificar,Terminal La Palmera de La Serena,240,Primera,4.202,4.412,4.622,$/bandeja 2 kilos
-02/12/2016,Cereza,Bing,Terminal La Palmera de La Serena,340,Primera,15.966,16.176,16.387,$/bandeja 10 kilos
-02/12/2016,Cereza,Bing,Terminal La Palmera de La Serena,260,Segunda,14.286,14.496,14.706,$/bandeja 10 kilos
-02/12/2016,Cereza,Coraz√≥n de paloma,Terminal La Palmera de La Serena,340,Especial,14.706,14.916,15.126,$/caja 15 kilos
-02/12/2016,Apio,Americana (o),Terminal Hortofrut√≠cola de Chill√°n,100,Primera,6.723,6.891,7.143,$/docena de matas
-02/12/2016,Arveja Verde,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,33,Primera,6.723,6.977,7.563,$/saco 35 kilos
-02/12/2016,Betarraga,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,270,Primera,420,458,504,$/paquete 5 unidades
-02/12/2016,Betarraga,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,230,Segunda,336,336,336,$/paquete 5 unidades
-02/12/2016,Cereza,Coraz√≥n de paloma,Terminal La Palmera de La Serena,300,Primera,13.025,13.235,13.445,$/caja 15 kilos
-02/12/2016,Cereza,Lapins,Terminal La Palmera de La Serena,340,Primera,16.387,16.597,16.807,$/caja 15 kilos
-02/12/2016,Cereza,Lapins,Terminal La Palmera de La Serena,240,Segunda,14.706,14.916,15.126,$/caja 15 kilos
-02/12/2016,Cereza,Rainier,Terminal La Palmera de La Serena,360,Primera,15.966,16.176,16.387,$/bandeja 10 kilos
-02/12/2016,Br√≥coli,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,2.000,Primera,378,405,420,$/unidad
-02/12/2016,Br√≥coli,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,900,Segunda,294,294,294,$/unidad
-02/12/2016,Cereza,Rainier,Terminal La Palmera de La Serena,260,Segunda,14.286,14.496,14.706,$/bandeja 10 kilos
-02/12/2016,Chirimoya,Cultivar IV Regi√≥n,Terminal La Palmera de La Serena,200,Especial,6.303,6.513,6.723,$/bandeja 8 kilos
-02/12/2016,Chirimoya,Cultivar IV Regi√≥n,Terminal La Palmera de La Serena,120,Primera,4.622,4.832,5.042,$/bandeja 8 kilos
-02/12/2016,Cebolla,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,14.000,1a nueva(o),1.513,1.621,1.681,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Cebolla,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,11.000,2a nueva(o),1.092,1.199,1.261,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Chirimoya,Cultivar IV Regi√≥n,Terminal La Palmera de La Serena,120,Segunda,2.941,3.151,3.361,$/bandeja 8 kilos
-02/12/2016,Damasco,Castle Brite,Terminal La Palmera de La Serena,400,Especial,16.387,16.597,16.807,$/caja 18 kilos granel
-02/12/2016,Cebolla,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,9.000,3a nueva (o),672,784,840,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Choclo,Choclero,Terminal Hortofrut√≠cola de Chill√°n,3.500,Primera,109,115,118,$/unidad
-02/12/2016,Choclo,Choclero,Terminal Hortofrut√≠cola de Chill√°n,2.300,Segunda,84,84,84,$/unidad
-02/12/2016,Coliflor,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,1.500,Primera,378,401,420,$/unidad
-02/12/2016,Damasco,Castle Brite,Terminal La Palmera de La Serena,320,Primera,14.706,14.916,15.126,$/caja 18 kilos granel
-02/12/2016,Damasco,Castle Brite,Terminal La Palmera de La Serena,280,Segunda,13.025,13.235,13.445,$/caja 18 kilos granel
-02/12/2016,Damasco,Dina,Terminal La Palmera de La Serena,340,Especial,15.966,16.176,16.387,$/caja 18 kilos granel
-02/12/2016,Damasco,Dina,Terminal La Palmera de La Serena,260,Primera,14.286,14.496,14.706,$/caja 18 kilos granel
-02/12/2016,Coliflor,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,1.200,Segunda,294,308,336,$/unidad
-02/12/2016,Espinaca,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,15,Primera,5.882,6.106,6.303,$/cuna 10 kilos
-02/12/2016,Lechuga,Escarola,Terminal Hortofrut√≠cola de Chill√°n,70,Primera,2.941,3.181,3.361,$/caja 15 unidades
-02/12/2016,Damasco,Dina,Terminal La Palmera de La Serena,200,Segunda,12.605,12.815,13.025,$/caja 18 kilos granel
-02/12/2016,Damasco,Modesto,Terminal La Palmera de La Serena,360,Especial,16.387,16.597,16.807,$/caja 18 kilos granel
-02/12/2016,Damasco,Modesto,Terminal La Palmera de La Serena,300,Primera,14.706,14.916,15.126,$/caja 18 kilos granel
-02/12/2016,Damasco,Modesto,Terminal La Palmera de La Serena,200,Segunda,13.025,13.235,13.445,$/caja 18 kilos granel
-02/12/2016,Lechuga,Escarola,Terminal Hortofrut√≠cola de Chill√°n,60,Segunda,2.101,2.276,2.521,$/caja 18 unidades
-02/12/2016,Papa,Asterix,Terminal Hortofrut√≠cola de Chill√°n,200,1a nueva(o),7.143,7.437,7.563,$/saco 50 kilos
-02/12/2016,Papa,Asterix,Terminal Hortofrut√≠cola de Chill√°n,180,2a nueva(o),5.882,6.069,6.303,$/saco 50 kilos
-02/12/2016,Durazno,Crown princess,Terminal La Palmera de La Serena,340,Primera,13.025,13.235,13.445,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Crown princess,Terminal La Palmera de La Serena,300,Segunda,11.345,11.555,11.765,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Rich Lady,Terminal La Palmera de La Serena,300,Primera,13.025,13.235,13.445,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Rich Lady,Terminal La Palmera de La Serena,260,Segunda,11.345,11.555,11.765,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Springcrest,Terminal La Palmera de La Serena,320,Especial,14.706,14.916,15.126,$/caja 16 kilos empedrada
-02/12/2016,Pepino ensalada,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,41,Primera,5.882,6.118,6.303,$/caja 80 unidades
-02/12/2016,Pepino ensalada,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,28,Segunda,5.462,5.642,5.882,$/caja 100 unidades
-02/12/2016,Pimiento,Zafiro verde,Terminal Hortofrut√≠cola de Chill√°n,40,Primera,6.723,6.912,7.143,$/caja 15 kilos
-02/12/2016,Pimiento,Zafiro verde,Terminal Hortofrut√≠cola de Chill√°n,33,Segunda,5.882,6.073,6.303,$/caja 15 kilos
-02/12/2016,Durazno,Springcrest,Terminal La Palmera de La Serena,260,Primera,13.025,13.235,13.445,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Springcrest,Terminal La Palmera de La Serena,200,Segunda,11.345,11.555,11.765,$/caja 16 kilos empedrada
-02/12/2016,Frutilla,Sin especificar,Terminal La Palmera de La Serena,320,Especial,10.504,10.714,10.924,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Terminal La Palmera de La Serena,240,Primera,8.824,9.034,9.244,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Terminal La Palmera de La Serena,200,Segunda,7.143,7.353,7.563,$/bandeja 7 kilos
-02/12/2016,Repollo,Crespo record,Terminal Hortofrut√≠cola de Chill√°n,2.200,Primera,378,401,420,$/unidad
-02/12/2016,Repollo,Crespo record,Terminal Hortofrut√≠cola de Chill√°n,1.000,Segunda,336,336,336,$/unidad
-02/12/2016,Sandia,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,200,Extra (muy buena),504,504,504,$/kilo (volumen en unidades)
-02/12/2016,Sandia,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,300,Primera,420,420,420,$/kilo (volumen en unidades)
-02/12/2016,Lim√≥n,Sin especificar,Terminal La Palmera de La Serena,530,1a amarillo,7.563,7.787,7.983,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal La Palmera de La Serena,470,1a plateado,7.983,8.216,8.403,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal La Palmera de La Serena,420,2a amarillo,5.210,5.432,5.630,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal La Palmera de La Serena,390,2a plateado,5.714,6.044,6.303,$/malla 18 kilos
-02/12/2016,Tomate,Larga vida,Terminal Hortofrut√≠cola de Chill√°n,70,Primera,4.202,4.202,4.202,$/caja 15 kilos
-02/12/2016,Tomate,Larga vida,Terminal Hortofrut√≠cola de Chill√°n,67,Primera,5.042,5.243,5.462,$/caja 18 kilos
-02/12/2016,Tomate,Larga vida,Terminal Hortofrut√≠cola de Chill√°n,50,Segunda,3.361,3.361,3.361,$/caja 15 kilos
-02/12/2016,Tomate,Larga vida,Terminal Hortofrut√≠cola de Chill√°n,73,Segunda,3.361,3.523,3.782,$/caja 18 kilos
-02/12/2016,Tomate,Larga vida,Terminal Hortofrut√≠cola de Chill√°n,30,Tercera,2.101,2.101,2.101,$/caja 15 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal La Palmera de La Serena,490,3a amarillo,3.193,3.919,5.462,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Terminal La Palmera de La Serena,280,3a plateado,3.866,4.034,4.202,$/malla 18 kilos
-02/12/2016,Mandarina,Murcott,Terminal La Palmera de La Serena,340,Especial,4.622,4.832,5.042,$/caja 12 kilos granel
-02/12/2016,Mandarina,Murcott,Terminal La Palmera de La Serena,320,Primera,3.782,3.992,4.202,$/caja 12 kilos granel
-02/12/2016,Tomate,Larga vida,Terminal Hortofrut√≠cola de Chill√°n,50,Tercera,1.681,1.891,2.101,$/caja 18 kilos
-02/12/2016,Zanahoria,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,75,Primera,10.084,10.364,10.924,$/saco 40 kilos
-02/12/2016,Zapallo italiano,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,47,Primera,4.202,4.649,5.042,$/caja 70 unidades
-02/12/2016,Zapallo italiano,Sin especificar,Terminal Hortofrut√≠cola de Chill√°n,30,Segunda,3.782,3.950,4.202,$/caja 100 unidades
-02/12/2016,Mandarina,Murcott,Terminal La Palmera de La Serena,260,Segunda,2.941,3.151,3.361,$/caja 12 kilos granel
-02/12/2016,Acelga,Sin especificar,Terminal La Palmera de La Serena,800,Primera,378,399,420,$/atado
-02/12/2016,Mandarina,Murcott,Terminal La Palmera de La Serena,200,Tercera,2.101,2.311,2.521,$/caja 12 kilos granel
-02/12/2016,Mango,Sin especificar,Terminal La Palmera de La Serena,320,Especial,4.202,4.412,4.622,$/bandeja 4 kilos
-02/12/2016,Mango,Sin especificar,Terminal La Palmera de La Serena,300,Primera,4.202,4.412,4.622,$/bandeja 4 kilos
-02/12/2016,Manzana,Fuji royal,Terminal La Palmera de La Serena,20,Primera,205.882,207.983,210.084,$/bins (400 kilos)
-02/12/2016,Manzana,Fuji royal,Terminal La Palmera de La Serena,20,Segunda,193.277,195.378,197.479,$/bins (400 kilos)
-02/12/2016,Ajo,Chino,Terminal La Palmera de La Serena,200,Primera,18.319,18.403,18.487,$/caja 10 kilos
-02/12/2016,Aj√≠,Americana (o),Terminal La Palmera de La Serena,170,Primera,6.303,6.513,6.723,$/caja 15 kilos
-02/12/2016,Manzana,Granny Smith,Terminal La Palmera de La Serena,20,Primera,201.681,203.782,205.882,$/bins (400 kilos)
-02/12/2016,Manzana,Granny Smith,Terminal La Palmera de La Serena,20,Segunda,189.076,191.176,193.277,$/bins (400 kilos)
-02/12/2016,Manzana,Royal Gala,Terminal La Palmera de La Serena,20,Primera,205.882,207.983,210.084,$/bins (400 kilos)
-02/12/2016,Manzana,Royal Gala,Terminal La Palmera de La Serena,20,Segunda,193.277,195.378,197.479,$/bins (400 kilos)
-02/12/2016,Albahaca,Sin especificar,Terminal La Palmera de La Serena,740,Primera,1.681,1.723,1.765,$/paquete
-02/12/2016,Apio,Americana (o),Terminal La Palmera de La Serena,760,Primera,7.563,7.773,7.983,$/docena de matas
-02/12/2016,Berenjena,Sin especificar,Terminal La Palmera de La Serena,150,Primera,10.084,10.294,10.504,$/caja 60 unidades
-02/12/2016,Naranja,Lane Late,Terminal La Palmera de La Serena,20,Primera,100.840,102.941,105.042,$/bins (400 kilos)
-02/12/2016,Naranja,Lane Late,Terminal La Palmera de La Serena,20,Segunda,92.437,94.538,96.639,$/bins (400 kilos)
-02/12/2016,Br√≥coli,Sin especificar,Terminal La Palmera de La Serena,800,Primera,378,399,420,$/unidad
-02/12/2016,Naranja,Navel Late,Terminal La Palmera de La Serena,20,Primera,100.840,102.941,105.042,$/bins (400 kilos)
-02/12/2016,Naranja,Navel Late,Terminal La Palmera de La Serena,20,Segunda,92.437,94.538,96.639,$/bins (400 kilos)
-02/12/2016,Naranja,Valencia,Terminal La Palmera de La Serena,20,Primera,100.840,102.941,105.042,$/bins (400 kilos)
-02/12/2016,Naranja,Valencia,Terminal La Palmera de La Serena,20,Segunda,92.437,94.538,96.639,$/bins (400 kilos)
-02/12/2016,Br√≥coli,Sin especificar,Terminal La Palmera de La Serena,600,Segunda,294,315,336,$/unidad
-02/12/2016,Nectar√≠n,Early Glo,Terminal La Palmera de La Serena,340,Primera,13.866,14.076,14.286,$/caja 12 kilos empedrada
-02/12/2016,Nectar√≠n,Early Glo,Terminal La Palmera de La Serena,240,Segunda,12.185,12.395,12.605,$/caja 12 kilos empedrada
-02/12/2016,Nectar√≠n,May Glo,Terminal La Palmera de La Serena,320,Especial,13.866,14.076,14.286,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,May Glo,Terminal La Palmera de La Serena,260,Primera,12.185,12.395,12.605,$/caja 16 kilos empedrada
-02/12/2016,Cebolla,Sin especificar,Terminal La Palmera de La Serena,600,1a nueva(o),4.202,4.412,4.622,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Terminal La Palmera de La Serena,1.000,Primera,4.874,4.958,5.042,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Terminal La Palmera de La Serena,800,Segunda,4.034,4.118,4.202,$/malla 18 kilos
-02/12/2016,Ceboll√≠n,Sin especificar,Terminal La Palmera de La Serena,740,Primera,630,651,672,$/paquete 6 unidades
-02/12/2016,Nectar√≠n,May Glo,Terminal La Palmera de La Serena,200,Segunda,10.504,10.714,10.924,$/caja 16 kilos empedrada
-02/12/2016,Choclo,Choclero,Terminal La Palmera de La Serena,20.000,Primera,160,164,168,$/unidad
-02/12/2016,Choclo,Dulce o Americano,Terminal La Palmera de La Serena,120,Primera,7.143,7.353,7.563,$/malla 70 unidades
-02/12/2016,Choclo,Dulce o Americano,Terminal La Palmera de La Serena,24.000,Primera,118,122,126,$/unidad
-02/12/2016,Choclo,Dulce o Americano,Terminal La Palmera de La Serena,14.000,Segunda,76,80,84,$/unidad
-02/12/2016,Nectar√≠n,Nectar Crest,Terminal La Palmera de La Serena,300,Primera,14.286,14.496,14.706,$/caja 14 kilos empedrada
-02/12/2016,Nectar√≠n,Nectar Crest,Terminal La Palmera de La Serena,200,Segunda,12.605,12.815,13.025,$/caja 14 kilos empedrada
-02/12/2016,Palta,Hass,Terminal La Palmera de La Serena,360,Primera,1.471,1.492,1.513,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Terminal La Palmera de La Serena,260,Segunda,1.303,1.324,1.345,$/kilo (en caja de 15 kilos)
-02/12/2016,Coliflor,Sin especificar,Terminal La Palmera de La Serena,800,Primera,378,399,420,$/unidad
-02/12/2016,Coliflor,Sin especificar,Terminal La Palmera de La Serena,600,Segunda,294,315,336,$/unidad
-02/12/2016,Espinaca,Sin especificar,Terminal La Palmera de La Serena,600,Primera,2.689,2.815,2.941,$/docena de atados 3 kilos
-02/12/2016,Lechuga,Conconina(o),Terminal La Palmera de La Serena,260,Primera,2.521,2.605,2.689,$/caja 10 unidades
-02/12/2016,Lechuga,Escarola,Terminal La Palmera de La Serena,400,Primera,4.454,4.538,4.622,$/caja 15 unidades
-02/12/2016,Palta,Hass,Terminal La Palmera de La Serena,200,Tercera,1.050,1.071,1.092,$/kilo (en caja de 15 kilos)
-02/12/2016,Pi√±a,Caramelo,Terminal La Palmera de La Serena,216,Especial,16.387,16.597,16.807,$/caja 10 unidades
-02/12/2016,Lechuga,Escarola,Terminal La Palmera de La Serena,240,Segunda,3.361,3.445,3.529,$/caja 18 unidades
-02/12/2016,Lechuga,Marina,Terminal La Palmera de La Serena,200,Primera,4.034,4.118,4.202,$/caja 18 unidades
-02/12/2016,Lechuga,Milanesa,Terminal La Palmera de La Serena,200,Primera,4.034,4.118,4.202,$/caja 20 unidades
-02/12/2016,Mel√≥n,Tuna,Terminal La Palmera de La Serena,800,Extra (muy buena),966,987,1.008,$/unidad
-02/12/2016,Pi√±a,Caramelo,Terminal La Palmera de La Serena,216,Primera,16.387,16.597,16.807,$/caja 12 unidades
-02/12/2016,Pi√±a,Caramelo,Terminal La Palmera de La Serena,216,Segunda,16.387,16.597,16.807,$/caja 14 unidades
-02/12/2016,Pl√°tano,Sin especificar,Terminal La Palmera de La Serena,80,Maduro,9.244,9.244,9.244,$/caja 20 kilos
-02/12/2016,Pl√°tano,Sin especificar,Terminal La Palmera de La Serena,240,Pint√≥n,9.664,9.874,10.084,$/caja 20 kilos
-02/12/2016,Mel√≥n,Tuna,Terminal La Palmera de La Serena,560,Primera,798,819,840,$/unidad
-02/12/2016,Papa,Asterix,Terminal La Palmera de La Serena,1.000,1a nueva(o),10.924,11.345,11.765,$/saco 50 kilos
-02/12/2016,Papa,Cardinal,Terminal La Palmera de La Serena,540,1a (cosecha),11.345,11.555,11.765,$/saco 50 kilos
-02/12/2016,Pepino ensalada,Sin especificar,Terminal La Palmera de La Serena,280,Primera,5.714,5.798,5.882,$/caja 60 unidades
-02/12/2016,Pepino ensalada,Sin especificar,Terminal La Palmera de La Serena,240,Primera,6.050,6.176,6.303,$/caja 70 unidades
-02/12/2016,Uva,Superior Seedless,Terminal La Palmera de La Serena,200,Primera,10.504,10.714,10.924,$/bandeja 10 kilos
-02/12/2016,Ar√°ndano (blue),Sin especificar,Vega Central Mapocho de Santiago,280,Primera,2.521,2.521,2.521,$/bandeja 12 canastillos 125 gramos
-02/12/2016,Cereza,Rainier,Vega Central Mapocho de Santiago,60,Primera,8.403,8.403,8.403,$/caja 10 kilos
-02/12/2016,Cereza,Rainier,Vega Central Mapocho de Santiago,80,Segunda,7.563,7.563,7.563,$/caja 10 kilos
-02/12/2016,Pimiento,Cuatro cascos rojo,Terminal La Palmera de La Serena,280,Primera,7.815,7.899,7.983,$/caja 15 kilos
-02/12/2016,Pimiento,Cuatro cascos rojo,Terminal La Palmera de La Serena,200,Segunda,5.882,5.966,6.050,$/caja 15 kilos
-02/12/2016,Cereza,Rainier,Vega Central Mapocho de Santiago,70,Tercera,5.882,5.882,5.882,$/caja 10 kilos
-02/12/2016,Cereza,Royal Dawn,Vega Central Mapocho de Santiago,70,Primera,7.983,7.983,7.983,$/caja 10 kilos
-02/12/2016,Cereza,Royal Dawn,Vega Central Mapocho de Santiago,100,Segunda,7.143,7.143,7.143,$/caja 10 kilos
-02/12/2016,Cereza,Royal Dawn,Vega Central Mapocho de Santiago,90,Tercera,5.462,5.462,5.462,$/caja 10 kilos
-02/12/2016,Pimiento,Cuatro cascos verde,Terminal La Palmera de La Serena,200,Primera,5.462,5.672,5.882,$/caja 15 kilos
-02/12/2016,Ciruela,Red Beaut,Vega Central Mapocho de Santiago,27,Primera,8.403,8.403,8.403,$/caja 18 kilos granel
-02/12/2016,Damasco,Dina,Vega Central Mapocho de Santiago,60,Especial,9.244,9.244,9.244,$/caja 18 kilos granel
-02/12/2016,Damasco,Dina,Vega Central Mapocho de Santiago,70,Segunda,7.563,7.563,7.563,$/caja 18 kilos granel
-02/12/2016,Damasco,Patterson,Vega Central Mapocho de Santiago,20,Extra (doble especial),10.924,10.924,10.924,$/caja 18 kilos granel
-02/12/2016,Pimiento,Cuatro cascos verde,Terminal La Palmera de La Serena,180,Segunda,3.361,3.571,3.782,$/caja 15 kilos
-02/12/2016,Pimiento,Cuatro cascos verde,Terminal La Palmera de La Serena,140,Tercera,2.521,2.605,2.689,$/caja 15 kilos
-02/12/2016,Poroto granado,Sin especificar,Terminal La Palmera de La Serena,200,Primera,26.891,27.311,27.731,$/saco 30 kilos
-02/12/2016,Poroto verde,Magnum,Terminal La Palmera de La Serena,220,Primera,13.866,14.076,14.286,$/malla 30 kilos
-02/12/2016,Damasco,Patterson,Vega Central Mapocho de Santiago,60,Primera,7.563,7.563,7.563,$/caja 18 kilos granel
-02/12/2016,Durazno,Crown princess,Vega Central Mapocho de Santiago,135,Primera,7.983,8.263,8.403,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Crown princess,Vega Central Mapocho de Santiago,125,Segunda,6.303,6.555,6.723,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Rich Lady,Vega Central Mapocho de Santiago,50,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Rich Lady,Vega Central Mapocho de Santiago,80,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Repollo,Copenhague,Terminal La Palmera de La Serena,800,Primera,420,441,462,$/unidad
-02/12/2016,Repollo,Copenhague,Terminal La Palmera de La Serena,600,Segunda,336,357,378,$/unidad
-02/12/2016,Repollo,Crespo record,Terminal La Palmera de La Serena,760,Primera,420,441,462,$/unidad
-02/12/2016,Repollo,Crespo record,Terminal La Palmera de La Serena,540,Segunda,336,357,378,$/unidad
-02/12/2016,Durazno,Rich Lady,Vega Central Mapocho de Santiago,70,Segunda,6.723,6.723,6.723,$/caja 16 kilos empedrada
-02/12/2016,Frutilla,Sin especificar,Vega Central Mapocho de Santiago,3.500,Especial,3.361,3.818,4.202,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Vega Central Mapocho de Santiago,4.000,Primera,2.521,2.752,2.941,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Vega Central Mapocho de Santiago,1.750,Segunda,1.261,1.453,1.681,$/bandeja 7 kilos
-02/12/2016,Repollo,Morada(o),Terminal La Palmera de La Serena,700,Primera,420,441,462,$/unidad
-02/12/2016,Repollo,Morada(o),Terminal La Palmera de La Serena,520,Segunda,336,357,378,$/unidad
-02/12/2016,Lim√≥n,Sin especificar,Vega Central Mapocho de Santiago,430,1a amarillo,8.403,8.755,9.244,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Vega Central Mapocho de Santiago,360,2a amarillo,6.303,6.489,6.723,$/malla 18 kilos
-02/12/2016,Sandia,Sin especificar,Terminal La Palmera de La Serena,800,Primera,420,441,462,$/kilo (volumen en unidades)
-02/12/2016,Lim√≥n,Sin especificar,Vega Central Mapocho de Santiago,260,3a amarillo,4.202,4.590,5.042,$/malla 18 kilos
-02/12/2016,Mango,Sin especificar,Vega Central Mapocho de Santiago,170,Primera,3.782,4.029,4.202,$/bandeja 4 kilos
-02/12/2016,Sandia,Sin especificar,Terminal La Palmera de La Serena,800,Primera,336,357,378,$/kilo (volumen en unidades)
-02/12/2016,Tomate,Larga vida,Terminal La Palmera de La Serena,700,Primera,3.613,3.697,3.782,$/caja 15 kilos
-02/12/2016,Manzana,Fuji royal,Vega Central Mapocho de Santiago,50,Especial,11.765,11.765,11.765,$/caja 18 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Vega Central Mapocho de Santiago,70,Especial,11.765,11.765,11.765,$/caja 18 kilos empedrada
-02/12/2016,Tomate,Larga vida,Terminal La Palmera de La Serena,400,Primera,5.714,5.798,5.882,$/caja 18 kilos
-02/12/2016,Naranja,Lane Late,Vega Central Mapocho de Santiago,16,Especial,126.050,126.050,126.050,$/bins (400 kilos)
-02/12/2016,Nectar√≠n,Artic Glo,Vega Central Mapocho de Santiago,40,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Glo,Vega Central Mapocho de Santiago,60,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Glo,Vega Central Mapocho de Santiago,55,Segunda,6.723,6.723,6.723,$/caja 16 kilos empedrada
-02/12/2016,Tomate,Larga vida,Terminal La Palmera de La Serena,500,Segunda,2.521,2.605,2.689,$/caja 15 kilos
-02/12/2016,Zanahoria,Sin especificar,Terminal La Palmera de La Serena,240,Primera,7.983,8.193,8.403,$/saco 40 kilos
-02/12/2016,Nectar√≠n,Early Glo,Vega Central Mapocho de Santiago,60,Especial,9.244,9.244,9.244,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Early Glo,Vega Central Mapocho de Santiago,80,Primera,7.563,7.563,7.563,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Early Glo,Vega Central Mapocho de Santiago,90,Segunda,5.882,5.882,5.882,$/caja 16 kilos empedrada
-02/12/2016,Zapallo,Camote,Terminal La Palmera de La Serena,1.000,1a nueva(o),714,735,756,$/kilo (volumen en unidades)
-02/12/2016,Zapallo,Camote,Terminal La Palmera de La Serena,800,1a nueva(o),420,441,462,$/kilo (volumen en unidades)
-02/12/2016,Zapallo,Camote,Terminal La Palmera de La Serena,400,2a nueva(o),336,357,378,$/kilo (volumen en unidades)
-02/12/2016,Zapallo italiano,Sin especificar,Terminal La Palmera de La Serena,200,Primera,3.613,3.697,3.782,$/caja 70 unidades
-02/12/2016,Palta,Hass,Vega Central Mapocho de Santiago,100,Especial,1.261,1.261,1.261,$/kilo (en caja de 17 kilos)
-02/12/2016,Palta,Hass,Vega Central Mapocho de Santiago,90,Primera,1.092,1.092,1.092,$/kilo (en caja de 17 kilos)
-02/12/2016,Ajo,Chino,Vega Central Mapocho de Santiago,98,Primera,18.487,18.487,18.487,$/caja 10 kilos
-02/12/2016,Albahaca,Sin especificar,Vega Central Mapocho de Santiago,280,Primera,3.361,3.812,4.202,$/docena de matas
-02/12/2016,Betarraga,Sin especificar,Vega Central Mapocho de Santiago,13.800,Primera,59,63,67,$/unidad
-02/12/2016,Br√≥coli,Sin especificar,Vega Central Mapocho de Santiago,3.400,Primera,252,299,336,$/unidad
-02/12/2016,Cebolla,Sin especificar,Vega Central Mapocho de Santiago,190,1a (guarda),8.403,8.403,8.403,$/malla 15 kilos
-02/12/2016,Palta,Hass,Vega Central Mapocho de Santiago,110,Segunda,924,924,924,$/kilo (en caja de 17 kilos)
-02/12/2016,Palta,Hass,Vega Central Mapocho de Santiago,120,Tercera,672,672,672,$/kilo (en caja de 17 kilos)
-02/12/2016,Pi√±a,Caramelo,Vega Central Mapocho de Santiago,40,Especial,12.605,12.605,12.605,$/caja 10 unidades
-02/12/2016,Pi√±a,Caramelo,Vega Central Mapocho de Santiago,35,Especial,6.723,6.723,6.723,$/caja 5 unidades
-02/12/2016,Cebolla,Sin especificar,Vega Central Mapocho de Santiago,455,1a nueva(o),4.874,4.963,5.042,$/malla 16 kilos
-02/12/2016,Ceboll√≠n,Sin especificar,Vega Central Mapocho de Santiago,870,Primera,1.849,1.982,2.101,$/paquete 36 unidades
-02/12/2016,Ceboll√≠n,Sin especificar,Vega Central Mapocho de Santiago,440,Segunda,1.681,1.681,1.681,$/paquete 36 unidades
-02/12/2016,Choclo,Choclero,Vega Central Mapocho de Santiago,45,Primera,7.143,7.376,7.563,$/malla 50 unidades
-02/12/2016,Choclo,Choclero,Vega Central Mapocho de Santiago,15.500,Primera,151,160,168,$/unidad
-02/12/2016,Pi√±a,Caramelo,Vega Central Mapocho de Santiago,50,Primera,12.605,12.605,12.605,$/caja 12 unidades
-02/12/2016,Pi√±a,Caramelo,Vega Central Mapocho de Santiago,40,Primera,6.723,6.723,6.723,$/caja 6 unidades
-02/12/2016,Pi√±a,Caramelo,Vega Central Mapocho de Santiago,30,Segunda,12.605,12.605,12.605,$/caja 14 unidades
-02/12/2016,Choclo,Dulce o Americano,Vega Central Mapocho de Santiago,28.000,Primera,76,80,84,$/unidad
-02/12/2016,Ciboulette,Sin especificar,Vega Central Mapocho de Santiago,1.220,Primera,840,909,1.008,$/docena de atados
-02/12/2016,Pi√±a,Caramelo,Vega Central Mapocho de Santiago,35,Segunda,6.723,6.723,6.723,$/caja 7 unidades
-02/12/2016,Pi√±a,Caramelo,Vega Central Mapocho de Santiago,35,Tercera,12.605,12.605,12.605,$/caja 16 unidades
-02/12/2016,Pi√±a,Caramelo,Vega Central Mapocho de Santiago,30,Tercera,6.723,6.723,6.723,$/caja 8 unidades
-02/12/2016,Pl√°tano,Sin especificar,Vega Central Mapocho de Santiago,2.520,Maduro,5.882,6.118,6.303,$/caja 20 kilos
-02/12/2016,Cilantro,Sin especificar,Vega Central Mapocho de Santiago,225,Primera,6.723,7.096,7.563,$/docena de atados
-02/12/2016,Pl√°tano,Sin especificar,Vega Central Mapocho de Santiago,3.230,Pint√≥n,6.723,6.951,7.143,$/caja 20 kilos
-02/12/2016,Cereza,Lapins,Vega Modelo de Temuco,30,Primera,1.176,1.176,1.176,$/kilo (en caja de 15 kilos)
-02/12/2016,Cereza,Santina,Vega Modelo de Temuco,60,Primera,8.403,8.403,8.403,$/bandeja 10 kilos
-02/12/2016,Cilantro,Sin especificar,Vega Central Mapocho de Santiago,67,Segunda,5.042,5.042,5.042,$/docena de atados
-02/12/2016,Coliflor,Sin especificar,Vega Central Mapocho de Santiago,1.800,Primera,294,313,336,$/unidad
-02/12/2016,Coliflor,Sin especificar,Vega Central Mapocho de Santiago,1.100,Segunda,252,252,252,$/unidad
-02/12/2016,Espinaca,Sin especificar,Vega Central Mapocho de Santiago,320,Primera,4.202,4.202,4.202,$/cuna 10 kilos
-02/12/2016,Ciruela,Early Queen,Vega Modelo de Temuco,80,Primera,7.563,7.878,8.403,$/caja 15 kilos granel
-02/12/2016,Damasco,Castle Brite,Vega Modelo de Temuco,220,Primera,11.765,12.147,12.605,$/caja 15 kilos granel
-02/12/2016,Durazno,Rich Lady,Vega Modelo de Temuco,80,Primera,11.765,12.185,12.605,$/caja 15 kilos empedrada
-02/12/2016,Kiwi,Hayward,Vega Modelo de Temuco,40,Primera,10.084,10.084,10.084,$/bandeja 10 kilos granel
-02/12/2016,Haba,Sin especificar,Vega Central Mapocho de Santiago,48,Primera,10.084,10.084,10.084,$/saco 40 kilos
-02/12/2016,Lechuga,Conconina(o),Vega Central Mapocho de Santiago,270,Primera,2.941,3.206,3.361,$/caja 10 unidades
-02/12/2016,Lechuga,Escarola,Vega Central Mapocho de Santiago,500,Primera,2.941,3.193,3.361,$/caja 15 unidades
-02/12/2016,Papa,Asterix,Vega Central Mapocho de Santiago,200,1a nueva(o),9.244,9.748,10.084,$/saco 50 kilos
-02/12/2016,Pepino ensalada,Sin especificar,Vega Central Mapocho de Santiago,50,Primera,7.563,7.563,7.563,$/caja 70 unidades
-02/12/2016,Kiwi,Hayward,Vega Modelo de Temuco,40,Primera,13.445,13.445,13.445,$/caja 15 kilos granel
-02/12/2016,Lim√≥n,De Pica,Vega Modelo de Temuco,100,Primera,1.933,1.933,1.933,$/kilo
-02/12/2016,Lim√≥n,Sin especificar,Vega Modelo de Temuco,60,1a amarillo,13.445,13.445,13.445,$/caja 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Vega Modelo de Temuco,300,1a plateado,12.605,13.025,13.445,$/malla 18 kilos
-02/12/2016,Pepino ensalada,Sin especificar,Vega Central Mapocho de Santiago,130,Primera,6.723,6.723,6.723,$/caja 80 unidades
-02/12/2016,Perejil,Sin especificar,Vega Central Mapocho de Santiago,40,Primera,5.882,6.197,6.723,$/docena de atados
-02/12/2016,Pimiento,Cuatro cascos verde,Vega Central Mapocho de Santiago,125,Primera,7.563,7.563,7.563,$/caja 18 kilos
-02/12/2016,Lim√≥n,Sutil De Gase,Vega Modelo de Temuco,60,Primera,1.933,1.933,1.933,$/kilo
-02/12/2016,Mandarina,Murcott,Vega Modelo de Temuco,50,Primera,12.605,12.605,12.605,$/caja 15 kilos granel
-02/12/2016,Mango,Sin especificar,Vega Modelo de Temuco,400,Primera,5.042,5.042,5.042,$/bandeja 4 kilos
-02/12/2016,Pimiento,Cuatro cascos verde,Vega Central Mapocho de Santiago,67,Segunda,6.723,6.723,6.723,$/caja 18 kilos
-02/12/2016,Poroto granado,Sin especificar,Vega Central Mapocho de Santiago,70,Primera,24.370,24.850,25.210,$/saco 30 kilos
-02/12/2016,Poroto verde,Magnum,Vega Central Mapocho de Santiago,50,Primera,10.924,11.429,11.765,$/malla 30 kilos
-02/12/2016,Manzana,Fuji,Vega Modelo de Temuco,4,Primera,168.067,168.067,168.067,$/bins (400 kilos)
-02/12/2016,Poroto verde,Sin especificar,Vega Central Mapocho de Santiago,40,Primera,17.647,18.067,18.487,$/malla 30 kilos
-02/12/2016,Rabanito,Sin especificar,Vega Central Mapocho de Santiago,10.000,Primera,1.681,1.681,1.681,$/cien unidades (volumen en unidades)
-02/12/2016,Sandia,Sin especificar,Vega Central Mapocho de Santiago,1.300,Primera,378,401,420,$/kilo (volumen en unidades)
-02/12/2016,Zanahoria,Sin especificar,Vega Central Mapocho de Santiago,42.000,Primera,59,59,59,$/unidad
-02/12/2016,Manzana,Fuji,Vega Modelo de Temuco,80,Primera,11.765,11.765,11.765,$/caja 15 kilos empedrada
-02/12/2016,Zanahoria,Sin especificar,Vega Central Mapocho de Santiago,80,Segunda,8.403,8.403,8.403,$/saco 40 kilos
-02/12/2016,Zanahoria,Sin especificar,Vega Central Mapocho de Santiago,46.000,Segunda,17,19,21,$/unidad
-02/12/2016,Zapallo,Camote,Vega Central Mapocho de Santiago,700,1a nueva(o),462,486,504,$/kilo (volumen en unidades)
-02/12/2016,Manzana,Granny Smith,Vega Modelo de Temuco,30,Primera,10.084,10.084,10.084,$/caja 15 kilos empedrada
-02/12/2016,Manzana,Royal Gala,Vega Modelo de Temuco,6,Primera,151.260,151.260,151.260,$/bins (400 kilos)
-02/12/2016,Manzana,Royal Gala,Vega Modelo de Temuco,50,Primera,10.084,10.084,10.084,$/caja 15 kilos empedrada
-02/12/2016,Zapallo,Camote,Vega Central Mapocho de Santiago,300,2a nueva(o),336,336,336,$/kilo (volumen en unidades)
-02/12/2016,Zapallo,Paine,Vega Central Mapocho de Santiago,800,1a nueva(o),168,221,252,$/kilo (volumen en unidades)
-02/12/2016,Zapallo italiano,Sin especificar,Vega Central Mapocho de Santiago,180,Primera,4.202,4.575,5.042,$/caja 70 unidades
-02/12/2016,Acelga,Sin especificar,Vega Modelo de Temuco,20,Primera,4.202,4.202,4.202,$/docena de atados
-02/12/2016,Ajo,Chino,Vega Modelo de Temuco,4.000,1a nueva(o),2.521,2.521,2.521,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Naranja,Valencia,Vega Modelo de Temuco,60,Primera,8.403,8.403,8.403,$/caja 18 kilos granel
-02/12/2016,Nectar√≠n,Artic Glo,Vega Modelo de Temuco,220,Primera,12.605,13.063,13.445,$/caja 15 kilos empedrada
-02/12/2016,Nectar√≠n,Early John,Vega Modelo de Temuco,13,Primera,176.471,179.703,184.874,$/bins (400 kilos)
-02/12/2016,Nectar√≠n,Early John,Vega Modelo de Temuco,300,Primera,12.605,13.025,13.445,$/caja 15 kilos empedrada
-02/12/2016,Ajo,Chino,Vega Modelo de Temuco,180,Primera,17.647,18.114,18.487,$/caja 10 kilos
-02/12/2016,Aj√≠,Americana (o),Vega Modelo de Temuco,100,Primera,16.807,16.807,16.807,$/caja 25 kilos
-02/12/2016,Aj√≠,Inferno,Vega Modelo de Temuco,80,Primera,16.807,16.807,16.807,$/caja 25 kilos
-02/12/2016,Apio,Americana (o),Vega Modelo de Temuco,15,Primera,7.563,7.563,7.563,$/docena de matas
-02/12/2016,Nectar√≠n,Early John,Vega Modelo de Temuco,5,Tercera,109.244,109.244,109.244,$/bins (400 kilos)
-02/12/2016,Palta,Hass,Vega Modelo de Temuco,100,Cuarta,840,840,840,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Vega Modelo de Temuco,90,Especial,1.849,1.886,1.933,$/kilo (en caja de 18 kilos)
-02/12/2016,Palta,Hass,Vega Modelo de Temuco,110,Primera,1.429,1.505,1.597,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Vega Modelo de Temuco,180,Segunda,1.261,1.307,1.345,$/kilo (en caja de 15 kilos)
-02/12/2016,Berenjena,Sin especificar,Vega Modelo de Temuco,60,Segunda,10.924,11.275,11.765,$/caja 60 unidades
-02/12/2016,Betarraga,Sin especificar,Vega Modelo de Temuco,10,Primera,6.723,6.723,6.723,$/docena de paquetes
-02/12/2016,Betarraga,Sin especificar,Vega Modelo de Temuco,500,Primera,420,454,504,$/paquete 5 unidades
-02/12/2016,Br√≥coli,Sin especificar,Vega Modelo de Temuco,1.500,Primera,504,504,504,$/unidad
-02/12/2016,Palta,Hass,Vega Modelo de Temuco,240,Tercera,1.008,1.050,1.092,$/kilo (en caja de 15 kilos)
-02/12/2016,Pera,Winter Nelis,Vega Modelo de Temuco,30,Primera,10.084,10.084,10.084,$/caja 15 kilos empedrada
-02/12/2016,Pi√±a,Caramelo,Vega Modelo de Temuco,160,Primera,13.445,13.655,13.866,$/caja 12 unidades
-02/12/2016,Cebolla,Sin especificar,Vega Modelo de Temuco,200,1a nueva(o),5.042,5.210,5.462,$/malla 18 kilos
-02/12/2016,Pl√°tano,Sin especificar,Vega Modelo de Temuco,80,Dedos,7.983,7.983,7.983,$/caja 30 kilos
-02/12/2016,Pl√°tano,Sin especificar,Vega Modelo de Temuco,1.940,Pint√≥n,8.403,8.793,9.244,$/caja 20 kilos
-02/12/2016,Pomelo,Start Ruby,Vega Modelo de Temuco,130,Primera,6.723,7.111,7.563,$/caja 14 kilos empedrada
-02/12/2016,Cebolla,Sin especificar,Vega Modelo de Temuco,1.500,1a nueva(o),3.782,4.034,4.202,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Vega Modelo de Temuco,3.000,1a nueva(o),101,101,101,$/unidad
-02/12/2016,Uva,Flame Seedless,Vega Modelo de Temuco,70,Primera,12.605,12.965,13.445,$/bandeja 10 kilos
-02/12/2016,Uva,Red Globe,Vega Modelo de Temuco,25,Primera,22.689,22.689,22.689,$/bandeja 10 kilos
-02/12/2016,Uva,Superior Seedless,Vega Modelo de Temuco,15,Primera,22.689,22.689,22.689,$/bandeja 10 kilos
-02/12/2016,Uva,Superior Seedless,Vega Modelo de Temuco,80,Primera,12.605,13.130,13.445,$/bandeja 10 kilos
-02/12/2016,Cebolla,Sin especificar,Vega Modelo de Temuco,1.800,Primera,4.202,4.202,4.202,$/malla 18 kilos
-02/12/2016,Choclo,Choclero,Vega Modelo de Temuco,15,Primera,12.605,12.605,12.605,$/malla 50 unidades
-02/12/2016,Choclo,Dulce o Americano,Vega Modelo de Temuco,600,Primera,118,118,118,$/unidad
-02/12/2016,Cilantro,Sin especificar,Vega Modelo de Temuco,25,Primera,1.681,1.681,1.681,$/docena de atados
-02/12/2016,Ar√°ndano (blue),Sin especificar,Vega Monumental Concepci√≥n,420,Primera,3.193,3.265,3.361,$/bandeja 2 kilos
-02/12/2016,Cereza,Bing,Vega Monumental Concepci√≥n,150,Primera,10.924,10.924,10.924,$/caja 10 kilos
-02/12/2016,Cereza,Bing,Vega Monumental Concepci√≥n,160,Segunda,9.244,9.244,9.244,$/caja 10 kilos
-02/12/2016,Cereza,Lapins,Vega Monumental Concepci√≥n,260,Primera,10.924,11.377,11.765,$/caja 12 kilos
-02/12/2016,Cereza,Rainier,Vega Monumental Concepci√≥n,260,Primera,10.084,10.537,10.924,$/caja 10 kilos
-02/12/2016,Coliflor,Sin especificar,Vega Modelo de Temuco,900,Primera,588,626,672,$/unidad
-02/12/2016,Mel√≥n,Calame√±o,Vega Modelo de Temuco,30,Cuarta,7.563,7.563,7.563,$/caja 12 unidades
-02/12/2016,Mel√≥n,Calame√±o,Vega Modelo de Temuco,600,Tercera,588,588,588,$/unidad
-02/12/2016,Mel√≥n,Tuna,Vega Modelo de Temuco,25,Cuarta,7.563,7.563,7.563,$/caja 12 unidades
-02/12/2016,Cereza,Rainier,Vega Monumental Concepci√≥n,180,Segunda,8.403,8.403,8.403,$/caja 10 kilos
-02/12/2016,Damasco,Castle Brite,Vega Monumental Concepci√≥n,260,Segunda,9.244,9.696,10.084,$/caja 18 kilos granel
-02/12/2016,Durazno,Springcrest,Vega Monumental Concepci√≥n,150,Primera,10.084,10.084,10.084,$/caja 16 kilos empedrada
-02/12/2016,Durazno,Springcrest,Vega Monumental Concepci√≥n,200,Segunda,7.563,7.899,8.403,$/caja 16 kilos empedrada
-02/12/2016,Mel√≥n,Tuna,Vega Modelo de Temuco,400,Tercera,588,588,588,$/unidad
-02/12/2016,Papa,Patagonia,Vega Modelo de Temuco,80,1a nueva(o),7.563,7.563,7.563,$/saco 50 kilos
-02/12/2016,Pepino ensalada,Sin especificar,Vega Modelo de Temuco,200,Primera,6.723,7.563,8.403,$/caja 60 unidades
-02/12/2016,Frutilla,Sin especificar,Vega Monumental Concepci√≥n,180,Especial,5.882,5.882,5.882,$/bandeja 7 kilos
-02/12/2016,Perejil,Sin especificar,Vega Modelo de Temuco,10,Primera,2.941,2.941,2.941,$/docena de atados
-02/12/2016,Pimiento,Zafiro amarillo,Vega Modelo de Temuco,30,Primera,18.487,18.487,18.487,$/caja 18 kilos
-02/12/2016,Frutilla,Sin especificar,Vega Monumental Concepci√≥n,220,Primera,5.042,5.042,5.042,$/bandeja 7 kilos
-02/12/2016,Frutilla,Sin especificar,Vega Monumental Concepci√≥n,270,Segunda,4.202,4.388,4.622,$/bandeja 7 kilos
-02/12/2016,Pimiento,Zafiro rojo,Vega Modelo de Temuco,200,Primera,8.403,8.403,8.403,$/caja 18 kilos
-02/12/2016,Pimiento,Zafiro verde,Vega Modelo de Temuco,90,Primera,10.084,10.084,10.084,$/caja 18 kilos
-02/12/2016,Frutilla,Sin especificar,Vega Monumental Concepci√≥n,100,Tercera,3.782,3.782,3.782,$/bandeja 7 kilos
-02/12/2016,Lim√≥n,Sin especificar,Vega Monumental Concepci√≥n,410,1a plateado,10.084,10.555,10.924,$/malla 18 kilos
-02/12/2016,Repollo,Crespo record,Vega Modelo de Temuco,1.000,Primera,504,504,504,$/unidad
-02/12/2016,Tomate,Cherry,Vega Modelo de Temuco,50,Primera,1.513,1.513,1.513,$/kilo
-02/12/2016,Lim√≥n,Sin especificar,Vega Monumental Concepci√≥n,240,2a plateado,8.403,8.403,8.403,$/malla 18 kilos
-02/12/2016,Lim√≥n,Sin especificar,Vega Monumental Concepci√≥n,80,3a plateado,6.723,6.723,6.723,$/malla 18 kilos
-02/12/2016,Mandarina,Murcott,Vega Monumental Concepci√≥n,140,Primera,4.202,4.442,4.622,$/caja 10 kilos granel
-02/12/2016,Tomate,Larga vida,Vega Modelo de Temuco,950,Primera,5.882,6.280,6.723,$/bandeja 18 kilos
-02/12/2016,Tomate,Larga vida,Vega Modelo de Temuco,1.200,Primera,2.521,2.731,2.941,$/caja 15 kilos
-02/12/2016,Tomate,Larga vida,Vega Modelo de Temuco,2.300,Primera,3.782,3.964,4.202,$/caja 15 kilos
-02/12/2016,Tomate,Larga vida,Vega Modelo de Temuco,200,Segunda,2.101,2.101,2.101,$/caja 15 kilos
-02/12/2016,Mandarina,Murcott,Vega Monumental Concepci√≥n,180,Segunda,3.361,3.501,3.782,$/caja 10 kilos granel
-02/12/2016,Mango,Sin especificar,Vega Monumental Concepci√≥n,220,Primera,4.202,4.393,4.622,$/bandeja 4 kilos
-02/12/2016,Mango,Sin especificar,Vega Monumental Concepci√≥n,120,Segunda,3.361,3.361,3.361,$/bandeja 4 kilos
-02/12/2016,Manzana,Fuji royal,Vega Monumental Concepci√≥n,290,Primera,9.244,9.678,10.084,$/caja 17 kilos empedrada
-02/12/2016,Zanahoria,Sin especificar,Vega Modelo de Temuco,70,Primera,10.924,11.285,11.765,$/saco 40 kilos
-02/12/2016,Zapallo,Camote,Vega Modelo de Temuco,350,1a nueva(o),672,672,672,$/kilo (volumen en unidades)
-02/12/2016,Zapallo italiano,Bola 8,Vega Modelo de Temuco,25,Primera,8.403,8.403,8.403,$/caja 36 unidades
-02/12/2016,Zapallo italiano,Sin especificar,Vega Modelo de Temuco,60,Primera,5.882,5.882,5.882,$/caja 36 unidades
-02/12/2016,Manzana,Fuji royal,Vega Monumental Concepci√≥n,220,Segunda,7.563,7.563,7.563,$/caja 17 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Vega Monumental Concepci√≥n,180,Primera,8.403,8.403,8.403,$/caja 17 kilos empedrada
-02/12/2016,Manzana,Granny Smith,Vega Monumental Concepci√≥n,290,Segunda,6.723,7.157,7.563,$/caja 17 kilos empedrada
-02/12/2016,Manzana,Pink Lady,Vega Monumental Concepci√≥n,150,Primera,6.723,6.723,6.723,$/caja 17 kilos empedrada
-02/12/2016,Manzana,Pink Lady,Vega Monumental Concepci√≥n,180,Segunda,5.882,5.882,5.882,$/caja 17 kilos empedrada
-02/12/2016,Zapallo italiano,Sin especificar,Vega Modelo de Temuco,90,Primera,4.202,4.202,4.202,$/caja 36 unidades
-02/12/2016,Acelga,Sin especificar,Vega Monumental Concepci√≥n,330,Segunda,420,466,504,"$/atado 0,5 a 1 kilo"
-02/12/2016,Ajo,Chino,Vega Monumental Concepci√≥n,3.100,1a nueva(o),2.017,2.057,2.101,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Ajo,Chino,Vega Monumental Concepci√≥n,1.400,2a nueva(o),1.681,1.681,1.681,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Naranja,Navel Late,Vega Monumental Concepci√≥n,260,Segunda,4.202,4.654,5.042,$/malla 18 kilos
-02/12/2016,Naranja,Valencia,Vega Monumental Concepci√≥n,120,Primera,5.042,5.042,5.042,$/caja 15 kilos granel
-02/12/2016,Naranja,Valencia,Vega Monumental Concepci√≥n,330,Segunda,3.782,3.972,4.202,$/caja 15 kilos granel
-02/12/2016,Nectar√≠n,Artic Star,Vega Monumental Concepci√≥n,150,Primera,12.605,12.605,12.605,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Artic Star,Vega Monumental Concepci√≥n,250,Segunda,10.924,11.126,11.345,$/caja 16 kilos empedrada
-02/12/2016,Ajo,Chino,Vega Monumental Concepci√≥n,260,Primera,15.966,16.419,16.807,$/caja 10 kilos
-02/12/2016,Nectar√≠n,Nectar Crest,Vega Monumental Concepci√≥n,90,Primera,14.286,14.286,14.286,$/caja 16 kilos empedrada
-02/12/2016,Aj√≠,Inferno,Vega Monumental Concepci√≥n,150,Primera,7.563,8.011,8.403,$/caja 14 kilos
-02/12/2016,Albahaca,Sin especificar,Vega Monumental Concepci√≥n,180,Segunda,840,840,840,$/paquete
-02/12/2016,Apio,Americana (o),Vega Monumental Concepci√≥n,420,Primera,6.723,7.083,7.563,$/docena de matas
-02/12/2016,Arveja Verde,Sin especificar,Vega Monumental Concepci√≥n,90,Primera,10.084,10.084,10.084,$/saco 30 kilos
-02/12/2016,Betarraga,Sin especificar,Vega Monumental Concepci√≥n,490,Primera,504,526,546,$/paquete 5 unidades
-02/12/2016,Nectar√≠n,Nectar Crest,Vega Monumental Concepci√≥n,120,Segunda,12.605,12.605,12.605,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Royal Glo,Vega Monumental Concepci√≥n,150,Primera,9.244,9.692,10.084,$/caja 16 kilos empedrada
-02/12/2016,Nectar√≠n,Royal Glo,Vega Monumental Concepci√≥n,120,Segunda,7.563,7.563,7.563,$/caja 16 kilos empedrada
-02/12/2016,N√≠spero,Golden Nugget,Vega Monumental Concepci√≥n,70,Especial,11.765,11.765,11.765,$/caja 18 kilos
-02/12/2016,Betarraga,Sin especificar,Vega Monumental Concepci√≥n,350,Segunda,420,420,420,$/paquete 5 unidades
-02/12/2016,Br√≥coli,Sin especificar,Vega Monumental Concepci√≥n,1.000,Primera,504,523,546,$/unidad
-02/12/2016,Br√≥coli,Sin especificar,Vega Monumental Concepci√≥n,650,Segunda,420,420,420,$/unidad
-02/12/2016,Cebolla,Sin especificar,Vega Monumental Concepci√≥n,310,1a nueva(o),4.202,4.608,5.042,$/malla 18 kilos
-02/12/2016,Cebolla,Sin especificar,Vega Monumental Concepci√≥n,1.800,1a nueva(o),2.353,2.428,2.521,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,N√≠spero,Golden Nugget,Vega Monumental Concepci√≥n,170,Primera,10.084,10.529,10.924,$/caja 18 kilos
-02/12/2016,N√≠spero,Golden Nugget,Vega Monumental Concepci√≥n,140,Segunda,8.403,8.403,8.403,$/caja 18 kilos
-02/12/2016,Cebolla,Sin especificar,Vega Monumental Concepci√≥n,1.200,2a nueva(o),2.101,2.101,2.101,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Cebolla,Sin especificar,Vega Monumental Concepci√≥n,15.000,3a nueva (o),76,80,84,$/paquete 20 unidades (volumen en unidades)
-02/12/2016,Palta,Edranol,Vega Monumental Concepci√≥n,80,Primera,1.176,1.176,1.176,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Edranol,Vega Monumental Concepci√≥n,170,Segunda,924,969,1.008,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Vega Monumental Concepci√≥n,80,Especial,1.345,1.345,1.345,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Vega Monumental Concepci√≥n,200,Primera,1.176,1.223,1.261,$/kilo (en caja de 15 kilos)
-02/12/2016,Ceboll√≠n,Sin especificar,Vega Monumental Concepci√≥n,270,Primera,2.689,2.829,2.941,$/paquete 36 unidades
-02/12/2016,Choclo,Choclero,Vega Monumental Concepci√≥n,120,Primera,12.605,12.605,12.605,$/malla 50 unidades
-02/12/2016,Choclo,Choclero,Vega Monumental Concepci√≥n,5.000,Primera,71,73,76,$/unidad
-02/12/2016,Choclo,Dulce o Americano,Vega Monumental Concepci√≥n,130,Primera,7.563,8.016,8.403,$/malla 70 unidades
-02/12/2016,Palta,Hass,Vega Monumental Concepci√≥n,210,Segunda,1.008,1.044,1.092,$/kilo (en caja de 15 kilos)
-02/12/2016,Palta,Hass,Vega Monumental Concepci√≥n,140,Tercera,840,840,840,$/kilo (en caja de 15 kilos)
-02/12/2016,Pera,Packham's Triumph,Vega Monumental Concepci√≥n,150,Especial,10.084,10.084,10.084,$/caja 17 kilos empedrada
-02/12/2016,Pera,Packham's Triumph,Vega Monumental Concepci√≥n,220,Primera,8.403,8.403,8.403,$/caja 17 kilos empedrada
-02/12/2016,Cilantro,Sin especificar,Vega Monumental Concepci√≥n,320,Primera,504,551,588,"$/atado 0,5 a 1 kilo"
-02/12/2016,Cilantro,Sin especificar,Vega Monumental Concepci√≥n,110,Primera,5.462,5.691,5.882,$/caja 36 atados
-02/12/2016,Coliflor,Sin especificar,Vega Monumental Concepci√≥n,1.000,Primera,546,565,588,$/unidad
-02/12/2016,Coliflor,Sin especificar,Vega Monumental Concepci√≥n,240,Segunda,462,462,462,$/unidad
-02/12/2016,Espinaca,Sin especificar,Vega Monumental Concepci√≥n,110,Primera,5.462,5.653,5.882,$/cuna 10 kilos
-02/12/2016,Pera,Packham's Triumph,Vega Monumental Concepci√≥n,180,Segunda,7.563,7.563,7.563,$/caja 17 kilos empedrada
-02/12/2016,Pera,Winter Nelis,Vega Monumental Concepci√≥n,120,Primera,8.403,8.403,8.403,$/caja 17 kilos empedrada
-02/12/2016,Pera,Winter Nelis,Vega Monumental Concepci√≥n,140,Segunda,6.723,6.723,6.723,$/caja 17 kilos empedrada
-02/12/2016,Pi√±a,Caramelo,Vega Monumental Concepci√≥n,260,Segunda,12.605,12.993,13.445,$/caja 14 unidades
-02/12/2016,Haba,Sin especificar,Vega Monumental Concepci√≥n,90,Primera,5.882,6.069,6.303,$/saco 30 kilos
-02/12/2016,Lechuga,Conconina(o),Vega Monumental Concepci√≥n,330,Primera,2.941,3.132,3.361,$/caja 10 unidades
-02/12/2016,Lechuga,Escarola,Vega Monumental Concepci√≥n,420,Primera,2.941,3.181,3.361,$/caja 15 unidades
-02/12/2016,Lechuga,Escarola,Vega Monumental Concepci√≥n,150,Segunda,2.521,2.521,2.521,$/caja 18 unidades
-02/12/2016,Pl√°tano,Sin especificar,Vega Monumental Concepci√≥n,280,Maduro,6.723,6.723,6.723,$/caja 20 kilos
-02/12/2016,Pl√°tano,Sin especificar,Vega Monumental Concepci√≥n,1.040,Pint√≥n,7.563,7.983,8.403,$/caja 20 kilos
-02/12/2016,Uva,Superior Seedless,Vega Monumental Concepci√≥n,170,Primera,14.286,14.731,15.126,$/bandeja 10 kilos
-02/12/2016,Lechuga,Francesa morada,Vega Monumental Concepci√≥n,80,Primera,3.361,3.361,3.361,$/caja 15 unidades
-02/12/2016,Lechuga,Milanesa,Vega Monumental Concepci√≥n,250,Primera,2.941,2.941,2.941,$/caja 20 unidades
-02/12/2016,Lechuga,Milanesa,Vega Monumental Concepci√≥n,180,Segunda,2.521,2.521,2.521,$/caja 20 unidades
-02/12/2016,Papa,Asterix,Vega Monumental Concepci√≥n,500,1a nueva(o),5.042,5.462,5.882,$/malla 50 kilos
-02/12/2016,Pepino ensalada,Sin especificar,Vega Monumental Concepci√≥n,290,Primera,5.462,5.665,5.882,$/caja 70 unidades
-02/12/2016,Pepino ensalada,Sin especificar,Vega Monumental Concepci√≥n,120,Segunda,5.462,5.462,5.462,$/caja 100 unidades
-02/12/2016,Perejil,Sin especificar,Vega Monumental Concepci√≥n,440,Primera,420,466,504,"$/atado 0,5 a 1 kilo"
-02/12/2016,Pimiento,Zafiro rojo,Vega Monumental Concepci√≥n,290,Primera,7.563,7.998,8.403,$/caja 15 kilos
-02/12/2016,Pimiento,Zafiro verde,Vega Monumental Concepci√≥n,230,Primera,7.563,7.782,7.983,$/caja 18 kilos
-02/12/2016,Pimiento,Zafiro verde,Vega Monumental Concepci√≥n,120,Segunda,5.882,5.882,5.882,$/caja 15 kilos
-02/12/2016,Poroto granado,Sin especificar,Vega Monumental Concepci√≥n,140,Primera,31.092,31.453,31.933,$/saco 30 kilos
-02/12/2016,Poroto verde,Magnum,Vega Monumental Concepci√≥n,170,Primera,10.084,10.529,10.924,$/saco 30 kilos
-02/12/2016,Repollo,Crespo record,Vega Monumental Concepci√≥n,850,Primera,504,549,588,$/unidad
-02/12/2016,Repollo,Crespo record,Vega Monumental Concepci√≥n,280,Segunda,420,420,420,$/unidad
-02/12/2016,Sandia,Sin especificar,Vega Monumental Concepci√≥n,340,Primera,2.941,2.941,2.941,$/unidad
-02/12/2016,Sandia,Sin especificar,Vega Monumental Concepci√≥n,490,Segunda,2.521,2.607,2.689,$/unidad
-02/12/2016,Tomate,Larga vida,Vega Monumental Concepci√≥n,420,Primera,3.361,3.721,4.202,$/caja 15 kilos
-02/12/2016,Tomate,Larga vida,Vega Monumental Concepci√≥n,370,Segunda,2.521,2.725,2.941,$/caja 15 kilos
-02/12/2016,Zanahoria,Sin especificar,Vega Monumental Concepci√≥n,260,Primera,11.765,12.217,12.605,$/saco 40 kilos
-02/12/2016,Zapallo,Camote,Vega Monumental Concepci√≥n,340,2a nueva(o),571,579,588,$/kilo (volumen en unidades)
-02/12/2016,Zapallo,Paine,Vega Monumental Concepci√≥n,330,1a nueva(o),294,313,336,$/kilo (volumen en unidades)
-02/12/2016,Zapallo italiano,Sin especificar,Vega Monumental Concepci√≥n,390,Primera,5.462,5.656,5.882,$/caja 70 unidades
+url,producto,variedad,mercado,volumen,calidad,precioMin,precioProm,precioMax,unidad
+15/02/2017,LimÛn,Sin especificar,AgrÌcola del Norte S.A. de Arica,250,2a plateado,29.412,29.832,30.252,$/caja 20 kilos
+15/02/2017,LimÛn,Sutil De Gase,AgrÌcola del Norte S.A. de Arica,200,Segunda,24.370,24.874,25.210,$/caja 20 kilos
+15/02/2017,Ajo,Chino,AgrÌcola del Norte S.A. de Arica,250,Primera,19.328,19.664,20.168,$/caja 10 kilos
+15/02/2017,Mandarina,Murcott,AgrÌcola del Norte S.A. de Arica,200,Tercera,10.924,11.345,11.765,$/caja 20 kilos
+15/02/2017,Cebolla,Sin especificar,AgrÌcola del Norte S.A. de Arica,200,1a (cosecha),1.681,1.891,2.101,$/malla 18 kilos
+15/02/2017,Mango,Sin especificar,AgrÌcola del Norte S.A. de Arica,450,Especial,3.193,3.287,3.361,$/bandeja 4 kilos
+15/02/2017,Cebolla,Sin especificar,AgrÌcola del Norte S.A. de Arica,450,2a (cosecha),1.261,1.447,1.681,$/malla 18 kilos
+15/02/2017,Mango,Sin especificar,AgrÌcola del Norte S.A. de Arica,550,Primera,3.361,3.361,3.361,$/bandeja 4 kilos
+15/02/2017,Cebolla,Sin especificar,AgrÌcola del Norte S.A. de Arica,550,3a (cosecha),840,1.108,1.261,$/malla 18 kilos
+15/02/2017,Mango,Sin especificar,AgrÌcola del Norte S.A. de Arica,600,Segunda,3.193,3.277,3.361,$/bandeja 4 kilos
+15/02/2017,MelÛn,Tuna,AgrÌcola del Norte S.A. de Arica,2.400,Segunda,504,504,504,$/kilo
+15/02/2017,Mango,Sin especificar,AgrÌcola del Norte S.A. de Arica,500,Tercera,3.193,3.294,3.361,$/bandeja 4 kilos
+15/02/2017,Papa,Asterix,AgrÌcola del Norte S.A. de Arica,700,1a nueva(o),12.605,13.085,13.445,$/saco 50 kilos
+15/02/2017,Naranja,Valencia,AgrÌcola del Norte S.A. de Arica,240,Tercera,588,609,630,$/kilo (en caja de 20 kilos)
+15/02/2017,Pepino dulce,Cultivar IV RegiÛn,AgrÌcola del Norte S.A. de Arica,250,Primera,9.244,9.664,10.084,$/caja 15 kilos
+15/02/2017,Palta,Hass,AgrÌcola del Norte S.A. de Arica,200,Tercera,45.378,45.798,46.218,$/caja 30 kilos
+15/02/2017,Acelga,Sin especificar,Central Lo Valledor de Santiago,90,Primera,11.765,11.765,11.765,$/docena de atados
+15/02/2017,Uva,Red Globe,AgrÌcola del Norte S.A. de Arica,400,Segunda,11.765,12.185,12.605,$/caja 25 kilos
+15/02/2017,Acelga,Sin especificar,Central Lo Valledor de Santiago,120,Primera,16.807,16.807,16.807,$/docena de atados (12 kilos)
+15/02/2017,Uva,Sultanina,AgrÌcola del Norte S.A. de Arica,300,Segunda,11.765,12.185,12.605,$/caja 25 kilos
+15/02/2017,Acelga,Sin especificar,Central Lo Valledor de Santiago,80,Segunda,10.084,10.084,10.084,$/docena de atados
+15/02/2017,Ar·ndano (blue),Sin especificar,Central Lo Valledor de Santiago,160,Primera,2.521,2.521,2.521,$/bandeja 2 kilos
+15/02/2017,Ajo,Chilote,Central Lo Valledor de Santiago,840,Primera,19.328,19.778,20.168,$/caja 10 kilos
+15/02/2017,Ciruela,Angeleno,Central Lo Valledor de Santiago,12,Primera,75.630,75.630,75.630,$/bins (450 kilos)
+15/02/2017,AjÌ,Chilena(o),Central Lo Valledor de Santiago,110,Primera,7.563,8.021,8.403,$/saco 25 kilos
+15/02/2017,Ciruela,Angeleno,Central Lo Valledor de Santiago,8,Segunda,50.420,50.420,50.420,$/bins (450 kilos)
+15/02/2017,AjÌ,Chilena(o),Central Lo Valledor de Santiago,30,Segunda,6.723,6.723,6.723,$/saco 25 kilos
+15/02/2017,Ciruela,Larry Ann,Central Lo Valledor de Santiago,10,Especial,100.840,100.840,100.840,$/bins (450 kilos)
+15/02/2017,Albahaca,Sin especificar,Central Lo Valledor de Santiago,760,Primera,1.681,2.145,2.521,$/docena de matas
+15/02/2017,Ciruela,Larry Ann,Central Lo Valledor de Santiago,14,Primera,84.034,84.034,84.034,$/bins (450 kilos)
+15/02/2017,Apio,Americana (o),Central Lo Valledor de Santiago,600,Primera,3.361,3.361,3.361,$/docena de matas
+15/02/2017,Ciruela,Larry Ann,Central Lo Valledor de Santiago,10,Segunda,58.824,58.824,58.824,$/bins (450 kilos)
+15/02/2017,Apio,Americana (o),Central Lo Valledor de Santiago,550,Segunda,1.681,1.681,1.681,$/docena de matas
+15/02/2017,Ciruela,Pink Delight,Central Lo Valledor de Santiago,14,Primera,75.630,75.630,75.630,$/bins (450 kilos)
+15/02/2017,Betarraga,Sin especificar,Central Lo Valledor de Santiago,20.000,Primera,84,84,84,$/unidad
+15/02/2017,Ciruela,Pink Delight,Central Lo Valledor de Santiago,10,Segunda,50.420,50.420,50.420,$/bins (450 kilos)
+15/02/2017,Betarraga,Sin especificar,Central Lo Valledor de Santiago,18.000,Segunda,67,67,67,$/unidad
+15/02/2017,BrÛcoli,Sin especificar,Central Lo Valledor de Santiago,9.700,Primera,378,396,420,$/unidad
+15/02/2017,Durazno,Doctor Davis,Central Lo Valledor de Santiago,14,Especial,134.454,134.454,134.454,$/bins (400 kilos)
+15/02/2017,BrÛcoli,Sin especificar,Central Lo Valledor de Santiago,5.500,Segunda,252,271,294,$/unidad
+15/02/2017,Durazno,Doctor Davis,Central Lo Valledor de Santiago,20,Especial,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,Cebolla,Sin especificar,Central Lo Valledor de Santiago,1.030,1a (cosecha),2.773,2.853,2.941,$/malla 18 kilos
+15/02/2017,Durazno,Doctor Davis,Central Lo Valledor de Santiago,10,Extra (doble especial),151.260,151.260,151.260,$/bins (400 kilos)
+15/02/2017,Cebolla,Sin especificar,Central Lo Valledor de Santiago,71.000,1a (cosecha),1.008,1.052,1.092,$/paquete 20 unidades (volumen en unidades)
+15/02/2017,Durazno,Doctor Davis,Central Lo Valledor de Santiago,34,Primera,109.244,113.198,117.647,$/bins (400 kilos)
+15/02/2017,Cebolla,Sin especificar,Central Lo Valledor de Santiago,780,1a (guarda),3.109,3.229,3.361,$/malla 18 kilos
+15/02/2017,Durazno,Doctor Davis,Central Lo Valledor de Santiago,60,Primera,5.882,5.882,5.882,$/caja 16 kilos empedrada
+15/02/2017,Cebolla,Sin especificar,Central Lo Valledor de Santiago,910,2a (cosecha),2.353,2.486,2.605,$/malla 18 kilos
+15/02/2017,Cebolla,Sin especificar,Central Lo Valledor de Santiago,66.000,2a (cosecha),756,802,840,$/paquete 20 unidades (volumen en unidades)
+15/02/2017,Durazno,Doctor Davis,Central Lo Valledor de Santiago,12,Segunda,84.034,84.034,84.034,$/bins (400 kilos)
+15/02/2017,Cebolla,Sin especificar,Central Lo Valledor de Santiago,820,3a (cosecha),2.017,2.155,2.269,$/malla 18 kilos
+15/02/2017,Durazno,Doctor Davis,Central Lo Valledor de Santiago,10,Segunda,5.042,5.042,5.042,$/caja 16 kilos empedrada
+15/02/2017,Cebolla,Sin especificar,Central Lo Valledor de Santiago,61.000,3a (cosecha),504,548,588,$/paquete 20 unidades (volumen en unidades)
+15/02/2017,Durazno,Kakamas,Central Lo Valledor de Santiago,8,Especial,126.050,126.050,126.050,$/bins (400 kilos)
+15/02/2017,CebollÌn,Sin especificar,Central Lo Valledor de Santiago,740,Primera,2.521,2.521,2.521,$/paquete 36 unidades
+15/02/2017,Durazno,Kakamas,Central Lo Valledor de Santiago,12,Primera,109.244,109.244,109.244,$/bins (400 kilos)
+15/02/2017,CebollÌn,Sin especificar,Central Lo Valledor de Santiago,880,Segunda,2.101,2.101,2.101,$/paquete 36 unidades
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,50,Especial,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,Choclo,Choclero,Central Lo Valledor de Santiago,65.000,Primera,76,80,84,$/unidad
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,70,Especial,8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,Choclo,Choclero,Central Lo Valledor de Santiago,47.000,Primera,76,80,84,$/unidad
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,33,Especial,7.983,7.983,7.983,$/caja 18 kilos empedrada
+15/02/2017,Choclo,Choclero,Central Lo Valledor de Santiago,25.000,Segunda,67,67,67,$/unidad
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,30,Extra (doble especial),9.244,9.244,9.244,$/caja 16 kilos empedrada
+15/02/2017,Choclo,Choclero,Central Lo Valledor de Santiago,25.000,Segunda,67,67,67,$/unidad
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,45,Extra (doble especial),10.084,10.084,10.084,$/caja 16 kilos empedrada
+15/02/2017,Choclo,Dulce o Americano,Central Lo Valledor de Santiago,27.000,Primera,84,84,84,$/unidad
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,32,Extra (doble especial),10.084,10.084,10.084,$/caja 18 kilos empedrada
+15/02/2017,Ciboulette,Sin especificar,Central Lo Valledor de Santiago,65,Primera,672,672,672,$/docena de atados
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,138,Primera,5.882,5.882,5.882,$/caja 16 kilos empedrada
+15/02/2017,Cilantro,Sin especificar,Central Lo Valledor de Santiago,35,Primera,15.966,15.966,15.966,$/docena de atados
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,110,Primera,6.723,6.723,6.723,$/caja 16 kilos empedrada
+15/02/2017,Cilantro,Sin especificar,Central Lo Valledor de Santiago,50,Segunda,15.126,15.126,15.126,$/docena de atados
+15/02/2017,Durazno,Phillips Cling,Central Lo Valledor de Santiago,16,Primera,6.723,6.723,6.723,$/caja 18 kilos empedrada
+15/02/2017,Coliflor,Sin especificar,Central Lo Valledor de Santiago,8.500,Primera,378,398,420,$/unidad
+15/02/2017,Durazno,September Sun,Central Lo Valledor de Santiago,88,Especial,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,Coliflor,Sin especificar,Central Lo Valledor de Santiago,3.000,Segunda,294,294,294,$/unidad
+15/02/2017,Espinaca,Sin especificar,Central Lo Valledor de Santiago,350,Primera,10.924,10.924,10.924,$/cuna 10 kilos
+15/02/2017,Durazno,September Sun,Central Lo Valledor de Santiago,70,Extra (doble especial),9.244,9.244,9.244,$/caja 16 kilos empedrada
+15/02/2017,Espinaca,Sin especificar,Central Lo Valledor de Santiago,220,Segunda,9.244,9.244,9.244,$/cuna 10 kilos
+15/02/2017,Durazno,September Sun,Central Lo Valledor de Santiago,86,Primera,5.882,5.882,5.882,$/caja 16 kilos empedrada
+15/02/2017,Durazno,September Sun,Central Lo Valledor de Santiago,60,Segunda,4.622,4.622,4.622,$/caja 16 kilos empedrada
+15/02/2017,Lechuga,Conconina(o),Central Lo Valledor de Santiago,1.200,Primera,3.361,3.361,3.361,$/caja 10 unidades
+15/02/2017,Lechuga,Conconina(o),Central Lo Valledor de Santiago,250,Segunda,2.101,2.101,2.101,$/caja 15 unidades
+15/02/2017,Durazno,September Sweet,Central Lo Valledor de Santiago,12,Especial,100.840,100.840,100.840,$/bins (400 kilos)
+15/02/2017,Lechuga,Escarola,Central Lo Valledor de Santiago,1.800,Primera,3.361,3.361,3.361,$/caja 15 unidades
+15/02/2017,Durazno,September Sweet,Central Lo Valledor de Santiago,14,Primera,84.034,84.034,84.034,$/bins (400 kilos)
+15/02/2017,Lechuga,Escarola,Central Lo Valledor de Santiago,1.200,Segunda,1.681,1.961,2.101,$/caja 18 unidades
+15/02/2017,Frambuesa,Sin especificar,Central Lo Valledor de Santiago,180,Primera,2.521,2.521,2.521,$/bandeja 2 kilos
+15/02/2017,Lechuga,Marina,Central Lo Valledor de Santiago,600,Primera,3.361,3.361,3.361,$/caja 15 unidades
+15/02/2017,Frutilla,Sin especificar,Central Lo Valledor de Santiago,420,Primera,4.622,5.162,5.462,$/bandeja 7 kilos
+15/02/2017,Lechuga,Milanesa,Central Lo Valledor de Santiago,850,Primera,2.521,2.521,2.521,$/caja 20 unidades
+15/02/2017,Frutilla,Sin especificar,Central Lo Valledor de Santiago,250,Segunda,3.782,4.050,4.202,$/bandeja 7 kilos
+15/02/2017,MelÛn,CalameÒo,Central Lo Valledor de Santiago,2.600,Primera,370,393,420,$/unidad
+15/02/2017,Frutilla,Sin especificar,Central Lo Valledor de Santiago,110,Tercera,2.101,2.406,2.521,$/bandeja 7 kilos
+15/02/2017,MelÛn,CalameÒo,Central Lo Valledor de Santiago,2.900,Segunda,311,330,353,$/unidad
+15/02/2017,LimÛn,Sin especificar,Central Lo Valledor de Santiago,891,1a amarillo,21.008,21.457,21.849,$/malla 18 kilos
+15/02/2017,MelÛn,CalameÒo,Central Lo Valledor de Santiago,2.500,Tercera,227,244,269,$/unidad
+15/02/2017,LimÛn,Sin especificar,Central Lo Valledor de Santiago,2.312,1a plateado,20.168,20.586,21.008,$/malla 18 kilos
+15/02/2017,MelÛn,Tuna,Central Lo Valledor de Santiago,4.200,Extra (muy buena),462,481,504,$/unidad
+15/02/2017,LimÛn,Sin especificar,Central Lo Valledor de Santiago,371,2a amarillo,18.487,18.906,19.328,$/malla 18 kilos
+15/02/2017,MelÛn,Tuna,Central Lo Valledor de Santiago,4.800,Primera,403,423,445,$/unidad
+15/02/2017,LimÛn,Sin especificar,Central Lo Valledor de Santiago,852,2a plateado,17.647,18.013,18.487,$/malla 18 kilos
+15/02/2017,MelÛn,Tuna,Central Lo Valledor de Santiago,4.300,Segunda,328,349,378,$/unidad
+15/02/2017,LimÛn,Sin especificar,Central Lo Valledor de Santiago,80,3a amarillo,15.126,15.599,15.966,$/malla 18 kilos
+15/02/2017,MelÛn,Tuna,Central Lo Valledor de Santiago,4.700,Tercera,244,266,294,$/unidad
+15/02/2017,LimÛn,Sin especificar,Central Lo Valledor de Santiago,271,3a plateado,15.126,15.569,15.966,$/malla 18 kilos
+15/02/2017,Papa,Kar˙,Central Lo Valledor de Santiago,1.140,1a nueva(o),5.882,6.244,6.723,$/saco 50 kilos
+15/02/2017,LimÛn,Sin especificar,Central Lo Valledor de Santiago,426,Cachana,12.605,12.605,12.605,$/malla 18 kilos
+15/02/2017,Papa,Patagonia,Central Lo Valledor de Santiago,1.640,1a nueva(o),5.882,6.246,6.723,$/saco 50 kilos
+15/02/2017,Mango,Sin especificar,Central Lo Valledor de Santiago,160,Especial,3.782,3.782,3.782,$/bandeja 4 kilos
+15/02/2017,Papa,Patagonia,Central Lo Valledor de Santiago,1.180,1a nueva(o),5.882,6.260,6.723,$/saco 50 kilos
+15/02/2017,Mango,Sin especificar,Central Lo Valledor de Santiago,320,Primera,3.361,3.361,3.361,$/bandeja 4 kilos
+15/02/2017,Papa,Pukar·,Central Lo Valledor de Santiago,830,1a nueva(o),5.042,5.427,5.882,$/saco 50 kilos
+15/02/2017,Manzana,Granny Smith,Central Lo Valledor de Santiago,14,Especial,92.437,92.437,92.437,$/bins (400 kilos)
+15/02/2017,Papa,Rodeo,Central Lo Valledor de Santiago,930,1a nueva(o),5.882,6.280,6.723,$/saco 50 kilos
+15/02/2017,Pepino dulce,Cultivar IV RegiÛn,Central Lo Valledor de Santiago,60,Especial,9.244,9.244,9.244,$/caja 18 kilos
+15/02/2017,Manzana,Granny Smith,Central Lo Valledor de Santiago,14,Especial,100.840,100.840,100.840,$/bins (400 kilos)
+15/02/2017,Pepino dulce,Cultivar IV RegiÛn,Central Lo Valledor de Santiago,270,Primera,7.563,7.937,8.403,$/caja 18 kilos
+15/02/2017,Manzana,Granny Smith,Central Lo Valledor de Santiago,18,Primera,75.630,75.630,75.630,$/bins (400 kilos)
+15/02/2017,Pepino dulce,Cultivar IV RegiÛn,Central Lo Valledor de Santiago,200,Segunda,5.042,5.462,5.882,$/caja 18 kilos
+15/02/2017,Manzana,Granny Smith,Central Lo Valledor de Santiago,16,Primera,84.034,84.034,84.034,$/bins (400 kilos)
+15/02/2017,Pepino ensalada,Sin especificar,Central Lo Valledor de Santiago,550,Primera,13.025,13.216,13.445,$/caja 80 unidades
+15/02/2017,Manzana,Granny Smith,Central Lo Valledor de Santiago,12,Segunda,67.227,67.227,67.227,$/bins (400 kilos)
+15/02/2017,Pepino ensalada,Sin especificar,Central Lo Valledor de Santiago,330,Segunda,10.924,11.306,11.765,$/caja 100 unidades
+15/02/2017,Manzana,Royal Gala,Central Lo Valledor de Santiago,30,Especial,92.437,96.359,100.840,$/bins (400 kilos)
+15/02/2017,Perejil,Sin especificar,Central Lo Valledor de Santiago,95,Primera,10.084,10.084,10.084,$/docena de atados
+15/02/2017,Manzana,Royal Gala,Central Lo Valledor de Santiago,38,Primera,79.832,81.822,84.034,$/bins (400 kilos)
+15/02/2017,Pimiento,Cuatro cascos verde,Central Lo Valledor de Santiago,550,Primera,3.361,3.591,3.782,$/caja 18 kilos
+15/02/2017,Manzana,Royal Gala,Central Lo Valledor de Santiago,24,Segunda,67.227,69.328,71.429,$/bins (400 kilos)
+15/02/2017,Naranja,Valencia,Central Lo Valledor de Santiago,18,Especial,184.874,184.874,184.874,$/bins (400 kilos)
+15/02/2017,Pimiento,Cuatro cascos verde,Central Lo Valledor de Santiago,250,Segunda,2.941,2.941,2.941,$/caja 18 kilos
+15/02/2017,Naranja,Valencia,Central Lo Valledor de Santiago,24,Primera,168.067,168.067,168.067,$/bins (400 kilos)
+15/02/2017,Pimiento,MorrÛn rojo,Central Lo Valledor de Santiago,150,Primera,5.882,6.275,6.723,$/caja 20 kilos
+15/02/2017,Naranja,Valencia,Central Lo Valledor de Santiago,14,Segunda,142.857,142.857,142.857,$/bins (400 kilos)
+15/02/2017,Pimiento,MorrÛn rojo,Central Lo Valledor de Santiago,90,Segunda,4.202,4.762,5.042,$/caja 20 kilos
+15/02/2017,Pimiento,MorrÛn rojo,Central Lo Valledor de Santiago,35,Tercera,2.521,2.761,2.941,$/caja 20 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,16,Especial,151.260,151.260,151.260,$/bins (420 kilos)
+15/02/2017,Pimiento,Zafiro rojo,Central Lo Valledor de Santiago,250,Primera,6.723,7.059,7.563,$/caja 18 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,73,Especial,7.563,7.707,7.983,$/caja 16 kilos empedrada
+15/02/2017,Pimiento,Zafiro rojo,Central Lo Valledor de Santiago,150,Segunda,5.882,5.882,5.882,$/caja 18 kilos
+15/02/2017,Pimiento,Zafiro verde,Central Lo Valledor de Santiago,500,Primera,5.042,5.294,5.462,$/caja 18 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,152,Especial,8.403,8.403,8.403,$/caja 18 kilos empedrada
+15/02/2017,Pimiento,Zafiro verde,Central Lo Valledor de Santiago,200,Segunda,4.202,4.202,4.202,$/caja 18 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,12,Extra (doble especial),168.067,168.067,168.067,$/bins (420 kilos)
+15/02/2017,Poroto granado,Sin especificar,Central Lo Valledor de Santiago,1.300,Primera,19.328,19.716,20.168,$/saco 30 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,10,Extra (doble especial),9.244,9.244,9.244,$/caja 16 kilos empedrada
+15/02/2017,Poroto granado,Sin especificar,Central Lo Valledor de Santiago,800,Primera,18.487,18.908,19.328,$/saco 30 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,64,Extra (doble especial),10.084,10.084,10.084,$/caja 18 kilos empedrada
+15/02/2017,Poroto verde,Magnum,Central Lo Valledor de Santiago,300,Primera,12.605,13.165,13.445,$/saco 30 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,18,Primera,134.454,134.454,134.454,$/bins (420 kilos)
+15/02/2017,Poroto verde,Magnum,Central Lo Valledor de Santiago,250,Segunda,8.403,9.412,10.924,$/saco 30 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,110,Primera,6.303,6.303,6.303,$/caja 16 kilos empedrada
+15/02/2017,Poroto verde,Sin especificar,Central Lo Valledor de Santiago,180,Primera,16.807,16.807,16.807,$/malla 30 kilos
+15/02/2017,NectarÌn,Artic Snow,Central Lo Valledor de Santiago,32,Primera,6.723,6.723,6.723,$/caja 18 kilos empedrada
+15/02/2017,Repollo,Copenhague,Central Lo Valledor de Santiago,3.700,Primera,378,395,420,$/unidad
+15/02/2017,Repollo,Copenhague,Central Lo Valledor de Santiago,2.000,Primera,420,420,420,$/unidad
+15/02/2017,NectarÌn,Artic Sprite,Central Lo Valledor de Santiago,16,Especial,168.067,168.067,168.067,$/bins (420 kilos)
+15/02/2017,Repollo,Copenhague,Central Lo Valledor de Santiago,1.200,Segunda,294,294,294,$/unidad
+15/02/2017,NectarÌn,Artic Sprite,Central Lo Valledor de Santiago,14,Primera,151.260,151.260,151.260,$/bins (420 kilos)
+15/02/2017,Repollo,Copenhague,Central Lo Valledor de Santiago,1.500,Segunda,336,336,336,$/unidad
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,16,Especial,126.050,126.050,126.050,$/bins (420 kilos)
+15/02/2017,Repollo,Crespo record,Central Lo Valledor de Santiago,13.000,Primera,378,394,420,$/unidad
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,62,Especial,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,Repollo,Crespo record,Central Lo Valledor de Santiago,7.000,Segunda,252,252,252,$/unidad
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,135,Especial,7.143,7.516,7.983,$/caja 16 kilos empedrada
+15/02/2017,Repollo,Morada(o),Central Lo Valledor de Santiago,4.000,Primera,336,336,336,$/unidad
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,27,Especial,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,Repollo,Morada(o),Central Lo Valledor de Santiago,2.000,Segunda,252,252,252,$/unidad
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,35,Extra (doble especial),8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,Sandia,Sin especificar,Central Lo Valledor de Santiago,2.400,Extra (muy buena),2.101,2.216,2.353,$/unidad
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,14,Extra (doble especial),8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,Sandia,Sin especificar,Central Lo Valledor de Santiago,2.800,Primera,1.681,1.837,2.017,$/unidad
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,18,Primera,109.244,109.244,109.244,$/bins (420 kilos)
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,135,Primera,6.723,6.723,6.723,$/caja 16 kilos empedrada
+15/02/2017,Sandia,Sin especificar,Central Lo Valledor de Santiago,2.400,Segunda,1.261,1.366,1.513,$/unidad
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,217,Primera,5.882,5.882,5.882,$/caja 16 kilos empedrada
+15/02/2017,NectarÌn,August Red,Central Lo Valledor de Santiago,30,Primera,6.723,6.723,6.723,$/caja 16 kilos empedrada
+15/02/2017,Tomate,Larga vida,Central Lo Valledor de Santiago,700,Primera,8.403,8.884,9.244,$/bandeja 18 kilos
+15/02/2017,Tomate,Larga vida,Central Lo Valledor de Santiago,750,Segunda,6.723,7.283,7.563,$/bandeja 18 kilos
+15/02/2017,NectarÌn,September Red,Central Lo Valledor de Santiago,14,Especial,117.647,117.647,117.647,$/bins (420 kilos)
+15/02/2017,Tomate,Larga vida,Central Lo Valledor de Santiago,200,Tercera,3.361,3.782,4.202,$/bandeja 18 kilos
+15/02/2017,NectarÌn,September Red,Central Lo Valledor de Santiago,18,Primera,100.840,100.840,100.840,$/bins (420 kilos)
+15/02/2017,NectarÌn,Summer Red,Central Lo Valledor de Santiago,25,Especial,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,700,Primera,5.462,5.702,5.882,$/bandeja 18 kilos
+15/02/2017,NectarÌn,Summer Red,Central Lo Valledor de Santiago,45,Primera,5.882,5.882,5.882,$/caja 16 kilos empedrada
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,350,Primera,5.714,6.050,6.303,$/bandeja 18 kilos
+15/02/2017,NectarÌn,Super August,Central Lo Valledor de Santiago,120,Especial,5.042,5.042,5.042,$/bandeja 10 kilos granel
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,2.200,Primera,4.622,4.851,5.042,$/caja 16 kilos
+15/02/2017,NectarÌn,Super August,Central Lo Valledor de Santiago,32,Especial,117.647,121.849,126.050,$/bins (420 kilos)
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,1.800,Primera,5.462,5.649,5.882,$/caja 16 kilos
+15/02/2017,NectarÌn,Super August,Central Lo Valledor de Santiago,16,Extra (doble especial),142.857,142.857,142.857,$/bins (420 kilos)
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,500,Segunda,4.202,4.454,4.622,$/bandeja 18 kilos
+15/02/2017,NectarÌn,Super August,Central Lo Valledor de Santiago,150,Primera,4.202,4.202,4.202,$/bandeja 10 kilos granel
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,500,Segunda,4.202,4.454,4.622,$/bandeja 18 kilos
+15/02/2017,NectarÌn,Super August,Central Lo Valledor de Santiago,40,Primera,100.840,104.622,109.244,$/bins (420 kilos)
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,1.800,Segunda,3.782,4.015,4.202,$/caja 16 kilos
+15/02/2017,NectarÌn,Super August,Central Lo Valledor de Santiago,18,Segunda,84.034,84.034,84.034,$/bins (420 kilos)
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,1.300,Segunda,4.202,4.654,5.042,$/caja 16 kilos
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,6,Cuarta,672,672,672,$/kilo (en bins de 450 kilos)
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,100,Tercera,2.521,2.521,2.521,$/bandeja 18 kilos
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,265,Cuarta,840,885,924,$/kilo (en caja de 15 kilos)
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,120,Tercera,2.521,2.521,2.521,$/bandeja 18 kilos
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,259,Cuarta,840,884,924,$/kilo (en caja de 15 kilos)
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,250,Tercera,2.101,2.353,2.521,$/caja 16 kilos
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,197,Especial,1.513,1.560,1.597,$/kilo (en caja de 15 kilos)
+15/02/2017,Tomate,Semiduro,Central Lo Valledor de Santiago,350,Tercera,2.353,2.449,2.521,$/caja 16 kilos
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,205,Especial,1.513,1.554,1.597,$/kilo (en caja de 15 kilos)
+15/02/2017,Zanahoria,Sin especificar,Central Lo Valledor de Santiago,1.100,Primera,6.723,7.219,7.563,$/saco 40 kilos
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,110,Especial,1.513,1.513,1.513,$/kilo (en caja de 17 kilos)
+15/02/2017,Zanahoria,Sin especificar,Central Lo Valledor de Santiago,13.000,Primera,84,84,84,$/unidad
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,10,Primera,1.261,1.261,1.261,$/kilo (en bins de 450 kilos)
+15/02/2017,Zanahoria,Sin especificar,Central Lo Valledor de Santiago,300,Segunda,5.042,5.042,5.042,$/saco 40 kilos
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,370,Primera,1.345,1.387,1.429,$/kilo (en caja de 15 kilos)
+15/02/2017,Zanahoria,Sin especificar,Central Lo Valledor de Santiago,15.000,Segunda,50,50,50,$/unidad
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,410,Primera,1.345,1.395,1.429,$/kilo (en caja de 15 kilos)
+15/02/2017,Zanahoria,Sin especificar,Central Lo Valledor de Santiago,12.000,Tercera,42,42,42,$/unidad
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,250,Primera,1.261,1.308,1.345,$/kilo (en caja de 17 kilos)
+15/02/2017,Zapallo,Camote,Central Lo Valledor de Santiago,1.390,1a (cosecha),118,126,134,$/kilo (volumen en unidades)
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,8,Segunda,1.008,1.008,1.008,$/kilo (en bins de 450 kilos)
+15/02/2017,Zapallo,Camote,Central Lo Valledor de Santiago,730,2a (cosecha),84,91,101,$/kilo (volumen en unidades)
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,8,Segunda,1.092,1.092,1.092,$/kilo (en bins de 450 kilos)
+15/02/2017,Zapallo italiano,Sin especificar,Central Lo Valledor de Santiago,700,Primera,4.202,4.442,4.622,$/caja 70 unidades
+15/02/2017,Acelga,Sin especificar,Femacal de La Calera,138,Primera,1.261,1.407,1.513,$/docena de atados (6 kilos)
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,333,Segunda,1.176,1.219,1.261,$/kilo (en caja de 15 kilos)
+15/02/2017,Ajo,Chino,Femacal de La Calera,30,Primera,17.647,18.067,18.487,$/caja 10 kilos
+15/02/2017,Ajo,Rosado,Femacal de La Calera,100,1a (cosecha),5.882,6.303,6.723,$/trenza 50 unidades
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,309,Segunda,1.176,1.222,1.261,$/kilo (en caja de 15 kilos)
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,260,Segunda,1.134,1.160,1.176,$/kilo (en caja de 17 kilos)
+15/02/2017,Ajo,Rosado,Femacal de La Calera,55,2a (cosecha),4.202,4.202,4.202,$/trenza 50 unidades
+15/02/2017,Ajo,Rosado,Femacal de La Calera,50,3a (cosecha),2.521,2.521,2.521,$/trenza 50 unidades
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,8,Tercera,840,840,840,$/kilo (en bins de 450 kilos)
+15/02/2017,AjÌ,Americana (o),Femacal de La Calera,20,Segunda,12.605,12.605,12.605,$/caja 30 kilos
+15/02/2017,AjÌ,Inferno,Femacal de La Calera,25,Primera,8.403,8.739,9.244,$/caja 15 kilos
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,6,Tercera,924,924,924,$/kilo (en bins de 450 kilos)
+15/02/2017,AjÌ,Inferno,Femacal de La Calera,15,Segunda,6.723,6.723,6.723,$/caja 15 kilos
+15/02/2017,Albahaca,Sin especificar,Femacal de La Calera,50,Primera,2.521,2.521,2.521,$/docena de matas
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,340,Tercera,1.008,1.052,1.092,$/kilo (en caja de 15 kilos)
+15/02/2017,Apio,Americana (o),Femacal de La Calera,95,Primera,7.563,7.563,7.563,$/docena de matas
+15/02/2017,Apio,Americana (o),Femacal de La Calera,50,Segunda,5.042,5.042,5.042,$/docena de matas
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,330,Tercera,1.008,1.054,1.092,$/kilo (en caja de 15 kilos)
+15/02/2017,Berenjena,Sin especificar,Femacal de La Calera,25,Primera,6.723,6.723,6.723,$/caja 90 unidades
+15/02/2017,Betarraga,Sin especificar,Femacal de La Calera,800,Primera,294,294,294,$/paquete 4 unidades
+15/02/2017,Palta,Hass,Central Lo Valledor de Santiago,90,Tercera,1.008,1.008,1.008,$/kilo (en caja de 17 kilos)
+15/02/2017,Betarraga,Sin especificar,Femacal de La Calera,850,Segunda,252,252,252,$/paquete 4 unidades
+15/02/2017,Pera,Bartlett de verano,Central Lo Valledor de Santiago,16,Primera,84.034,84.034,84.034,$/bins (450 kilos)
+15/02/2017,BrÛcoli,Sin especificar,Femacal de La Calera,600,Primera,504,504,504,$/unidad
+15/02/2017,Pera,Bartlett de verano,Central Lo Valledor de Santiago,14,Segunda,67.227,67.227,67.227,$/bins (450 kilos)
+15/02/2017,BrÛcoli,Sin especificar,Femacal de La Calera,550,Segunda,378,378,378,$/unidad
+15/02/2017,Pera,Packham's Triumph,Central Lo Valledor de Santiago,18,Especial,109.244,109.244,109.244,$/bins (450 kilos)
+15/02/2017,Cebolla,Morada(o),Femacal de La Calera,25,Primera,8.403,8.403,8.403,$/malla 18 kilos
+15/02/2017,Pera,Packham's Triumph,Central Lo Valledor de Santiago,24,Primera,100.840,100.840,100.840,$/bins (450 kilos)
+15/02/2017,Cebolla,Morada(o),Femacal de La Calera,28,Segunda,6.723,6.723,6.723,$/malla 18 kilos
+15/02/2017,Pera,Packham's Triumph,Central Lo Valledor de Santiago,12,Segunda,75.630,75.630,75.630,$/bins (450 kilos)
+15/02/2017,Cebolla,Sin especificar,Femacal de La Calera,5.300,1a nueva(o),1.513,1.592,1.681,$/malla 18 kilos
+15/02/2017,Cebolla,Sin especificar,Femacal de La Calera,2.600,2a nueva(o),1.092,1.092,1.092,$/malla 18 kilos
+15/02/2017,PiÒa,Caramelo,Central Lo Valledor de Santiago,108,Especial,11.765,12.185,12.605,$/caja 10 unidades
+15/02/2017,Cebolla,Sin especificar,Femacal de La Calera,2.500,3a nueva (o),672,672,672,$/malla 18 kilos
+15/02/2017,PiÒa,Caramelo,Central Lo Valledor de Santiago,108,Primera,11.765,12.185,12.605,$/caja 12 unidades
+15/02/2017,CebollÌn,Sin especificar,Femacal de La Calera,80,Primera,2.521,2.521,2.521,$/paquete 36 unidades
+15/02/2017,PiÒa,Caramelo,Central Lo Valledor de Santiago,108,Segunda,11.765,12.185,12.605,$/caja 14 unidades
+15/02/2017,Pl·tano,Sin especificar,Central Lo Valledor de Santiago,2.160,Maduro,5.042,5.470,5.882,$/caja 20 kilos
+15/02/2017,Choclo,Choclero,Femacal de La Calera,3.600,Primera,92,101,109,$/unidad
+15/02/2017,Choclo,Choclero,Femacal de La Calera,1.900,Segunda,67,67,67,$/unidad
+15/02/2017,Pl·tano,Sin especificar,Central Lo Valledor de Santiago,4.655,PintÛn,6.303,6.522,7.143,$/caja 20 kilos
+15/02/2017,Choclo,Dulce o Americano,Femacal de La Calera,1.800,Primera,101,101,101,$/unidad
+15/02/2017,Pl·tano,Sin especificar,Central Lo Valledor de Santiago,1.270,Verde,5.882,6.382,7.143,$/caja 20 kilos
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,86,Especial,7.815,7.815,7.815,$/caja 18 kilos
+15/02/2017,Choclo,Dulce o Americano,Femacal de La Calera,1.800,Segunda,67,67,67,$/unidad
+15/02/2017,Ciboulette,Sin especificar,Femacal de La Calera,50,Primera,1.681,1.681,1.681,$/docena de atados
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,85,Especial,7.983,7.983,7.983,$/caja 20 kilos
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,45,Especial,8.403,8.403,8.403,$/caja 20 kilos
+15/02/2017,Cilantro,Sin especificar,Femacal de La Calera,100,Primera,2.521,2.731,2.941,$/docena de atados (3 kilos)
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,75,Extra (doble especial),9.244,9.244,9.244,$/caja 20 kilos
+15/02/2017,Coliflor,Sin especificar,Femacal de La Calera,400,Primera,588,588,588,$/unidad
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,40,Extra (doble especial),10.084,10.084,10.084,$/caja 20 kilos
+15/02/2017,Coliflor,Sin especificar,Femacal de La Calera,350,Segunda,420,420,420,$/unidad
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,70,Extra (doble especial),9.664,9.664,9.664,$/caja 20 kilos
+15/02/2017,Lechuga,Conconina(o),Femacal de La Calera,50,Primera,2.521,2.521,2.521,$/caja 10 unidades
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,115,Primera,6.723,6.723,6.723,$/caja 18 kilos
+15/02/2017,Lechuga,Escarola,Femacal de La Calera,73,Primera,3.361,3.580,3.782,$/caja 15 unidades
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,90,Primera,7.143,7.143,7.143,$/caja 20 kilos
+15/02/2017,Lechuga,Milanesa,Femacal de La Calera,50,Primera,2.521,2.521,2.521,$/caja 20 unidades
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,20,Primera,7.563,7.563,7.563,$/caja 20 kilos
+15/02/2017,MelÛn,Tuna,Femacal de La Calera,300,Extra,630,630,630,$/unidad
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,60,Primera,7.395,7.395,7.395,$/caja 20 kilos
+15/02/2017,MelÛn,Tuna,Femacal de La Calera,300,Primera,420,420,420,$/unidad
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,95,Segunda,5.882,5.882,5.882,$/caja 18 kilos
+15/02/2017,MelÛn,Tuna,Femacal de La Calera,250,Segunda,294,294,294,$/unidad
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,60,Segunda,5.882,5.882,5.882,$/caja 20 kilos
+15/02/2017,MelÛn,Tuna,Femacal de La Calera,480,Tercera,210,210,210,$/unidad
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,20,Segunda,6.303,6.303,6.303,$/caja 20 kilos
+15/02/2017,Papa,Patagonia,Femacal de La Calera,100,1a nueva(o),6.723,6.933,7.143,$/saco 50 kilos
+15/02/2017,Tuna,Sin especificar,Central Lo Valledor de Santiago,45,Tercera,5.042,5.042,5.042,$/caja 20 kilos
+15/02/2017,Papa,Rosara,Femacal de La Calera,100,1a nueva(o),5.042,5.252,5.462,$/saco 50 kilos
+15/02/2017,Uva,Flame Seedless,Central Lo Valledor de Santiago,100,Primera,4.034,4.034,4.034,$/caja 12 kilos
+15/02/2017,Pepino ensalada,Sin especificar,Femacal de La Calera,35,Primera,12.605,12.605,12.605,$/caja 80 unidades
+15/02/2017,Uva,Ralli Seedless,Central Lo Valledor de Santiago,210,Especial,8.403,8.403,8.403,$/caja 18 kilos
+15/02/2017,Pimiento,Zafiro rojo,Femacal de La Calera,48,Primera,8.403,8.841,9.244,$/caja 18 kilos
+15/02/2017,Uva,Ralli Seedless,Central Lo Valledor de Santiago,116,Primera,6.303,6.303,6.303,$/caja 20 kilos
+15/02/2017,Pimiento,Zafiro rojo,Femacal de La Calera,28,Segunda,5.882,5.882,5.882,$/caja 18 kilos
+15/02/2017,Uva,Ralli Seedless,Central Lo Valledor de Santiago,500,Primera,5.882,6.050,6.723,$/caja 20 kilos
+15/02/2017,Pimiento,Zafiro verde,Femacal de La Calera,28,Primera,6.723,6.723,6.723,$/caja 18 kilos
+15/02/2017,Uva,Red Globe,Central Lo Valledor de Santiago,220,Especial,8.403,8.403,8.403,$/caja 20 kilos
+15/02/2017,Pimiento,Zafiro verde,Femacal de La Calera,35,Segunda,5.042,5.042,5.042,$/caja 18 kilos
+15/02/2017,Uva,Red Globe,Central Lo Valledor de Santiago,140,Primera,5.882,5.882,5.882,$/caja 18 kilos
+15/02/2017,Poroto verde,Magnum,Femacal de La Calera,25,Primera,21.008,21.008,21.008,$/malla 30 kilos
+15/02/2017,Uva,Red Globe,Central Lo Valledor de Santiago,170,Primera,6.723,6.723,6.723,$/caja 20 kilos
+15/02/2017,Rabanito,Sin especificar,Femacal de La Calera,2.600,Primera,1.681,1.681,1.681,$/cien unidades (volumen en unidades)
+15/02/2017,Uva,Red Globe,Central Lo Valledor de Santiago,180,Primera,6.723,6.723,6.723,$/caja 20 kilos
+15/02/2017,Repollo,Crespo record,Femacal de La Calera,390,Primera,420,420,420,$/unidad
+15/02/2017,Uva,Sultanina,Central Lo Valledor de Santiago,200,Especial,8.403,8.403,8.403,$/caja 18 kilos
+15/02/2017,Uva,Sultanina,Central Lo Valledor de Santiago,100,Primera,5.042,5.042,5.042,$/caja 12 kilos
+15/02/2017,Repollo,Crespo record,Femacal de La Calera,380,Segunda,336,336,336,$/unidad
+15/02/2017,Uva,Sultanina,Central Lo Valledor de Santiago,250,Primera,6.303,6.303,6.303,$/caja 18 kilos
+15/02/2017,Uva,Sultanina,Central Lo Valledor de Santiago,153,Primera,7.143,7.143,7.143,$/caja 20 kilos
+15/02/2017,Repollo,Morada(o),Femacal de La Calera,380,Primera,420,420,420,$/unidad
+15/02/2017,Uva,Sultanina,Central Lo Valledor de Santiago,302,Primera,6.723,6.723,6.723,$/caja 20 kilos
+15/02/2017,Sandia,Sin especificar,Femacal de La Calera,300,Extra,1.933,1.933,1.933,$/unidad
+15/02/2017,Uva,Sultanina,Central Lo Valledor de Santiago,155,Primera,6.723,6.723,6.723,$/caja 20 kilos
+15/02/2017,Sandia,Sin especificar,Femacal de La Calera,300,Extra (muy buena),1.429,1.429,1.429,$/unidad
+15/02/2017,Uva,Sultanina,Central Lo Valledor de Santiago,100,Primera,8.403,8.403,8.403,$/caja 25 kilos
+15/02/2017,Sandia,Sin especificar,Femacal de La Calera,280,Primera,1.092,1.092,1.092,$/unidad
+15/02/2017,Uva,Sultanina,Central Lo Valledor de Santiago,357,Tercera,5.042,5.042,5.042,$/caja 25 kilos
+15/02/2017,Sandia,Sin especificar,Femacal de La Calera,250,Segunda,840,840,840,$/unidad
+15/02/2017,Uva,Superior Seedless,Central Lo Valledor de Santiago,30,Primera,6.723,6.723,6.723,$/caja 20 kilos
+15/02/2017,Sandia,Sin especificar,Femacal de La Calera,200,Tercera,504,504,504,$/unidad
+15/02/2017,Uva,Superior Seedless,Central Lo Valledor de Santiago,160,Primera,8.403,8.403,8.403,$/caja 25 kilos
+15/02/2017,Tomate,Larga vida,Femacal de La Calera,190,Primera,7.143,7.386,7.563,$/bandeja 18 kilos
+15/02/2017,Uva,Thompson seedless,Central Lo Valledor de Santiago,160,Primera,10.084,10.084,10.084,$/caja 20 kilos
+15/02/2017,Ciruela,Larry Ann,Femacal de La Calera,45,Primera,5.042,5.042,5.042,$/caja 15 kilos empedrada
+15/02/2017,Tomate,Larga vida,Femacal de La Calera,230,Primera,5.462,5.663,5.882,$/caja 15 kilos
+15/02/2017,Ciruela,Larry Ann,Femacal de La Calera,40,Segunda,4.202,4.202,4.202,$/caja 15 kilos empedrada
+15/02/2017,Tomate,Larga vida,Femacal de La Calera,80,Segunda,5.462,5.462,5.462,$/bandeja 18 kilos
+15/02/2017,Durazno,Doctor Davis,Femacal de La Calera,60,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
+15/02/2017,Tomate,Larga vida,Femacal de La Calera,90,Segunda,3.782,3.782,3.782,$/caja 15 kilos
+15/02/2017,Durazno,Doctor Davis,Femacal de La Calera,60,Extra (doble especial),10.924,10.924,10.924,$/caja 16 kilos empedrada
+15/02/2017,Zanahoria,Sin especificar,Femacal de La Calera,40,Primera,9.244,9.244,9.244,$/saco 40 kilos
+15/02/2017,Durazno,Doctor Davis,Femacal de La Calera,92,Primera,8.403,8.787,9.244,$/caja 16 kilos empedrada
+15/02/2017,Zapallo,Camote,Femacal de La Calera,113,1a nueva(o),168,190,210,$/kilo (volumen en unidades)
+15/02/2017,Zapallo,Camote,Femacal de La Calera,50,2a nueva(o),126,126,126,$/kilo (volumen en unidades)
+15/02/2017,Durazno,Doctor Davis,Femacal de La Calera,50,Segunda,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,Zapallo italiano,Hurac·n,Femacal de La Calera,55,Primera,2.521,2.521,2.521,$/caja 36 unidades
+15/02/2017,Durazno,Ross Peach,Femacal de La Calera,50,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
+15/02/2017,Betarraga,Sin especificar,Feria Lagunitas de Puerto Montt,200,Segunda,420,420,420,$/paquete 5 unidades
+15/02/2017,Choclo,Dulce o Americano,Feria Lagunitas de Puerto Montt,300,Primera,5.882,6.303,6.723,$/malla 60 unidades
+15/02/2017,Durazno,Ross Peach,Femacal de La Calera,70,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,CalameÒo,Feria Lagunitas de Puerto Montt,500,Primera,588,588,588,$/unidad
+15/02/2017,Durazno,Ross Peach,Femacal de La Calera,50,Segunda,6.723,6.723,6.723,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,CalameÒo,Feria Lagunitas de Puerto Montt,300,Segunda,420,420,420,$/unidad
+15/02/2017,Durazno,September Snow,Femacal de La Calera,38,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
+15/02/2017,Durazno,September Snow,Femacal de La Calera,45,Primera,9.244,9.244,9.244,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,CalameÒo,Feria Lagunitas de Puerto Montt,100,Tercera,294,294,294,$/unidad
+15/02/2017,Durazno,September Snow,Femacal de La Calera,28,Segunda,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,Tuna,Feria Lagunitas de Puerto Montt,500,Primera,588,588,588,$/unidad
+15/02/2017,Frutilla,Sin especificar,Femacal de La Calera,60,Especial,5.882,5.882,5.882,$/bandeja 7 kilos
+15/02/2017,MelÛn,Tuna,Feria Lagunitas de Puerto Montt,300,Segunda,420,420,420,$/unidad
+15/02/2017,Frutilla,Sin especificar,Femacal de La Calera,80,Primera,5.042,5.042,5.042,$/bandeja 7 kilos
+15/02/2017,MelÛn,Tuna,Feria Lagunitas de Puerto Montt,100,Tercera,294,294,294,$/unidad
+15/02/2017,Frutilla,Sin especificar,Femacal de La Calera,35,Segunda,3.361,3.361,3.361,$/bandeja 7 kilos
+15/02/2017,Papa,Patagonia,Feria Lagunitas de Puerto Montt,100,1a nueva(o),5.882,6.303,6.723,$/saco 50 kilos
+15/02/2017,LimÛn,Sin especificar,Femacal de La Calera,55,1a amarillo,18.487,18.946,19.328,$/malla 16 kilos
+15/02/2017,Papa,Pukar·,Feria Lagunitas de Puerto Montt,100,1a nueva(o),5.882,6.303,6.723,$/saco 50 kilos
+15/02/2017,LimÛn,Sin especificar,Femacal de La Calera,230,1a plateado,17.647,18.012,18.487,$/malla 16 kilos
+15/02/2017,Sandia,Sin especificar,Feria Lagunitas de Puerto Montt,200,Extra,2.101,2.101,2.101,$/unidad
+15/02/2017,LimÛn,Sin especificar,Femacal de La Calera,50,2a amarillo,17.647,17.647,17.647,$/malla 16 kilos
+15/02/2017,Sandia,Sin especificar,Feria Lagunitas de Puerto Montt,300,Primera,1.681,1.681,1.681,$/unidad
+15/02/2017,LimÛn,Sin especificar,Femacal de La Calera,100,2a plateado,16.807,16.807,16.807,$/malla 16 kilos
+15/02/2017,Mango,Sin especificar,Femacal de La Calera,228,Segunda,4.202,4.202,4.202,$/bandeja 4 kilos
+15/02/2017,Sandia,Sin especificar,Feria Lagunitas de Puerto Montt,100,Segunda,1.261,1.261,1.261,$/unidad
+15/02/2017,Manzana,Granny Smith,Femacal de La Calera,70,Especial,6.723,6.723,6.723,$/caja 16 kilos empedrada
+15/02/2017,Zanahoria,Sin especificar,Feria Lagunitas de Puerto Montt,25,Primera,12.605,12.605,12.605,$/saco 40 kilos
+15/02/2017,Manzana,Granny Smith,Femacal de La Calera,80,Primera,5.882,5.882,5.882,$/caja 16 kilos empedrada
+15/02/2017,Manzana,Granny Smith,Femacal de La Calera,60,Segunda,5.042,5.042,5.042,$/caja 16 kilos empedrada
+15/02/2017,Acelga,Sin especificar,Macroferia Regional de Talca,1.000,Primera,1.008,1.008,1.008,"$/atado 1 a 1,5 kilos"
+15/02/2017,Manzana,Royal Gala,Femacal de La Calera,48,Especial,6.723,6.723,6.723,$/caja 16 kilos empedrada
+15/02/2017,Ajo,Chino,Macroferia Regional de Talca,300,Primera,20.168,20.168,20.168,$/caja 10 kilos
+15/02/2017,Manzana,Royal Gala,Femacal de La Calera,50,Primera,5.882,5.882,5.882,$/caja 16 kilos empedrada
+15/02/2017,AjÌ,Cacho cabra verde,Macroferia Regional de Talca,100,Primera,6.723,6.723,6.723,$/saco 25 kilos
+15/02/2017,Albahaca,Sin especificar,Macroferia Regional de Talca,300,Primera,2.521,2.521,2.521,$/docena de matas
+15/02/2017,Manzana,Royal Gala,Femacal de La Calera,60,Segunda,5.042,5.042,5.042,$/caja 16 kilos empedrada
+15/02/2017,BrÛcoli,Sin especificar,Macroferia Regional de Talca,2.000,Primera,588,588,588,$/unidad
+15/02/2017,Naranja,Valencia,Femacal de La Calera,40,Primera,5.882,5.882,5.882,$/malla 13 kilos
+15/02/2017,Cebolla,Sin especificar,Macroferia Regional de Talca,1.500,1a (cosecha),7.563,7.563,7.563,$/malla 50 kilos
+15/02/2017,Naranja,Valencia,Femacal de La Calera,35,Segunda,5.042,5.042,5.042,$/malla 13 kilos
+15/02/2017,Cebolla,Sin especificar,Macroferia Regional de Talca,50.000,1a nueva(o),71,71,71,$/unidad
+15/02/2017,NectarÌn,Artic Pride,Femacal de La Calera,45,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
+15/02/2017,Cebolla,Sin especificar,Macroferia Regional de Talca,300,2a (cosecha),6.303,6.303,6.303,$/malla 50 kilos
+15/02/2017,NectarÌn,Artic Pride,Femacal de La Calera,40,Extra (doble especial),10.924,10.924,10.924,$/caja 16 kilos empedrada
+15/02/2017,Cebolla,Sin especificar,Macroferia Regional de Talca,20.000,2a nueva(o),50,50,50,$/unidad
+15/02/2017,NectarÌn,Artic Pride,Femacal de La Calera,70,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,Choclo,Choclero,Macroferia Regional de Talca,20.000,Primera,84,84,84,$/unidad
+15/02/2017,NectarÌn,Artic Pride,Femacal de La Calera,50,Segunda,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,NectarÌn,Artic Snow,Femacal de La Calera,98,Especial,9.244,9.655,10.084,$/caja 16 kilos empedrada
+15/02/2017,Choclo,Choclero,Macroferia Regional de Talca,5.000,Segunda,59,59,59,$/unidad
+15/02/2017,Coliflor,Sin especificar,Macroferia Regional de Talca,2.000,Primera,672,672,672,$/unidad
+15/02/2017,NectarÌn,Artic Snow,Femacal de La Calera,60,Extra (doble especial),10.924,10.924,10.924,$/caja 16 kilos empedrada
+15/02/2017,Lechuga,Conconina(o),Macroferia Regional de Talca,1.000,Primera,5.042,5.042,5.042,$/caja 20 unidades
+15/02/2017,NectarÌn,Artic Snow,Femacal de La Calera,60,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,Lechuga,Escarola,Macroferia Regional de Talca,500,Primera,5.882,5.882,5.882,$/caja 15 unidades
+15/02/2017,NectarÌn,Artic Snow,Femacal de La Calera,40,Segunda,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,Pl·tano,Macroferia Regional de Talca,4.000,Primera,7.563,7.563,7.563,$/unidad
+15/02/2017,NectarÌn,August Red,Femacal de La Calera,50,Especial,9.244,9.244,9.244,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,Pl·tano,Macroferia Regional de Talca,2.000,Segunda,420,420,420,$/unidad
+15/02/2017,MelÛn,Pl·tano,Macroferia Regional de Talca,1.000,Tercera,252,252,252,$/unidad
+15/02/2017,NectarÌn,August Red,Femacal de La Calera,40,Extra (doble especial),10.084,10.084,10.084,$/caja 16 kilos empedrada
+15/02/2017,Papa,Patagonia,Macroferia Regional de Talca,700,1a (cosecha),5.462,5.582,5.882,$/saco 50 kilos
+15/02/2017,Papa,Pukar·,Macroferia Regional de Talca,400,1a (cosecha),4.622,4.622,4.622,$/saco 50 kilos
+15/02/2017,NectarÌn,August Red,Femacal de La Calera,60,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,Papa,Pukar·,Macroferia Regional de Talca,300,1a (cosecha),4.202,4.202,4.202,$/saco 50 kilos
+15/02/2017,NectarÌn,August Red,Femacal de La Calera,47,Segunda,6.723,6.723,6.723,$/caja 16 kilos empedrada
+15/02/2017,Palta,Hass,Femacal de La Calera,18,Cuarta,840,840,840,$/kilo (en caja de 15 kilos)
+15/02/2017,Pepino ensalada,Sin especificar,Macroferia Regional de Talca,1.000,Primera,12.605,12.605,12.605,$/caja 80 unidades
+15/02/2017,Palta,Hass,Femacal de La Calera,25,Primera,1.429,1.429,1.429,$/kilo (en caja de 15 kilos)
+15/02/2017,Pepino ensalada,Sin especificar,Macroferia Regional de Talca,200,Segunda,10.084,10.084,10.084,$/caja 100 unidades
+15/02/2017,Palta,Hass,Femacal de La Calera,30,Segunda,1.261,1.261,1.261,$/kilo (en caja de 15 kilos)
+15/02/2017,Pimiento,Zafiro verde,Macroferia Regional de Talca,500,Primera,3.361,3.361,3.361,$/caja 15 kilos
+15/02/2017,Pimiento,Zafiro verde,Macroferia Regional de Talca,100,Segunda,2.521,2.521,2.521,$/caja 15 kilos
+15/02/2017,Palta,Hass,Femacal de La Calera,20,Tercera,1.092,1.092,1.092,$/kilo (en caja de 15 kilos)
+15/02/2017,Poroto granado,Sin especificar,Macroferia Regional de Talca,200,Primera,16.807,16.807,16.807,$/saco 30 kilos
+15/02/2017,Pera,Packham's Triumph,Femacal de La Calera,70,Especial,6.723,6.723,6.723,$/caja 18 kilos empedrada
+15/02/2017,Poroto granado,Sin especificar,Macroferia Regional de Talca,50,Segunda,15.126,15.126,15.126,$/saco 30 kilos
+15/02/2017,Pera,Packham's Triumph,Femacal de La Calera,80,Primera,5.882,5.882,5.882,$/caja 18 kilos empedrada
+15/02/2017,Poroto verde,Sin especificar,Macroferia Regional de Talca,100,Primera,12.605,12.605,12.605,$/saco 30 kilos
+15/02/2017,Pera,Packham's Triumph,Femacal de La Calera,50,Segunda,5.042,5.042,5.042,$/caja 18 kilos empedrada
+15/02/2017,Tomate,Larga vida,Macroferia Regional de Talca,2.500,Primera,4.202,4.202,4.202,$/caja 15 kilos
+15/02/2017,PiÒa,Caramelo,Femacal de La Calera,162,Primera,13.445,13.445,13.445,$/caja 12 unidades
+15/02/2017,Tomate,Larga vida,Macroferia Regional de Talca,1.500,Segunda,3.361,3.361,3.361,$/caja 15 kilos
+15/02/2017,PiÒa,Caramelo,Femacal de La Calera,54,Segunda,13.445,13.445,13.445,$/caja 14 unidades
+15/02/2017,Tomate,Larga vida,Macroferia Regional de Talca,500,Tercera,2.101,2.101,2.101,$/caja 15 kilos
+15/02/2017,Pl·tano,Sin especificar,Femacal de La Calera,160,Maduro,7.563,7.563,7.563,$/caja 20 kilos
+15/02/2017,Zanahoria,Sin especificar,Macroferia Regional de Talca,400,Primera,8.403,8.403,8.403,$/saco 40 kilos
+15/02/2017,Pl·tano,Sin especificar,Femacal de La Calera,280,PintÛn,8.403,8.643,9.244,$/caja 20 kilos
+15/02/2017,Zanahoria,Sin especificar,Macroferia Regional de Talca,150,Primera,8.403,8.403,8.403,$/saco 40 kilos
+15/02/2017,Tuna,Sin especificar,Femacal de La Calera,45,Primera,6.723,6.723,6.723,$/caja 16 kilos
+15/02/2017,Tuna,Sin especificar,Femacal de La Calera,50,Segunda,5.042,5.042,5.042,$/caja 16 kilos
+15/02/2017,Zapallo,Camote,Macroferia Regional de Talca,1.300,1a (cosecha),109,120,126,$/kilo (volumen en unidades)
+15/02/2017,Uva,Red Globe,Femacal de La Calera,70,Primera,7.563,7.563,7.563,$/caja 23 kilos
+15/02/2017,Zapallo italiano,Sin especificar,Macroferia Regional de Talca,500,Primera,2.941,2.941,2.941,$/caja 60 unidades
+15/02/2017,Uva,Ribier,Femacal de La Calera,45,Primera,7.563,7.563,7.563,$/caja 20 kilos
+15/02/2017,Tomate,Larga vida,Mapocho venta directa de Santiago,530,Especial,10.084,10.203,10.504,$/bandeja 18 kilos
+15/02/2017,Tomate,Larga vida,Mapocho venta directa de Santiago,840,Primera,8.403,8.693,9.244,$/bandeja 18 kilos
+15/02/2017,Uva,Superior Seedless,Femacal de La Calera,60,Primera,8.403,8.403,8.403,$/caja 20 kilos
+15/02/2017,Tomate,Larga vida,Mapocho venta directa de Santiago,160,Segunda,6.723,6.723,6.723,$/bandeja 18 kilos
+15/02/2017,AjÌ,Cacho cabra verde,Terminal HortofrutÌcola de Chill·n,25,Primera,7.983,8.151,8.403,$/saco 25 kilos
+15/02/2017,Ar·ndano (blue),Sin especificar,Feria Lagunitas de Puerto Montt,80,Primera,3.782,3.782,3.782,$/bandeja 2 kilos
+15/02/2017,Apio,Americana (o),Terminal HortofrutÌcola de Chill·n,50,Primera,4.622,4.790,5.042,$/docena de matas
+15/02/2017,Frutilla,Sin especificar,Feria Lagunitas de Puerto Montt,120,Primera,5.042,5.042,5.042,$/bandeja 7 kilos
+15/02/2017,Cebolla,Sin especificar,Terminal HortofrutÌcola de Chill·n,5.000,1a nueva(o),1.261,1.303,1.345,$/paquete 20 unidades (volumen en unidades)
+15/02/2017,Cebolla,Sin especificar,Terminal HortofrutÌcola de Chill·n,5.000,2a nueva(o),1.008,1.050,1.092,$/paquete 20 unidades (volumen en unidades)
+15/02/2017,Frutilla,Sin especificar,Feria Lagunitas de Puerto Montt,240,Primera,5.462,5.672,5.882,$/bandeja 7 kilos
+15/02/2017,Espinaca,Sin especificar,Terminal HortofrutÌcola de Chill·n,25,Segunda,9.244,9.580,10.084,$/cuna 10 kilos
+15/02/2017,LimÛn,Sin especificar,Feria Lagunitas de Puerto Montt,300,1a plateado,22.689,23.109,23.529,$/malla 16 kilos
+15/02/2017,Lechuga,Conconina(o),Terminal HortofrutÌcola de Chill·n,100,Primera,2.941,3.151,3.361,$/caja 10 unidades
+15/02/2017,Lechuga,Escarola,Terminal HortofrutÌcola de Chill·n,80,Primera,4.202,4.412,4.622,$/caja 15 unidades
+15/02/2017,Manzana,Granny Smith,Feria Lagunitas de Puerto Montt,200,Primera,5.882,5.882,5.882,$/caja 15 kilos empedrada
+15/02/2017,Lechuga,Escarola,Terminal HortofrutÌcola de Chill·n,100,Segunda,3.361,3.571,3.782,$/caja 18 unidades
+15/02/2017,Manzana,Royal Gala,Feria Lagunitas de Puerto Montt,200,Primera,5.882,5.882,5.882,$/caja 15 kilos empedrada
+15/02/2017,MelÛn,CalameÒo,Terminal HortofrutÌcola de Chill·n,140,Extra (muy buena),420,438,462,$/unidad
+15/02/2017,Naranja,Valencia,Feria Lagunitas de Puerto Montt,100,Primera,5.882,5.882,5.882,$/caja 18 kilos empedrada
+15/02/2017,NectarÌn,Venus,Feria Lagunitas de Puerto Montt,200,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,CalameÒo,Terminal HortofrutÌcola de Chill·n,200,Primera,336,357,378,$/unidad
+15/02/2017,Palta,Hass,Feria Lagunitas de Puerto Montt,100,Primera,2.101,2.101,2.101,$/kilo (en caja de 15 kilos)
+15/02/2017,MelÛn,CalameÒo,Terminal HortofrutÌcola de Chill·n,200,Segunda,252,273,294,$/unidad
+15/02/2017,Palta,Hass,Feria Lagunitas de Puerto Montt,100,Segunda,1.681,1.681,1.681,$/kilo (en caja de 15 kilos)
+15/02/2017,MelÛn,Tuna,Terminal HortofrutÌcola de Chill·n,100,Extra (muy buena),504,525,546,$/unidad
+15/02/2017,Palta,Hass,Feria Lagunitas de Puerto Montt,100,Tercera,1.345,1.345,1.345,$/kilo (en caja de 15 kilos)
+15/02/2017,MelÛn,Tuna,Terminal HortofrutÌcola de Chill·n,300,Primera,420,441,462,$/unidad
+15/02/2017,MelÛn,Tuna,Terminal HortofrutÌcola de Chill·n,300,Segunda,336,357,378,$/unidad
+15/02/2017,Pl·tano,Sin especificar,Feria Lagunitas de Puerto Montt,300,PintÛn,8.403,8.613,8.824,$/caja 20 kilos
+15/02/2017,Papa,Patagonia,Terminal HortofrutÌcola de Chill·n,100,1a nueva(o),4.622,4.832,5.042,$/saco 50 kilos
+15/02/2017,Ciruela,Larry Ann,Macroferia Regional de Talca,80,Primera,3.361,3.361,3.361,$/caja 15 kilos granel
+15/02/2017,Pepino ensalada,Sin especificar,Terminal HortofrutÌcola de Chill·n,35,Segunda,11.765,12.125,12.605,$/caja 100 unidades
+15/02/2017,Ciruela,Pink Delight,Macroferia Regional de Talca,60,Primera,2.521,2.521,2.521,$/caja 15 kilos granel
+15/02/2017,Pimiento,Zafiro rojo,Terminal HortofrutÌcola de Chill·n,110,Primera,5.462,5.653,5.882,$/caja 15 kilos
+15/02/2017,Durazno,Carson,Macroferia Regional de Talca,150,Especial,6.723,6.723,6.723,$/caja 15 kilos empedrada
+15/02/2017,Pimiento,Zafiro rojo,Terminal HortofrutÌcola de Chill·n,50,Segunda,3.782,3.950,4.202,$/caja 15 kilos
+15/02/2017,Durazno,Carson,Macroferia Regional de Talca,80,Extra (doble especial),7.563,7.563,7.563,$/caja 15 kilos empedrada
+15/02/2017,Poroto granado,Sin especificar,Terminal HortofrutÌcola de Chill·n,25,Primera,16.387,16.555,16.807,$/saco 30 kilos
+15/02/2017,Durazno,Doctor Davis,Macroferia Regional de Talca,150,Especial,6.723,6.723,6.723,$/caja 15 kilos empedrada
+15/02/2017,Tomate,Semiduro,Terminal HortofrutÌcola de Chill·n,300,Primera,2.101,2.311,2.521,$/caja 15 kilos
+15/02/2017,Durazno,Doctor Davis,Macroferia Regional de Talca,80,Extra (doble especial),7.563,7.563,7.563,$/caja 15 kilos empedrada
+15/02/2017,Tomate,Semiduro,Terminal HortofrutÌcola de Chill·n,50,Segunda,1.681,1.681,1.681,$/caja 15 kilos
+15/02/2017,Durazno,Doctor Davis,Macroferia Regional de Talca,100,Primera,5.882,5.882,5.882,$/caja 15 kilos empedrada
+15/02/2017,Zapallo,Camote,Terminal HortofrutÌcola de Chill·n,600,1a (cosecha),210,231,252,$/kilo (volumen en unidades)
+15/02/2017,Frutilla,Sin especificar,Macroferia Regional de Talca,300,Primera,4.202,4.202,4.202,$/bandeja 7 kilos
+15/02/2017,Acelga,Sin especificar,Terminal La Palmera de La Serena,860,Primera,336,357,378,$/atado
+15/02/2017,Frutilla,Sin especificar,Macroferia Regional de Talca,150,Primera,4.202,4.202,4.202,$/caja 7 kilos
+15/02/2017,Ajo,Chino,Terminal La Palmera de La Serena,240,Primera,20.168,20.378,20.588,$/caja 10 kilos
+15/02/2017,LimÛn,Sin especificar,Macroferia Regional de Talca,300,1a plateado,20.168,20.168,20.168,$/malla 16 kilos
+15/02/2017,AjÌ,Americana (o),Terminal La Palmera de La Serena,160,Primera,5.714,5.798,5.882,$/caja 15 kilos
+15/02/2017,LimÛn,Sin especificar,Macroferia Regional de Talca,100,2a plateado,19.328,19.328,19.328,$/malla 16 kilos
+15/02/2017,AjÌ,Inferno,Terminal La Palmera de La Serena,200,Primera,14.958,15.042,15.126,$/caja 30 kilos
+15/02/2017,Apio,Americana (o),Terminal La Palmera de La Serena,860,Primera,6.303,6.513,6.723,$/docena de matas
+15/02/2017,LimÛn,Sin especificar,Macroferia Regional de Talca,50,3a plateado,18.487,18.487,18.487,$/malla 16 kilos
+15/02/2017,BrÛcoli,Sin especificar,Terminal La Palmera de La Serena,800,Primera,336,357,378,$/unidad
+15/02/2017,Manzana,Granny Smith,Macroferia Regional de Talca,400,Primera,3.361,3.361,3.361,$/caja 15 kilos empedrada
+15/02/2017,BrÛcoli,Sin especificar,Terminal La Palmera de La Serena,600,Segunda,252,273,294,$/unidad
+15/02/2017,Manzana,Royal Gala,Macroferia Regional de Talca,400,Primera,3.361,3.361,3.361,$/caja 15 kilos empedrada
+15/02/2017,Cebolla,Sin especificar,Terminal La Palmera de La Serena,800,1a (cosecha),4.034,4.118,4.202,$/malla 18 kilos
+15/02/2017,Pl·tano,Sin especificar,Macroferia Regional de Talca,150,Maduro,6.723,6.723,6.723,$/caja 20 kilos
+15/02/2017,Cebolla,Sin especificar,Terminal La Palmera de La Serena,600,2a (cosecha),3.613,3.697,3.782,$/malla 18 kilos
+15/02/2017,Pl·tano,Sin especificar,Macroferia Regional de Talca,550,PintÛn,7.563,7.563,7.563,$/caja 20 kilos
+15/02/2017,CebollÌn,Sin especificar,Terminal La Palmera de La Serena,700,Primera,630,651,672,$/paquete 6 unidades
+15/02/2017,Choclo,Choclero,Terminal La Palmera de La Serena,20.000,Primera,109,113,118,$/unidad
+15/02/2017,Durazno,Doctor Davis,Terminal HortofrutÌcola de Chill·n,50,Especial,7.563,7.899,8.403,$/caja 16 kilos empedrada
+15/02/2017,Choclo,Dulce o Americano,Terminal La Palmera de La Serena,28.000,Primera,67,71,76,$/unidad
+15/02/2017,Durazno,Doctor Davis,Terminal HortofrutÌcola de Chill·n,100,Primera,6.303,6.513,6.723,$/caja 16 kilos empedrada
+15/02/2017,Coliflor,Sin especificar,Terminal La Palmera de La Serena,800,Primera,336,357,378,$/unidad
+15/02/2017,Frutilla,Sin especificar,Terminal HortofrutÌcola de Chill·n,70,Primera,4.202,4.622,5.042,$/caja 7 kilos
+15/02/2017,Coliflor,Sin especificar,Terminal La Palmera de La Serena,560,Segunda,252,273,294,$/unidad
+15/02/2017,Frutilla,Sin especificar,Terminal HortofrutÌcola de Chill·n,30,Segunda,3.782,3.782,3.782,$/caja 7 kilos
+15/02/2017,Espinaca,Sin especificar,Terminal La Palmera de La Serena,800,Primera,2.941,2.983,3.025,$/docena de atados (3 kilos)
+15/02/2017,Lechuga,Conconina(o),Terminal La Palmera de La Serena,240,Primera,2.521,2.605,2.689,$/caja 10 unidades
+15/02/2017,LimÛn,Sin especificar,Terminal HortofrutÌcola de Chill·n,35,1a plateado,20.168,20.528,21.008,$/malla 18 kilos
+15/02/2017,Lechuga,Escarola,Terminal La Palmera de La Serena,400,Primera,3.613,3.697,3.782,$/caja 15 unidades
+15/02/2017,LimÛn,Sin especificar,Terminal HortofrutÌcola de Chill·n,50,2a plateado,18.487,18.824,19.328,$/malla 18 kilos
+15/02/2017,Lechuga,Escarola,Terminal La Palmera de La Serena,200,Segunda,2.689,2.815,2.941,$/caja 18 unidades
+15/02/2017,Manzana,Granny Smith,Terminal HortofrutÌcola de Chill·n,100,Primera,4.202,4.412,4.622,$/caja 16 kilos empedrada
+15/02/2017,Manzana,Granny Smith,Terminal HortofrutÌcola de Chill·n,100,Segunda,3.361,3.571,3.782,$/caja 16 kilos empedrada
+15/02/2017,Lechuga,Milanesa,Terminal La Palmera de La Serena,200,Primera,3.782,3.992,4.202,$/caja 20 unidades
+15/02/2017,Manzana,Royal Gala,Terminal HortofrutÌcola de Chill·n,50,Primera,4.202,4.370,4.622,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,Tuna,Terminal La Palmera de La Serena,1.200,Extra,966,987,1.008,$/unidad
+15/02/2017,Manzana,Royal Gala,Terminal HortofrutÌcola de Chill·n,50,Segunda,3.361,3.529,3.782,$/caja 16 kilos empedrada
+15/02/2017,MelÛn,Tuna,Terminal La Palmera de La Serena,1.400,Extra (muy buena),824,832,840,$/unidad
+15/02/2017,Palta,Hass,Terminal HortofrutÌcola de Chill·n,50,Especial,1.513,1.613,1.681,$/kilo (en caja de 15 kilos)
+15/02/2017,MelÛn,Tuna,Terminal La Palmera de La Serena,1.200,Primera,739,748,756,$/unidad
+15/02/2017,Palta,Hass,Terminal HortofrutÌcola de Chill·n,100,Primera,1.261,1.303,1.345,$/kilo (en caja de 15 kilos)
+15/02/2017,MelÛn,Tuna,Terminal La Palmera de La Serena,800,Segunda,655,664,672,$/unidad
+15/02/2017,Palta,Hass,Terminal HortofrutÌcola de Chill·n,50,Segunda,1.008,1.042,1.092,$/kilo (en caja de 15 kilos)
+15/02/2017,Papa,Asterix,Terminal La Palmera de La Serena,1.000,1a nueva(o),7.983,8.193,8.403,$/saco 50 kilos
+15/02/2017,Pl·tano,Sin especificar,Terminal HortofrutÌcola de Chill·n,380,PintÛn,6.723,7.121,7.563,$/caja 20 kilos
+15/02/2017,Papa,Cardinal,Terminal La Palmera de La Serena,900,1a nueva(o),7.983,8.193,8.403,$/saco 50 kilos
+15/02/2017,Uva,Red Globe,Terminal HortofrutÌcola de Chill·n,50,Primera,7.563,7.899,8.403,$/caja 20 kilos
+15/02/2017,Pepino dulce,Cultivar IV RegiÛn,Terminal La Palmera de La Serena,200,Primera,5.714,5.798,5.882,$/caja 15 kilos
+15/02/2017,Uva,Superior Seedless,Terminal HortofrutÌcola de Chill·n,50,Primera,7.563,7.899,8.403,$/caja 20 kilos
+15/02/2017,Pepino ensalada,Sin especificar,Terminal La Palmera de La Serena,280,Primera,12.605,12.815,13.025,$/caja 70 unidades
+15/02/2017,Durazno,Doctor Davis,Terminal La Palmera de La Serena,200,Especial,13.866,14.076,14.286,$/caja 16 kilos empedrada
+15/02/2017,Pepino ensalada,Sin especificar,Terminal La Palmera de La Serena,200,Segunda,10.084,10.294,10.504,$/caja 100 unidades
+15/02/2017,Durazno,Doctor Davis,Terminal La Palmera de La Serena,160,Primera,12.185,12.395,12.605,$/caja 16 kilos empedrada
+15/02/2017,Pimiento,Cuatro cascos rojo,Terminal La Palmera de La Serena,300,Primera,8.824,9.034,9.244,$/caja 15 kilos
+15/02/2017,Durazno,Doctor Davis,Terminal La Palmera de La Serena,140,Segunda,10.504,10.714,10.924,$/caja 16 kilos empedrada
+15/02/2017,Pimiento,Cuatro cascos rojo,Terminal La Palmera de La Serena,200,Segunda,6.134,6.218,6.303,$/caja 15 kilos
+15/02/2017,LimÛn,Sin especificar,Terminal La Palmera de La Serena,360,1a amarillo,17.983,18.025,18.067,$/malla 18 kilos
+15/02/2017,Pimiento,Cuatro cascos verde,Terminal La Palmera de La Serena,260,Primera,5.294,5.378,5.462,$/caja 15 kilos
+15/02/2017,LimÛn,Sin especificar,Terminal La Palmera de La Serena,320,1a plateado,17.479,17.563,17.647,$/malla 18 kilos
+15/02/2017,Pimiento,Cuatro cascos verde,Terminal La Palmera de La Serena,180,Segunda,3.361,3.445,3.529,$/caja 15 kilos
+15/02/2017,LimÛn,Sin especificar,Terminal La Palmera de La Serena,280,2a amarillo,15.966,16.050,16.134,$/malla 18 kilos
+15/02/2017,Pimiento,MorrÛn rojo,Terminal La Palmera de La Serena,160,Primera,6.555,6.639,6.723,$/caja 20 kilos
+15/02/2017,LimÛn,Sin especificar,Terminal La Palmera de La Serena,260,2a plateado,15.462,15.504,15.546,$/malla 18 kilos
+15/02/2017,Pimiento,MorrÛn rojo,Terminal La Palmera de La Serena,120,Segunda,4.874,4.958,5.042,$/caja 20 kilos
+15/02/2017,Mandarina,Murcott,Terminal La Palmera de La Serena,240,Especial,4.622,4.832,5.042,$/caja 12 kilos
+15/02/2017,Poroto granado,Sin especificar,Terminal La Palmera de La Serena,120,Primera,18.067,18.277,18.487,$/malla 30 kilos
+15/02/2017,Mandarina,Murcott,Terminal La Palmera de La Serena,280,Primera,3.782,3.932,4.202,$/caja 12 kilos
+15/02/2017,Poroto verde,Magnum,Terminal La Palmera de La Serena,200,Primera,20.588,20.798,21.008,$/malla 30 kilos
+15/02/2017,Mandarina,Murcott,Terminal La Palmera de La Serena,160,Segunda,2.941,3.151,3.361,$/caja 12 kilos
+15/02/2017,Poroto verde,Magnum,Terminal La Palmera de La Serena,100,Primera,23.109,23.319,23.529,$/malla 30 kilos
+15/02/2017,Mango,Sin especificar,Terminal La Palmera de La Serena,240,Especial,4.034,4.118,4.202,$/bandeja 4 kilos
+15/02/2017,Repollo,Copenhague,Terminal La Palmera de La Serena,800,Primera,403,412,420,$/unidad
+15/02/2017,Repollo,Copenhague,Terminal La Palmera de La Serena,600,Segunda,319,328,336,$/unidad
+15/02/2017,Mango,Sin especificar,Terminal La Palmera de La Serena,240,Primera,4.034,4.118,4.202,$/bandeja 4 kilos
+15/02/2017,Naranja,Valencia,Terminal La Palmera de La Serena,18,Primera,126.050,128.151,130.252,$/bins (400 kilos)
+15/02/2017,Repollo,Crespo record,Terminal La Palmera de La Serena,760,Primera,403,412,420,$/unidad
+15/02/2017,Naranja,Valencia,Terminal La Palmera de La Serena,16,Segunda,117.647,119.748,121.849,$/bins (400 kilos)
+15/02/2017,Repollo,Crespo record,Terminal La Palmera de La Serena,540,Segunda,319,328,336,$/unidad
+15/02/2017,NectarÌn,August Red,Terminal La Palmera de La Serena,200,Especial,12.185,12.395,12.605,$/caja 16 kilos empedrada
+15/02/2017,Repollo,Morada(o),Terminal La Palmera de La Serena,700,Primera,403,412,420,$/unidad
+15/02/2017,Repollo,Morada(o),Terminal La Palmera de La Serena,460,Segunda,319,328,336,$/unidad
+15/02/2017,NectarÌn,August Red,Terminal La Palmera de La Serena,160,Primera,10.504,10.714,10.924,$/caja 16 kilos empedrada
+15/02/2017,Sandia,Sin especificar,Terminal La Palmera de La Serena,800,Extra (muy buena),2.269,2.311,2.353,$/unidad
+15/02/2017,PiÒa,Caramelo,Terminal La Palmera de La Serena,216,Especial,16.387,16.597,16.807,$/caja 10 unidades
+15/02/2017,Sandia,Sin especificar,Terminal La Palmera de La Serena,600,Primera,1.849,1.891,1.933,$/unidad
+15/02/2017,PiÒa,Caramelo,Terminal La Palmera de La Serena,216,Primera,16.387,16.597,16.807,$/caja 12 unidades
+15/02/2017,Sandia,Sin especificar,Terminal La Palmera de La Serena,500,Segunda,1.513,1.555,1.597,$/unidad
+15/02/2017,PiÒa,Caramelo,Terminal La Palmera de La Serena,216,Segunda,16.387,16.597,16.807,$/caja 14 unidades
+15/02/2017,Sandia,Sin especificar,Terminal La Palmera de La Serena,400,Tercera,1.092,1.113,1.134,$/unidad
+15/02/2017,Ar·ndano (blue),Sin especificar,Vega Central Mapocho de Santiago,300,Primera,2.521,2.605,2.689,$/bandeja 2 kilos
+15/02/2017,Tomate,Semiduro,Terminal La Palmera de La Serena,280,Primera,6.134,6.218,6.303,$/bandeja 18 kilos
+15/02/2017,Ar·ndano (blue),Sin especificar,Vega Central Mapocho de Santiago,200,Segunda,1.849,1.933,2.017,$/bandeja 2 kilos
+15/02/2017,Tomate,Semiduro,Terminal La Palmera de La Serena,300,Primera,5.882,5.966,6.050,$/bandeja 18 kilos
+15/02/2017,Ciruela,Automn Giant,Vega Central Mapocho de Santiago,50,Especial,5.042,5.042,5.042,$/caja 18 kilos granel
+15/02/2017,Tomate,Semiduro,Terminal La Palmera de La Serena,500,Primera,4.874,4.958,5.042,$/caja 15 kilos
+15/02/2017,Ciruela,Automn Giant,Vega Central Mapocho de Santiago,70,Primera,4.202,4.202,4.202,$/caja 18 kilos granel
+15/02/2017,Tomate,Semiduro,Terminal La Palmera de La Serena,200,Segunda,4.454,4.538,4.622,$/bandeja 18 kilos
+15/02/2017,Ciruela,Automn Giant,Vega Central Mapocho de Santiago,85,Segunda,3.361,3.361,3.361,$/caja 18 kilos granel
+15/02/2017,Zanahoria,Sin especificar,Terminal La Palmera de La Serena,200,Primera,9.664,9.874,10.084,$/saco 40 kilos
+15/02/2017,Durazno,Doctor Davis,Vega Central Mapocho de Santiago,70,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
+15/02/2017,Zanahoria,Sin especificar,Terminal La Palmera de La Serena,100,Segunda,8.235,8.319,8.403,$/saco 40 kilos
+15/02/2017,Durazno,Doctor Davis,Vega Central Mapocho de Santiago,100,Primera,8.403,8.403,8.403,$/caja 16 kilos empedrada
+15/02/2017,Zapallo,Camote,Terminal La Palmera de La Serena,700,1a (cosecha),235,244,252,$/kilo (volumen en unidades)
+15/02/2017,Durazno,Doctor Davis,Vega Central Mapocho de Santiago,60,Segunda,6.723,6.723,6.723,$/caja 16 kilos empedrada
+15/02/2017,Zapallo,Camote,Terminal La Palmera de La Serena,800,1a (cosecha),294,315,336,$/kilo (volumen en unidades)
+15/02/2017,Durazno,Ross Peach,Vega Central Mapocho de Santiago,85,Especial,9.244,9.244,9.244,$/caja 16 kilos empedrada
+15/02/2017,Zapallo,Camote,Terminal La Palmera de La Serena,500,2a (cosecha),210,231,252,$/kilo (volumen en unidades)
+15/02/2017,Durazno,Ross Peach,Vega Central Mapocho de Santiago,150,Primera,7.563,7.563,7.563,$/caja 16 kilos empedrada
+15/02/2017,Zapallo italiano,Sin especificar,Terminal La Palmera de La Serena,180,Primera,8.824,9.034,9.244,$/caja 70 unidades
+15/02/2017,Durazno,Ross Peach,Vega Central Mapocho de Santiago,120,Segunda,5.882,5.882,5.882,$/caja 16 kilos empedrada
+15/02/2017,AjÌ,Americana (o),Vega Central Mapocho de Santiago,34,Primera,5.882,5.882,5.882,$/caja 15 kilos
+15/02/2017,Frutilla,Sin especificar,Vega Central Mapocho de Santiago,1.240,Primera,3.361,3.710,4.202,$/bandeja 7 kilos
+15/02/2017,Albahaca,Sin especificar,Vega Central Mapocho de Santiago,280,Primera,2.521,2.521,2.521,$/docena de matas
+15/02/2017,Frutilla,Sin especificar,Vega Central Mapocho de Santiago,750,Segunda,2.101,2.521,2.941,$/bandeja 7 kilos
+15/02/2017,Berenjena,Sin especificar,Vega Central Mapocho de Santiago,66,Primera,3.782,3.998,4.202,$/caja 60 unidades
+15/02/2017,LimÛn,Sin especificar,Vega Central Mapocho de Santiago,250,1a plateado,20.168,20.168,20.168,$/malla 18 kilos
+15/02/2017,CebollÌn,Sin especificar,Vega Central Mapocho de Santiago,440,Primera,2.101,2.301,2.521,$/paquete 36 unidades
+15/02/2017,LimÛn,Sin especificar,Vega Central Mapocho de Santiago,210,2a plateado,18.487,18.487,18.487,$/malla 18 kilos
+15/02/2017,CebollÌn,Sin especificar,Vega Central Mapocho de Santiago,320,Segunda,1.681,1.681,1.681,$/paquete 36 unidades
+15/02/2017,LimÛn,Sin especificar,Vega Central Mapocho de Santiago,300,3a plateado,15.126,16.246,16.807,$/malla 18 kilos
+15/02/2017,Choclo,Choclero,Vega Central Mapocho de Santiago,14.000,Primera,92,96,101,$/unidad
+15/02/2017,Manzana,Granny Smith,Vega Central Mapocho de Santiago,10,Especial,126.050,126.050,126.050,$/bins (400 kilos)
+15/02/2017,Ciboulette,Sin especificar,Vega Central Mapocho de Santiago,780,Primera,672,754,840,$/docena de atados
+15/02/2017,Manzana,Granny Smith,Vega Central Mapocho de Santiago,12,Primera,109.244,109.244,109.244,$/bins (400 kilos)
+15/02/2017,Manzana,Royal Gala,Vega Central Mapocho de Santiago,10,Primera,100.840,100.840,100.840,$/bins (400 kilos)
+15/02/2017,Ciboulette,Sin especificar,Vega Central Mapocho de Santiago,350,Segunda,504,504,504,$/docena de atados
+15/02/2017,Manzana,Royal Gala,Vega Central Mapocho de Santiago,8,Segunda,84.034,84.034,84.034,$/bins (400 kilos)
+15/02/2017,Cilantro,Sin especificar,Vega Central Mapocho de Santiago,116,Primera,15.126,15.793,16.807,$/docena de atados
+15/02/2017,Naranja,Valencia,Vega Central Mapocho de Santiago,80,Primera,10.084,10.084,10.084,$/caja 15 kilos granel
+15/02/2017,Espinaca,Sin especificar,Vega Central Mapocho de Santiago,114,Primera,10.084,10.821,11.765,$/cuna 10 kilos
+15/02/2017,Naranja,Valencia,Vega Central Mapocho de Santiago,50,Segunda,8.403,8.403,8.403,$/caja 15 kilos granel
+15/02/2017,Lechuga,Escarola,Vega Central Mapocho de Santiago,390,Primera,3.361,3.577,3.782,$/caja 15 unidades
+15/02/2017,NectarÌn,Artic Pride,Vega Central Mapocho de Santiago,85,Especial,11.765,11.765,11.765,$/caja 16 kilos empedrada
+15/02/2017,Perejil,Sin especificar,Vega Central Mapocho de Santiago,43,Primera,6.723,7.622,8.403,$/docena de atados
+15/02/2017,NectarÌn,Artic Pride,Vega Central Mapocho de Santiago,150,Primera,9.244,9.804,10.084,$/caja 16 kilos empedrada
+15/02/2017,Repollo,Crespo record,Vega Central Mapocho de Santiago,2.200,Primera,504,542,588,$/unidad
+15/02/2017,NectarÌn,Artic Pride,Vega Central Mapocho de Santiago,170,Segunda,7.563,8.156,8.403,$/caja 16 kilos empedrada
+15/02/2017,Repollo,Morada(o),Vega Central Mapocho de Santiago,850,Primera,588,588,588,$/unidad
+15/02/2017,NectarÌn,August Red,Vega Central Mapocho de Santiago,100,Especial,10.084,10.084,10.084,$/caja 16 kilos empedrada
+15/02/2017,Repollo,Morada(o),Vega Central Mapocho de Santiago,500,Segunda,504,504,504,$/unidad
+15/02/2017,NectarÌn,August Red,Vega Central Mapocho de Santiago,300,Primera,8.403,8.824,9.244,$/caja 16 kilos empedrada
+15/02/2017,Zanahoria,Sin especificar,Vega Central Mapocho de Santiago,21.000,Primera,67,67,67,$/unidad
+15/02/2017,Palta,Hass,Vega Central Mapocho de Santiago,140,Especial,1.513,1.513,1.513,$/kilo (en caja de 17 kilos)
+15/02/2017,Zanahoria,Sin especificar,Vega Central Mapocho de Santiago,72,Segunda,8.403,8.403,8.403,$/saco 40 kilos
+15/02/2017,Palta,Hass,Vega Central Mapocho de Santiago,135,Primera,1.345,1.345,1.345,$/kilo (en caja de 17 kilos)
+15/02/2017,Zanahoria,Sin especificar,Vega Central Mapocho de Santiago,26.000,Segunda,21,21,21,$/unidad
+15/02/2017,Palta,Hass,Vega Central Mapocho de Santiago,300,Primera,1.261,1.303,1.345,$/kilo (en caja de 17 kilos)
+15/02/2017,Zapallo,Camote,Vega Central Mapocho de Santiago,152,1a (cosecha),168,190,210,$/kilo (volumen en unidades)
+15/02/2017,Palta,Hass,Vega Central Mapocho de Santiago,180,Segunda,1.176,1.176,1.176,$/kilo (en caja de 17 kilos)
+15/02/2017,Zapallo italiano,Sin especificar,Vega Central Mapocho de Santiago,155,Primera,4.202,4.663,5.042,$/caja 70 unidades
+15/02/2017,Palta,Hass,Vega Central Mapocho de Santiago,125,Tercera,1.008,1.008,1.008,$/kilo (en caja de 17 kilos)
+15/02/2017,Acelga,Sin especificar,Vega Modelo de Temuco,15,Primera,4.202,4.202,4.202,$/docena de paquetes
+15/02/2017,Pera,Bartlett de verano,Vega Central Mapocho de Santiago,12,Primera,100.840,100.840,100.840,$/bins (450 kilos)
+15/02/2017,Ajo,Chino,Vega Modelo de Temuco,140,Primera,20.168,20.528,21.008,$/malla 10 kilos
+15/02/2017,Pera,Bartlett de verano,Vega Central Mapocho de Santiago,8,Segunda,84.034,84.034,84.034,$/bins (450 kilos)
+15/02/2017,AjÌ,Americana (o),Vega Modelo de Temuco,40,Primera,12.605,12.605,12.605,$/caja 30 kilos
+15/02/2017,PiÒa,Caramelo,Vega Central Mapocho de Santiago,54,Especial,12.605,12.605,12.605,$/caja 10 unidades
+15/02/2017,AjÌ,Cristal,Vega Modelo de Temuco,10,Primera,10.924,10.924,10.924,$/saco 30 kilos
+15/02/2017,PiÒa,Caramelo,Vega Central Mapocho de Santiago,54,Primera,12.605,12.605,12.605,$/caja 12 unidades
+15/02/2017,Betarraga,Sin especificar,Vega Modelo de Temuco,20,Primera,4.202,4.202,4.202,$/docena de paquetes
+15/02/2017,Pl·tano,Sin especificar,Vega Central Mapocho de Santiago,1.440,PintÛn,5.882,6.373,6.723,$/caja 20 kilos
+15/02/2017,Cebolla,Sin especificar,Vega Modelo de Temuco,800,1a (guarda),3.782,3.782,3.782,$/malla 18 kilos
+15/02/2017,Uva,Flame Seedless,Vega Central Mapocho de Santiago,100,Primera,7.143,7.353,7.563,$/caja 20 kilos
+15/02/2017,Choclo,Choclero,Vega Modelo de Temuco,8.000,Primera,101,101,101,$/unidad
+15/02/2017,Uva,Red Globe,Vega Central Mapocho de Santiago,80,Primera,6.723,6.723,6.723,$/caja 20 kilos
+15/02/2017,Choclo,Dulce o Americano,Vega Modelo de Temuco,10.000,Primera,84,88,92,$/unidad
+15/02/2017,Uva,Superior Seedless,Vega Central Mapocho de Santiago,120,Primera,8.403,8.824,9.244,$/caja 20 kilos
+15/02/2017,Cilantro,Sin especificar,Vega Modelo de Temuco,30,Primera,2.521,2.521,2.521,$/docena de atados
+15/02/2017,Ciruela,Larry Ann,Vega Modelo de Temuco,5,Primera,84.034,84.034,84.034,$/bins (450 kilos)
+15/02/2017,MelÛn,CalameÒo,Vega Modelo de Temuco,2.000,Primera,504,546,588,$/unidad
+15/02/2017,Ciruela,Larry Ann,Vega Modelo de Temuco,50,Primera,5.042,5.042,5.042,$/caja 15 kilos empedrada
+15/02/2017,MelÛn,CalameÒo,Vega Modelo de Temuco,3.500,Segunda,420,420,420,$/unidad
+15/02/2017,Ciruela,Larry Ann,Vega Modelo de Temuco,40,Primera,4.202,4.202,4.202,$/caja 15 kilos granel
+15/02/2017,MelÛn,CalameÒo,Vega Modelo de Temuco,2.500,Tercera,336,336,336,$/unidad
+15/02/2017,Durazno,Elegant Lady,Vega Modelo de Temuco,2,Primera,151.260,151.260,151.260,$/bins (400 kilos)
+15/02/2017,MelÛn,Tuna,Vega Modelo de Temuco,900,Primera,588,588,588,$/unidad
+15/02/2017,Durazno,Elegant Lady,Vega Modelo de Temuco,20,Primera,5.042,5.042,5.042,$/caja 15 kilos granel
+15/02/2017,MelÛn,Tuna,Vega Modelo de Temuco,1.300,Segunda,504,504,504,$/unidad
+15/02/2017,Granada,Wonderfull,Vega Modelo de Temuco,30,Primera,11.765,11.765,11.765,$/caja 15 kilos granel
+15/02/2017,MelÛn,Tuna,Vega Modelo de Temuco,1.200,Tercera,420,420,420,$/unidad
+15/02/2017,LimÛn,Sin especificar,Vega Modelo de Temuco,50,2a plateado,21.849,21.849,21.849,$/malla 18 kilos
+15/02/2017,Perejil,Sin especificar,Vega Modelo de Temuco,10,Primera,2.521,2.521,2.521,$/docena de atados
+15/02/2017,Manzana,Royal Gala,Vega Modelo de Temuco,7,Segunda,84.034,84.034,84.034,$/bins (400 kilos)
+15/02/2017,Pimiento,Cuatro cascos rojo,Vega Modelo de Temuco,70,Primera,7.563,8.043,8.403,$/caja 15 kilos
+15/02/2017,Pimiento,Cuatro cascos verde,Vega Modelo de Temuco,60,Primera,6.723,6.723,6.723,$/caja 15 kilos
+15/02/2017,Manzana,Royal Gala,Vega Modelo de Temuco,40,Segunda,4.202,4.202,4.202,$/caja 15 kilos granel
+15/02/2017,Pimiento,MorrÛn rojo,Vega Modelo de Temuco,10,Primera,10.084,10.084,10.084,$/caja 15 kilos
+15/02/2017,Naranja,Valencia,Vega Modelo de Temuco,80,Primera,5.882,5.882,5.882,$/caja 15 kilos granel
+15/02/2017,Sandia,Sin especificar,Vega Modelo de Temuco,1.200,Cuarta,840,840,840,$/unidad
+15/02/2017,NectarÌn,Artic Snow,Vega Modelo de Temuco,8,Primera,142.857,142.857,142.857,$/bins (420 kilos)
+15/02/2017,Sandia,Sin especificar,Vega Modelo de Temuco,2.400,Extra,1.681,1.765,1.849,$/unidad
+15/02/2017,Sandia,Sin especificar,Vega Modelo de Temuco,3.600,Primera,1.429,1.513,1.597,$/unidad
+15/02/2017,NectarÌn,Artic Snow,Vega Modelo de Temuco,100,Primera,10.084,10.084,10.084,$/caja 15 kilos empedrada
+15/02/2017,Sandia,Sin especificar,Vega Modelo de Temuco,2.600,Segunda,1.176,1.218,1.261,$/unidad
+15/02/2017,Palta,Hass,Vega Modelo de Temuco,50,Especial,1.681,1.681,1.681,$/kilo (en caja de 18 kilos)
+15/02/2017,Sandia,Sin especificar,Vega Modelo de Temuco,2.000,Tercera,924,966,1.008,$/unidad
+15/02/2017,Pera,Abate Fettel,Vega Modelo de Temuco,20,Primera,5.042,5.042,5.042,$/caja 15 kilos granel
+15/02/2017,Tomate,Cherry,Vega Modelo de Temuco,40,Primera,1.681,1.681,1.681,$/kilo
+15/02/2017,Pera,Bartlett de verano,Vega Modelo de Temuco,60,Primera,5.042,5.042,5.042,$/caja 15 kilos empedrada
+15/02/2017,Tomate,Larga vida,Vega Modelo de Temuco,90,Primera,10.924,11.298,11.765,$/bandeja 18 kilos
+15/02/2017,PiÒa,Caramelo,Vega Modelo de Temuco,25,Primera,12.605,12.605,12.605,$/caja 12 unidades
+15/02/2017,Tomate,Larga vida,Vega Modelo de Temuco,350,Primera,6.723,6.723,6.723,$/bandeja 18 kilos
+15/02/2017,Pl·tano,Sin especificar,Vega Modelo de Temuco,50,Dedos,7.563,7.563,7.563,$/caja 30 kilos
+15/02/2017,Tomate,Larga vida,Vega Modelo de Temuco,500,Primera,4.202,4.202,4.202,$/caja 15 kilos
+15/02/2017,Pl·tano,Sin especificar,Vega Modelo de Temuco,500,PintÛn,7.143,7.269,7.563,$/caja 20 kilos
+15/02/2017,Tomate,Larga vida,Vega Modelo de Temuco,250,Primera,4.202,4.202,4.202,$/caja 15 kilos
+15/02/2017,Pomelo,Start Ruby,Vega Modelo de Temuco,55,Primera,6.723,7.028,7.563,$/caja 14 kilos empedrada
+15/02/2017,Tomate,Larga vida,Vega Modelo de Temuco,300,Segunda,3.361,3.361,3.361,$/caja 15 kilos
+15/02/2017,Uva,PaÌs,Vega Modelo de Temuco,80,Primera,8.403,8.403,8.403,$/caja 15 kilos
+15/02/2017,Zapallo,Camote,Vega Modelo de Temuco,900,1a (guarda),252,252,252,$/kilo (volumen en unidades)
+15/02/2017,Uva,Red Globe,Vega Modelo de Temuco,90,Primera,5.882,5.882,5.882,$/bandeja 10 kilos
+15/02/2017,Zapallo italiano,Sin especificar,Vega Modelo de Temuco,25,Primera,7.563,7.899,8.403,$/caja 36 unidades
+15/02/2017,Uva,Red Globe,Vega Modelo de Temuco,90,Primera,10.084,10.271,10.504,$/caja 18 kilos
+15/02/2017,Uva,Rosada pastilla,Vega Modelo de Temuco,25,Primera,10.084,10.084,10.084,$/caja 18 kilos
+15/02/2017,Uva,Superior Seedless,Vega Modelo de Temuco,120,Primera,8.403,8.403,8.403,$/caja 18 kilos

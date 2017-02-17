@@ -20,4 +20,5 @@ class luki(Spider):
                 item['producto'] = sel.xpath('div[1]/center/h6/a/text()').extract()[0].split("-")[0].title()
                 item['precio'] = sel.xpath('div[2]/b/span[2]/text()').extract()
                 item['fuente']="http://www.luki.cl/"
+                item['cantidad'] = len(sel.xpath('//section[@id="product-name"]'))
                 print (item)

@@ -19,5 +19,17 @@ class Foods(Spider):
                 item['producto'] = aux[0]
                 item['precio'] = sel.xpath('a/span/span/text()').extract()[0].strip("$").strip("\xa0")
                 item['fuente'] ="http://www.foods.cl/"
-                item['unidad'] = aux[1].strip(")")
+                #Se le elimina el ultimo valor ')', es irrelevante.
+                unidad_tmp = aux[1].strip(")")
+                unidad_norm = Normalization.unidad(unidad_tmp)
+                item['unidad'] = unidad_norm['unidad']
+                item['cantidad'] = unidad_norm['cantidad']
+                        
+                '''
+                #Descomentar para comprobar normalizacion visualmente
+                print (unidad_tmp)
+                print (item['unidad'])
+                print (item['cantidad'])
+                print ("*************")
+                '''
                 print (item)

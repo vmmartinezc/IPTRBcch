@@ -20,7 +20,7 @@ class VerdurasyFrutas(Spider):
             if (sel.xpath('td[2]/a/b/text()').extract() ):
                 item  = OdepaSrvItem()
                 #falta precio
-                item['precio'] = sel.xpath('input[@type="hidden"]/@value').extract()
+                #item['precio'] = sel.xpath('input[@type="hidden"]/@value').extract()[0].strip("$").replace(",","")
                 item['producto'] = sel.xpath('td[2]/a/b/text()').extract()[0].title()
                 item['unidad'] = sel.xpath('td[3]/center/text()').extract()[0].strip("\t").strip("\n")
                 item['fuente'] = "www.verduras-y-frutas.cl"

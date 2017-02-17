@@ -48,14 +48,17 @@ class WriteToCsv(object):
 
     def process_item(self, item, spider):
         self.file_name.writerow([item['url'],
-                                    item['producto'].encode('utf8'),
-                                    item['variedad'].encode('utf8'),
-                                    item['mercado'].encode('utf8'),
-                                    item['volumen'].encode('utf8'),
-                                    item['calidad'].encode('utf8'),
-                                    item['precioMin'].encode('utf8'),
-                                    item['precioProm'].encode('utf8'),
-                                    item['precioMax'].encode('utf8'),
-                                    item['unidad'].encode('utf8'),
+                                    item['producto'],
+                                    item['variedad'],
+                                    item['mercado'],
+                                    item['volumen'],
+                                    item['calidad'],
+                                    item['precioMin'],
+                                    item['precioProm'],
+                                    item['precioMax'],
+                                    item['precio'],
+                                    item['cantidad'],
+                                    item['unidad'],
+                                    item['fuente'],
                                     ])
         return item 

@@ -17,6 +17,7 @@ NEWSPIDER_MODULE = 'odepa_srv.spiders'
 ITEM_PIPELINES = { 'odepa_srv.WriteToCsv.WriteToCsv' : 1}
 csv_file_path = "output.csv"
 
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'odepa_srv (+http://www.yourdomain.com)'
 

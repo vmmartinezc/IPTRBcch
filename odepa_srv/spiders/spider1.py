@@ -18,11 +18,23 @@ class Lavegadelivery(Spider):
     def parse(self, response):
         sel = Selector(response)
         for sel in sel.xpath('//section[@id="cuerpo"]/div[@class="cuadro"]'):
-            item  = OdepaSrvItem()
-            item['producto'] = sel.xpath('.//p[@class="nombre"]/text()').extract()[0].title()
-            aux= (sel.xpath('.//p[@class="precio"]/text()').extract()[0]).strip("$").split("-")
-            item['unidad'] = aux[1]
-            item['precio'] = aux[0]
-            item['fuente']= 'www.lavegadelivery.cl'
-            
-            print (item)
+            if sel.xpath('.//p[@class="nombre"]/text()').extract() and sel.xpath('.//p[@class="precio"]/text()').extract():
+                item = OdepaSrvItem.inicializar(OdepaSrvItem())
+                #Cantidad de productos descargados por pagina.
+                item['producto'] = sel.xpath('.//p[@class="nombre"]/text()').extract()[0].title()
+                item['precio'] = (sel.xpath('.//p[@class="precio"]/text()').extract()[0]).strip("$").replace(".","").split("-")[0] # ej. precio =  $2.300
+                item['fuente']= 'www.lavegadelivery.cl'
+                #Se obtiene la unidad temporal
+                unidad_tmp =  (sel.xpath('.//p[@class="precio"]/text()').extract()[0]).strip("$").replace(".","").split("-")[1]
+                unidad_norm = Normalization.general(unidad_tmp)
+                item['cantidad'] = unidad_norm['cantidad']
+                item['unidad'] = unidad_norm['unidad']
+                #Descomentar para comprobar normalizacion visualmente
+                ''' 
+                print (unidad_tmp)
+                print (item['unidad'])
+                print (item['cantidad'])
+                print ("*************")
+                '''
+                yield (item)
+

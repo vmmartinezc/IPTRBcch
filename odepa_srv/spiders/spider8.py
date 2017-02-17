@@ -18,6 +18,16 @@ class Buencampo(Spider):
                 aux = sel.xpath('article/h2/a/text()').extract()[0].split('-')
                 item['precio']  = sel.xpath('article/div/div[2]/div/div/text()').extract()[0]
                 item['producto']= aux[0].title()
-                item['unidad'] = aux[1]
+                #Normalizacion de unidad
+                unidad_tmp = aux[1]
+                unidad_norm = Normalization.unidad(unidad_tmp)
+                item['unidad'] = unidad_norm['unidad']
+                item['cantidad'] = unidad_norm['cantidad']
                 item['fuente'] = "https://www.buencampo.cl/"
+                #Descomentar para comprobar normalizacion visualmente
+                '''print (unidad_tmp)
+                print (item['unidad'])
+                print (item['cantidad'])
+                print ("*************")
+                '''
                 print (item)

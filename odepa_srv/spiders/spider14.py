@@ -20,6 +20,6 @@ class Chacra(Spider):
                 item['producto'] = sel.xpath('div[1]/h3/a/text()').extract()
                 item['precio'] = sel.xpath('div[2]/span[@class="price"]/text()').extract()[0].strip("$")
                 #unidad etiqueta dentro de otra
-                item['unidad']= sel.xpath('//p[@class="product_desc"]/a/text()').extract()
+                item['unidad']= sel.xpath('//p[@class="product_desc"]/a/p/text()').extract()
                 item['fuente'] = "www.lachacra.cl"
                 print (item)
