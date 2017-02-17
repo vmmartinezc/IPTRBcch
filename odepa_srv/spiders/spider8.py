@@ -7,20 +7,20 @@ from odepa_srv.items import *
 #Página : https://www.buencampo.cl/
 
 class Buencampo(Spider):
-    name="Buen Campo "
+    name="Buen_Campo"
     start_urls = ["http://buencampo.cl/categoria-producto/frutas-y-verduras"]
     allow_domains =['buencampo.cl']
     def parse(self, response):
         sel = Selector(response)
         for sel in sel.xpath('//div[@class="view-content"]/div'):
             if (sel.xpath('article/h2/a/text()').extract() and sel.xpath('article/div/div[2]/div/div/text()').extract()):
-                item  = OdepaSrvItem()
+                item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 aux = sel.xpath('article/h2/a/text()').extract()[0].split('-')
                 item['precio']  = sel.xpath('article/div/div[2]/div/div/text()').extract()[0]
-                item['producto']= aux[0].title()
+                item['producto']= aux[0].title().replace(",",0)
                 #Normalizacion de unidad
                 unidad_tmp = aux[1]
-                unidad_norm = Normalization.unidad(unidad_tmp)
+                unidad_norm = Normalization.general(unidad_tmp)
                 item['unidad'] = unidad_norm['unidad']
                 item['cantidad'] = unidad_norm['cantidad']
                 item['fuente'] = "https://www.buencampo.cl/"
@@ -30,4 +30,4 @@ class Buencampo(Spider):
                 print (item['cantidad'])
                 print ("*************")
                 '''
-                print (item)
+                yield (item)

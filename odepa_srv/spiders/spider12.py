@@ -14,7 +14,7 @@ from selenium import webdriver
 
 #Página : http://www.jumbo.cl
 class Jumbo(Spider):
-    name="Jumbo "
+    name="Jumbo"
     start_urls = ["http://www.jumbo.cl/FO/CategoryDisplay?cab=4006&int=11&ter=-1"]
     allow_domains= ['jumbo.cl']
 
@@ -27,11 +27,10 @@ class Jumbo(Spider):
         s = BeautifulSoup(html,'lxml')
         nombres = s.find_all(id ='ficha')
         precios = s.find_all('div', 'txt_precio_h')
-        item  = OdepaSrvItem()
-
-        for i in xrange(len(nombres)):
+        for i in range(len(nombres)):
+            item = OdepaSrvItem.inicializar(OdepaSrvItem())
             item['producto'] = nombres[i].find('b').renderContents()
-            item['precio']=  precios[i].renderContents().strip("$")
+            item['precio']=  str(precios[i].renderContents()).strip("$")
             item ['fuente'] = "http://www.jumbo.cl"
-            print (item)
+            yield (item)
         	

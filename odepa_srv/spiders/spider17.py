@@ -8,7 +8,7 @@ from selenium import webdriver
 
 #Página : https://www.lider.cl/
 class Lider(Spider):
-    name="Lider "
+    name="Lider"
     #Estructuras html iguales
     start_urls = ["https://www.lider.cl/walmart/catalog/category.jsp?id=cat640020&pId=CF_Nivel1_000004&navAction=jump&navCount=0#categoryCategory=cat640020"]
                     #"https://www.lider.cl/walmart/catalog/category.jsp?id=cat640020&pId=CF_Nivel1_000004&navAction=jump&navCount=0#categoryCategory=cat640020&pageSizeCategory=20&currentPageCategory=2&currentGroupCategory=1&lowerLimitCategory=0&upperLimitCategory=0&&849",

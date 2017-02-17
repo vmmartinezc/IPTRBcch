@@ -7,7 +7,7 @@ from odepa_srv.items import *
 #Página : http://www.lachacra.cl/
 
 class Chacra(Spider):
-    name="La chacra "
+    name="La_chacra"
     #paginación maximo de 100
     start_urls = ["http://www.lachacra.cl/13-verdur?n=100&id_category=13",
     				"http://www.lachacra.cl/14-frut?n=100&id_category=14"]
@@ -22,4 +22,4 @@ class Chacra(Spider):
                 #unidad etiqueta dentro de otra
                 item['unidad']= sel.xpath('//p[@class="product_desc"]/a/p/text()').extract()
                 item['fuente'] = "www.lachacra.cl"
-                print (item)
+                yield (item)

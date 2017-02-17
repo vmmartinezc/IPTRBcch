@@ -6,7 +6,7 @@ from scrapy.selector import Selector
 from odepa_srv.items import *
 #Página : http://www.elverdulero.cl
 class verdulero(Spider):
-    name="El verdulero "
+    name="verdulero"
     start_urls = ["http://www.elverdulero.cl/verduras/",
                     "http://www.elverdulero.cl/frutas/"]
     allow_domains= ['elverdulero.cl']

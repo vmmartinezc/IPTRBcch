@@ -49,10 +49,11 @@ class Normalization():
 
     def general(unidad_tmp):
         item = {'unidad':"",'cantidad':"",'producto':""}
-        pat = re.compile('\d{1,3}\s{0,3}(Gramos|Grs.|Grs|G.|g.|gr.|gr|Gr|Gr.|G|g|kilos|kilo|Kilos|Kilo|Kl|kl|kg|Kg|Unidades|unidades|unidad|Unid.|C/U|Un|Ud|ud)')
+        pat = re.compile('\d{1,3}\s{0,2}(Gramos|Grs.|Grs|kilos|kilo|Kilos|Kilo|Kl|kl|kg|Kg|Unidades|unidades|unidad|Unid.|C/U|G.|g.|gr.|gr|Gr|Gr.|G|g|Un|Ud|uds|ud)')
         numero_antes = pat.search(unidad_tmp)
-        pat = re.compile('\d{0}')#\s{0,3}(Gramos|Grs.|Grs|G.|g.|gr.|gr|Gr|Gr.|G|g|kilos|kilo|Kilos|Kilo|Kl|kl|kg|Kg|Unidades|unidades|unidad|Unid.|C/U|Un|Ud|ud)')
-        sin_numero = pat.search(unidad_tmp)
+        #pat = re.compile('\d{0}')#\s{0,3}(Gramos|Grs.|Grs|G.|g.|gr.|gr|Gr|Gr.|G|g|kilos|kilo|Kilos|Kilo|Kl|kl|kg|Kg|Unidades|unidades|unidad|Unid.|C/U|Un|Ud|ud)')
+        #sin_numero = pat.search(unidad_tmp)
+        #print (sin_numero)
         
         #Ejemplos que entrarían al if : 1 Kilo, 1Gr., 300G, 300 G..
         if(numero_antes):
@@ -60,23 +61,24 @@ class Normalization():
             #Se busca patron de gramos 
             pat1 = re.compile('(Grs|Gramos|Grs.|G|g.|g|gr.|gr|Gr|Gr.)')
             #Se busca patron de kilos
-            pat2 = re.compile('(Kilo|Kl|Kilos|kilo|kl)')
+            pat2 = re.compile('(Kilo|Kl|Kilos|kilo|kl|kg)')
             #Se busca patron de unidades
-            pat3 = re.compile('(Unidades|Unidad|Unid.|unidades|unidad|ud|Ud|unid.|C/U)')
+            pat3 = re.compile('(Unidades|Unidad|Unid.|unidades|unidad|uds|ud|Ud|unid.|C/U)')
             g = pat1.search(cant_unid) 
             k=  pat2.search(cant_unid)            
             u = pat3.search(cant_unid)
 
+
+            #Si en cant_unidad existe valores relacionados con kilo entonces:
+            if k:
+                cantidad = cant_unid.split(k.group())[0].strip()
+                item['unidad'] = 'Gramos'
+                item['cantidad'] = str(int(cantidad)*1000)
             #Si en cant_unidad existe valores relacionados con gramos entonces:
-            if g :
+            elif g :
                 cantidad = cant_unid.split(g.group())[0].strip()
                 item['unidad']="Gramos"
                 item['cantidad'] = cantidad
-            #Si en cant_unidad existe valores relacionados con kilo entonces:
-            elif k:
-                cantidad = cant_unid.split(k.group())[0].strip()
-                item['unidad'] = 'Gramos'
-                item['cantidad'] = str(int(cantidad*1000))
             #Si en cant_unidad existe valores relacionados con unidades entonces:  
             elif u:
                 cantidad = cant_unid.split(u.group())[0].strip()
@@ -93,26 +95,27 @@ class Normalization():
                     item['cantidad'] = cantidad                    
 
         #Busqueda sin precedencia de numero, ej. kilo,unidad, etc.
-        elif sin_numero:
-            unidad = sin_numero.group()
+        else :
+            unidad = unidad_tmp.strip()
             #Se busca patron de gramos 
-            pat1 = re.compile('(Grs|Gramos|gramos|Grs.|gr.|gr|Gr|Gr.|G|g.|g)')
+            pat1 = re.compile('(Grs|Gramos|gramos|Grs.|gr.|gr|Gr|Gr.|G|g.)')
             #Se busca patron de kilos
-            pat2 = re.compile('(Kilos|Kilo|kilo|Kilo|kl|Kl|K|k)')
+            pat2 = re.compile('(Kilos|Kilo|kilo|Kilo|kl|Kl|kg|K|k)')
             #Se busca patron de unidades
-            pat3 = re.compile('(Unidades|unidades|unidad|Unidad|Unid.|unid.|ud|Ud|C/U)')
+            pat3 = re.compile('(Unidades|Unidad|Unid.|unidades|unidad|uds|ud|Ud|unid.|C/U)')
             g = pat1.search(unidad) 
             k=  pat2.search(unidad)            
             u = pat3.search(unidad)
 
-            #Si en unidad existe valores relacionados con gramos entonces:
-            if g :
-                item['unidad']="Gramos"
-                item['cantidad'] = "1"
+            
             #Si en unidad existe valores relacionados con kilo entonces:
-            elif k:
+            if k:
                 item['unidad'] = 'Gramos'
                 item['cantidad'] = "1000"
+            #Si en unidad existe valores relacionados con gramos entonces:
+            elif g :
+                item['unidad']="Gramos"
+                item['cantidad'] = "1"
             #Si en unidad existe valores relacionados con unidades entonces:  
             elif u:
                 item['unidad']="Unidades"

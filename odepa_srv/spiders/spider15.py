@@ -8,7 +8,7 @@ from odepa_srv.items import *
 #Página : http://www.manolofrutasyverduras.cl/
 
 class manolofrutasyverduras(Spider):
-    name="Manolo frutas y verduras "
+    name="Manolo"
     start_urls = ["http://www.manolofrutasyverduras.cl/"]
 
     def parse(self, response):
@@ -20,5 +20,5 @@ class manolofrutasyverduras(Spider):
                 item['producto'] = sel.xpath('div[1]/h4/a/text()').extract()
                 item['precio'] = sel.xpath('div/div[2]/form/span/text()').extract()
                 item['fuente'] = "www.manolofrutasyverduras.cl"
-                print (item)
+                yield (item)
   

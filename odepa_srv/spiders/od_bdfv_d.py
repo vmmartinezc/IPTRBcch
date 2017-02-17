@@ -36,7 +36,7 @@ class OdepaBdfvSpider(scrapy.Spider):
 # Detallamos lo que extraeremos y guardaremos de la página web
     def parse(self, response):
         for sel in response.xpath('//table/tr'):
-            item = OdepaSrvItem()
+            item = OdepaSrvItem.inicializar(OdepaSrvItem())
             rl = ReviewLoader(response=response, selector=sel)
             rl.add_xpath('mercado', 'td[1]/text()')
             rl.add_xpath('producto', 'td[2]/text()')

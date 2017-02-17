@@ -12,7 +12,7 @@ import re
 #Página : http://www.tottus.cl/
 
 class tottus(Spider):
-    name="Tottus "
+    name="Tottus"
     start_urls = ["http://www.tottus.cl/tottus/browse/Frescos-Verduras-Papa-y-Tomates/_/N-1u09wo2",
                  "http://www.tottus.cl/tottus/browse/Frescos-Frutas-Paltas-y-Plátanos/_/N-6ytsug",
                  "http://www.tottus.cl/tottus/browse/Frescos-Verduras-Lechugas-y-Hortalizas/_/N-ki8en",
@@ -39,11 +39,22 @@ class tottus(Spider):
                 item['fuente'] = "www.tottus.cl"
 
                 #La unidad de medida y su cantidad se encuentra en el nombre, por lo tanto es el parámatro de entrada para normalizar
-                unidad_tmp = sel.xpath('div[3]/div[2]/text()').extract()[0]
-                unidad_norm = Normalization.unidad(unidad_tmp)
-                item['unidad'] = unidad_norm['unidad']
-                item['cantidad'] = unidad_norm['cantidad']
-                #item['producto'] = unidad_norm['producto']
+                pat = re.compile('\d{1,3}\s{0,2}(Gramos|Grs.|Grs|kilos|kilo|Kilos|Kilo|Kl|kl|kg|Kg|Unidades|unidades|unidad|Unid.|C/U|G.|g.|gr.|gr|Gr|Gr.|G|g|Un|Ud|uds|ud)')
+                nom_fil1= pat.search(item['producto'])
+                pat1 = re.compile('(Gramos|Grs.|Grs|kilos|kilo|Kilos|Kilo|Kl|kl|kg|Kg|Unidades|unidades|unidad|Unid.|C/U|G.|g.|gr.|gr|Gr|Gr.|G|g|Un|Ud|uds|ud)')
+                nom_fil2 =pat1.search(item['producto'])
+
+                if nom_fil1:
+                    item['producto']=item['producto'].replace(nom_fil1.group(),"")
+                elif nom_fil2:
+                    item['producto']=item['producto'].replace(nom_fil2.group(),"")
+                else : 
+                    item['producto'] = item['producto']
+
+                #unidad_tmp = sel.xpath('div[3]/div[1]/a/h5/div/text()').extract()[0].strip().strip("\n")
+                #unidad_norm = Normalization.general(unidad_tmp)
+                #item['unidad'] = unidad_norm['unidad']
+                #item['cantidad'] = unidad_norm['cantidad']
                 
                 #Descomentar para comprobar normalizacion visualmente
                 '''
