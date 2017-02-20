@@ -31,7 +31,7 @@ class tottus(Spider):
         sel = Selector(response)
         for sel in sel.xpath('//div[@class=" item-product-caption"]'):
             if sel.xpath('div[3]/div[1]/a/h5/div/text()') and sel.xpath('div[3]/div[4]/span/span[1]/text()').extract():
-                item  = OdepaSrvItem()
+                item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 item['producto'] = sel.xpath('div[3]/div[1]/a/h5/div/text()').extract()[0].strip().strip("\n")
                 #Recordar precio anterior y precio oferta
                 item['precio']= sel.xpath('div[3]/div[4]/span/span[1]/text()').extract()[0].strip().strip("\n").strip("$")
@@ -63,5 +63,5 @@ class tottus(Spider):
                 print (item['cantidad'])
                 print ("*************")
                 '''                
-                print (item)
+                yield (item)
     

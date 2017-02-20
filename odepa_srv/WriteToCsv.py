@@ -45,20 +45,31 @@ class WriteToCsv(object):
         #se modifico el valor 'wb' a 'w' por error de escritura en python 3.x
         self.file_name = csv.writer(open('output.csv', 'w'))
         self.file_name.writerow(['url', 'producto','variedad','mercado', 'volumen','calidad','precioMin', 'precioProm','precioMax','unidad'])
+        # se crea archivo de url con errores
+        self.rr = csv.writer(open('errors.csv', 'w'))
+        self.rr.writerow(['Fuente'])
+
 
     def process_item(self, item, spider):
+        #Los errores solo tendran una linea con informacion
         self.file_name.writerow([item['url'],
-                                    item['producto'],
-                                    item['variedad'],
-                                    item['mercado'],
-                                    item['volumen'],
-                                    item['calidad'],
-                                    item['precioMin'],
-                                    item['precioProm'],
-                                    item['precioMax'],
-                                    item['precio'],
-                                    item['cantidad'],
-                                    item['unidad'],
-                                    item['fuente'],
-                                    ])
-        return item 
+                                        item['producto'],
+                                        item['variedad'],
+                                        item['mercado'],
+                                        item['volumen'],
+                                        item['calidad'],
+                                        item['precioMin'],
+                                        item['precioProm'],
+                                        item['precioMax'],
+                                        item['precio'],
+                                        item['cantidad'],
+                                        item['unidad'],
+                                        item['fuente'],
+                                        ])
+        return item
+        '''else:
+            self.rr.writerow(item['fuente'])
+            return 'error'''
+            
+
+

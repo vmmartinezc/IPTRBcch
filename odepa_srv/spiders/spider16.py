@@ -15,8 +15,8 @@ class verdulero(Spider):
         sel = Selector(response)
         for sel in sel.xpath('//div[@id="mainZone"]/div/div/div'):
             if sel.xpath('h3/a/text()').extract() and sel.xpath('div/p[2]/ins/text()').extract():
-                item  = OdepaSrvItem()
+                item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 item['producto'] = sel.xpath('h3/a/text()').extract()
                 item['precio'] = sel.xpath('div/p[2]/ins/text()').extract()[0].strip("$")
                 item['fuente'] = "http://www.elverdulero.cl"
-                print (item) 
+                yield (item) 

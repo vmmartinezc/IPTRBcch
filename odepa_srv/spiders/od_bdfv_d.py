@@ -36,16 +36,19 @@ class OdepaBdfvSpider(scrapy.Spider):
 # Detallamos lo que extraeremos y guardaremos de la página web
     def parse(self, response):
         for sel in response.xpath('//table/tr'):
-            item = OdepaSrvItem.inicializar(OdepaSrvItem())
-            rl = ReviewLoader(response=response, selector=sel)
-            rl.add_xpath('mercado', 'td[1]/text()')
-            rl.add_xpath('producto', 'td[2]/text()')
-            rl.add_xpath('variedad', 'td[3]/text()')
-            rl.add_xpath('calidad', 'td[4]/text()')
-            rl.add_xpath('volumen', 'td[5]/text()')
-            rl.add_xpath('precioMin', 'td[6]/text()')
-            rl.add_xpath('precioMax', 'td[7]/text()')
-            rl.add_xpath('precioProm', 'td[8]/text()')
-            rl.add_xpath('unidad', 'td[9]/text()')
-            rl.add_value('url', response.url.split('==')[1])
-            yield rl.load_item()
+            if sel.xpath('td[2]/text()'):
+                item = OdepaSrvItem.inicializar(OdepaSrvItem())
+                #item = ReviewLoader(response=response, selector=sel)
+                item['mercado'] = sel.xpath('td[1]/text()').extract()[0]
+                item['producto'] = sel.xpath('td[2]/text()').extract()[0]
+                item['variedad'] = sel.xpath('td[3]/text()').extract()[0]
+                item['calidad'] = sel.xpath('td[4]/text()').extract()[0]
+                item['volumen'] = sel.xpath('td[5]/text()').extract()[0]
+                item['precioMin'] = sel.xpath('td[6]/text()').extract()[0]
+                item['precioMax'] = sel.xpath('td[7]/text()').extract()[0]
+                item['precioProm'] = sel.xpath('td[8]/text()').extract()[0]
+                item['unidad'] = sel.xpath('td[9]/text()').extract()[0]
+                item['fuente'] = sel.xpath('td[9]/text()').extract()[0]
+                item['url'] = response.url.split('==')[1]
+                #item.add_value('url', response.url.split('==')[1])
+                yield item

@@ -17,7 +17,7 @@ class Buencampo(Spider):
                 item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 aux = sel.xpath('article/h2/a/text()').extract()[0].split('-')
                 item['precio']  = sel.xpath('article/div/div[2]/div/div/text()').extract()[0]
-                item['producto']= aux[0].title().replace(",",0)
+                item['producto']= aux[0].title().replace(",0","")
                 #Normalizacion de unidad
                 unidad_tmp = aux[1]
                 unidad_norm = Normalization.general(unidad_tmp)

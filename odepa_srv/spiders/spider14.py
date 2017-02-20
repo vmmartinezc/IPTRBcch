@@ -16,7 +16,7 @@ class Chacra(Spider):
         sel = Selector(response)
         for sel in sel.xpath('//ul[@id="product_list"]/li'):
             if (sel.xpath('div[1]/h3/a/text()').extract() and sel.xpath('div[2]/span[1]/text()').extract()):
-                item  = OdepaSrvItem()
+                item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 item['producto'] = sel.xpath('div[1]/h3/a/text()').extract()
                 item['precio'] = sel.xpath('div[2]/span[@class="price"]/text()').extract()[0].strip("$")
                 #unidad etiqueta dentro de otra

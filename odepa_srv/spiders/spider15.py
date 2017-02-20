@@ -16,7 +16,7 @@ class manolofrutasyverduras(Spider):
         verdurasfrutas = sel.xpath('//div[@class="nsp_art"]')
         for sel in verdurasfrutas:
             if(sel.xpath('div[1]/h4/a/text()').extract() and sel.xpath('div/div[2]/form/span/text()').extract()):
-                item  = OdepaSrvItem()
+                item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 item['producto'] = sel.xpath('div[1]/h4/a/text()').extract()
                 item['precio'] = sel.xpath('div/div[2]/form/span/text()').extract()
                 item['fuente'] = "www.manolofrutasyverduras.cl"
