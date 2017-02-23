@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 print ("Importando time functions...")
 from datetime import datetime, date, timedelta
 print ("Importando time functions... done")
@@ -20,10 +20,7 @@ print ("Setting process... ")
 process = CrawlerProcess(get_project_settings())
 print ("Setting process...  Done")
 
-#print("Ruta actual:"+os.getcwd())
-#os.chdir(os.path.join(os.getcwd(), 'spiders'))
-#print("Ruta actual:"+os.getcwd())
-print("Ruta actual: "+ os.getcwd())
+#print("Ruta actual: "+ os.getcwd())
 
 
 # 'followall' is the name of one of the spiders of the project.
@@ -32,7 +29,7 @@ process.crawl('vegaDelivery', domain="")
 process.crawl('todoFruta', domain="") 
 process.crawl('verdurasyfrutas',domain="")
 process.crawl('granjaExp', domain="")
-#process.crawl('superDesp', domain="")
+process.crawl('superDesp', domain="")
 process.crawl('vegaVirtual', domain="")
 process.crawl('fullMercado',domain="")
 process.crawl('buenCampo', domain="")

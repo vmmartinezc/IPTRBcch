@@ -13,7 +13,7 @@ from odepa_srv.items import *
 #Página : http://www.superdespacho.cl
 
 class SuperDespacho(Spider):
-    name="Super_despacho"
+    name="superDesp"
     start_urls = ["http://www.superdespacho.cl/"]
     allow_domains = ['superdespacho.cl']
 

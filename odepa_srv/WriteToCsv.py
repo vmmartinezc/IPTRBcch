@@ -49,9 +49,11 @@ class WriteToCsv(object):
   
        
     def open_spider(self, spider):
-        self.file_name = csv.writer(open('output_'+spider.name+'.csv', 'w'))
-        self.file_name.writerow(['url', 'producto','variedad','mercado', 'volumen','calidad','precioMin', 'precioProm','precioMax','unidad'])
-
+         if spider.name=="od_bdfv_d":
+           self.file_name=csv.writer(open(spider.name+'csv','w'))
+       	   self.file_name.writerow(['url', 'producto','variedad','mercado', 'volumen','calidad','precioMin', 'precioProm','precioMax','unidad'])
+         else :
+           self.file_name=csv.writer(open('output_'+spider.name+'.csv','w'))
     def close_spider(self, spider):
         self.file_name.close()
 
