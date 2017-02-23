@@ -14,13 +14,11 @@ BOT_NAME = 'odepa_srv'
 SPIDER_MODULES = ['odepa_srv.spiders']
 NEWSPIDER_MODULE = 'odepa_srv.spiders'
 
-ITEM_PIPELINES = { 'odepa_srv.WriteToCsv.WriteToCsv' : 1000}
+ITEM_PIPELINES = { 'odepa_srv.WriteToCsv.WriteToCsv' : 1}
 csv_file_path = "output.csv"
 
-CONCURRENT_REQUESTS=1000
-CONCURRENT_REQUESTS_PER_DOMAIN =1000
-
-
+#CONCURRENT_REQUESTS=1000
+#CONCURRENT_REQUESTS_PER_DOMAIN =1000
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
