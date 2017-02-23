@@ -1,0 +1,1 @@
+echo date \'+%s\' -d \'+ 24 hours\' > /sys/class/rtc/rtc0/wakealarm
