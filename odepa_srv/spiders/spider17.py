@@ -3,8 +3,8 @@
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
 from odepa_srv.items import *
-from bs4 import BeautifulSoup
-from selenium import webdriver
+#from bs4 import BeautifulSoup
+#from selenium import webdriver
 
 #Página : https://www.lider.cl/
 class Lider(Spider):

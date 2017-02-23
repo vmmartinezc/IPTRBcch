@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
 from odepa_srv.items import *
-
+from os import *
 
 class Lavegadelivery(Spider):
     name="lavegadelivery"
@@ -12,7 +13,6 @@ class Lavegadelivery(Spider):
     allow_domains= ['lavegadelivery.cl']
     #Entra a las 2 url, conveniente ya que los codigos son los mismos.
     #Filtrar unidades de medida
-
 
     def parse(self, response):
         sel = Selector(response)

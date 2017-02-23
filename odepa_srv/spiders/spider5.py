@@ -6,8 +6,8 @@ from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
 from scrapy.contrib.loader import ItemLoader
-from bs4 import BeautifulSoup
-from selenium import webdriver
+#from bs4 import BeautifulSoup
+#from selenium import webdriver
 import re
 from odepa_srv.items import *
 #Página : http://www.superdespacho.cl
