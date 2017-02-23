@@ -1,0 +1,44 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch DesarrolloJP
+# Your branch is ahead of 'origin/DesarrolloJP' by 2 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	new file:   odepa_srv/spiders/__pycache__/buenCampo.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/feriaDelivery.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/foods.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/fullMercado.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/granjaExp.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/jumbo.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/laChacra.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/lider.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/luki.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/manolo.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/superDesp.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/todoFruta.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/tottus.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/vegaVirtual.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/vegadelivery.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/verdulero.cpython-36.pyc
+#	new file:   odepa_srv/spiders/__pycache__/verdurasyfrutas.cpython-36.pyc
+#	new file:   odepa_srv/spiders/buenCampo.py
+#	new file:   odepa_srv/spiders/feriaDelivery.py
+#	new file:   odepa_srv/spiders/foods.py
+#	new file:   odepa_srv/spiders/fullMercado.py
+#	new file:   odepa_srv/spiders/granjaExp.py
+#	new file:   odepa_srv/spiders/jumbo.py
+#	new file:   odepa_srv/spiders/laChacra.py
+#	new file:   odepa_srv/spiders/lider.py
+#	new file:   odepa_srv/spiders/luki.py
+#	new file:   odepa_srv/spiders/manolo.py
+#	new file:   odepa_srv/spiders/superDesp.py
+#	new file:   odepa_srv/spiders/todoFruta.py
+#	new file:   odepa_srv/spiders/tottus.py
+#	new file:   odepa_srv/spiders/vegaVirtual.py
+#	new file:   odepa_srv/spiders/vegadelivery.py
+#	new file:   odepa_srv/spiders/verdulero.py
+#	new file:   odepa_srv/spiders/verdurasyfrutas.py
+#
+
