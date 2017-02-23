@@ -27,10 +27,12 @@ class ErrbackSpider(scrapy.Spider):
 		# you can get the non-200 response
 			response = failure.value.response
 			self.logger.error('HttpError on %s', response.url)
+			yield('HttpError on %s', response.url)
 		elif failure.check(DNSLookupError):
 			# this is the original request
 			request = failure.request
 			self.logger.error('DNSLookupError on %s', request.url)
-		elif failure.check(TimeoutError, TCPTimedOutError):
+			yield('dns on %s', response.url)
+		'''elif failure.check(TimeoutError, TCPTimedOutError):
 			request = failure.request
-			self.logger.error('TimeoutError on %s', request.url)
+			self.logger.error('TimeoutError on %s', request.url)'''

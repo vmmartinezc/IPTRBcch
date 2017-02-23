@@ -43,15 +43,19 @@ from odepa_srv import settings
 class WriteToCsv(object):
     def __init__(self):
         #se modifico el valor 'wb' a 'w' por error de escritura en python 3.x
-        self.file_name = csv.writer(open('output.csv', 'w'))
-        self.file_name.writerow(['url', 'producto','variedad','mercado', 'volumen','calidad','precioMin', 'precioProm','precioMax','unidad'])
+        #self.file_name = csv.writer(open('output.csv', 'w'))
         # se crea archivo de url con errores
-        self.rr = csv.writer(open('errors.csv', 'w'))
-        self.rr.writerow(['Fuente'])
+        self.file_name = {}
+  
+       
+    def open_spider(self, spider):
+        self.file_name = csv.writer(open('output_'+spider.name+'.csv', 'w'))
+        self.file_name.writerow(['url', 'producto','variedad','mercado', 'volumen','calidad','precioMin', 'precioProm','precioMax','unidad'])
 
+    def close_spider(self, spider):
+        self.file_name.close()
 
     def process_item(self, item, spider):
-        #Los errores solo tendran una linea con informacion
         self.file_name.writerow([item['url'],
                                         item['producto'],
                                         item['variedad'],
@@ -67,9 +71,9 @@ class WriteToCsv(object):
                                         item['fuente'],
                                         ])
         return item
-        '''else:
-            self.rr.writerow(item['fuente'])
-            return 'error'''
-            
 
+    def return_item(self, response, item):
+        if response.status != 200:
+            print('Error en url : '+item['fuente'])
+        print('error')
 
