@@ -50,5 +50,6 @@ class OdepaBdfvSpider(scrapy.Spider):
                 item['unidad'] = sel.xpath('td[9]/text()').extract()[0]
                 item['fuente'] = sel.xpath('td[9]/text()').extract()[0]
                 item['url'] = response.url.split('==')[1]
+                item['tipo'] = 'ODEPA'
                 #item.add_value('url', response.url.split('==')[1])
                 yield item

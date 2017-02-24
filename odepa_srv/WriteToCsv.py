@@ -38,22 +38,15 @@ import codecs
 from odepa_srv import items
 from odepa_srv import settings
 
-# producto,volumen,url,precioProm,calidad,variedad,precioMin,mercado,precioMax,unidad
+# producto,volumen,url,precioProm,calidad,variedad,precioMin,mercado,precioMax,unidad,fuente,tipo
 
 class WriteToCsv(object):
     def __init__(self):
-        #se modifico el valor 'wb' a 'w' por error de escritura en python 3.x
-        #self.file_name = csv.writer(open('output.csv', 'w'))
-        # se crea archivo de url con errores
-        self.file_name = {}
-  
+        self.file_name = {}  
        
     def open_spider(self, spider):
-         if spider.name=="od_bdfv_d":
-           self.file_name=csv.writer(open(spider.name+'csv','w'))
-       	   self.file_name.writerow(['url', 'producto','variedad','mercado', 'volumen','calidad','precioMin', 'precioProm','precioMax','unidad'])
-         else :
-           self.file_name=csv.writer(open('output_'+spider.name+'.csv','w'))
+        self.file_name=csv.writer(open('output_'+spider.name+'.csv','w'))
+
     def close_spider(self, spider):
         self.file_name.close()
 
@@ -71,6 +64,7 @@ class WriteToCsv(object):
                                         item['cantidad'],
                                         item['unidad'],
                                         item['fuente'],
+                                        item['tipo']
                                         ])
         return item
 

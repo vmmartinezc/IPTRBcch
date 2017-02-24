@@ -34,7 +34,7 @@ class tottus(Spider):
                 item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 item['producto'] = sel.xpath('div[3]/div[1]/a/h5/div/text()').extract()[0].strip().strip("\n")
                 #Recordar precio anterior y precio oferta
-                item['precio']= sel.xpath('div[3]/div[4]/span/span[1]/text()').extract()[0].strip().strip("\n").strip("$")
+                item['precio']= sel.xpath('div[3]/div[4]/span/span[1]/text()').extract()[0].strip().strip("\n").strip("$").replace(".","")
                 #item['Precio'] = sel.xpath('div[3]/div[5]/text()').extract()   #Precio por unidad
                 item['fuente'] = "www.tottus.cl"
 
