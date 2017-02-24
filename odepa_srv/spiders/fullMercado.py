@@ -21,7 +21,7 @@ class FullMercado(Spider):
                 item['producto'] = sel.xpath('a/h3/text()').extract()[0].title()
                 item['precio'] = sel.xpath('a/span[2]/span/text()').extract()[0].strip("\xa0").strip().replace(".","")
                 item['fuente'] = "www.fullmercado.cl"
-                print (item) 
+                yield (item) 
 
         frutas = sel.xpath('//div[@class="et_pb_module et_pb_shop  et_pb_shop_2"]/div/ul/li') 
         for sel in frutas:

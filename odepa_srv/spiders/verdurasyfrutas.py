@@ -26,5 +26,3 @@ class VerdurasyFrutas(Spider):
                 item['fuente'] = "www.verduras-y-frutas.cl"
                 yield (item)
     	
-
-

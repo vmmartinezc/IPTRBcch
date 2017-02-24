@@ -18,8 +18,12 @@ class Chacra(Spider):
             if (sel.xpath('div[1]/h3/a/text()').extract() and sel.xpath('div[2]/span[1]/text()').extract()):
                 item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 item['producto'] = sel.xpath('div[1]/h3/a/text()').extract()[0]
-                item['precio'] = sel.xpath('div[2]/span[@class="price"]/text()').extract()[0].strip("$")
+                item['precio'] = sel.xpath('div[2]/span[@class="price"]/text()').extract()[0].strip("$").replace(".","")
                 #unidad etiqueta dentro de otra
-                item['unidad']= sel.xpath('//p[@class="product_desc"]/a/p/text()').extract()[0]
+                #Si existe se manipulara, sino queda como vacio
+                if sel.xpath('//p[@class="product_desc"]/a/p/text()').extract():
+                    item['unidad']= sel.xpath('//p[@class="product_desc"]/a/p/text()').extract()[0]
                 item['fuente'] = "www.lachacra.cl"
                 yield (item)
+
+                

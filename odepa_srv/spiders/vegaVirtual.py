@@ -17,7 +17,7 @@ class VegaVirtual(Spider):
             if (sel.xpath('div/div[2]/div[1]/a/text()').extract() and sel.xpath('div/div[2]/span/span/text()').extract()):
                 item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 item['precio'] = sel.xpath('div/div[2]/span/span/text()').extract()[0].strip("$").replace(".","")
-                item['fuente'] = "http://www.vegavirtual.cl"
+                item['fuente'] = "www.vegavirtual.cl"
                 item['producto'] =  sel.xpath('div/div[2]/div[1]/a/text()').extract()[0]
                 
                 #La unidad de medida junto con su cantidad se encuentra en el nombre del producto

@@ -50,7 +50,7 @@ class tottus(Spider):
                     item['producto']=item['producto'].replace(nom_fil2.group(),"")
                 else : 
                     item['producto'] = item['producto']
-
+                item['unidad']=sel.xpath('div[3]/div[2]/text()').extract()[0]
                 #unidad_tmp = sel.xpath('div[3]/div[1]/a/h5/div/text()').extract()[0].strip().strip("\n")
                 #unidad_norm = Normalization.general(unidad_tmp)
                 #item['unidad'] = unidad_norm['unidad']

@@ -7,7 +7,9 @@ from odepa_srv.items import *
 #Página : http://www.foods.cl/
 class Foods(Spider):
     name="foods"
-    start_urls = ["http://www.foods.cl/categoria-producto/verduras/"]
+    start_urls = ["http://www.foods.cl/categoria-producto/verduras/",
+                "http://www.foods.cl/categoria-producto/frutas/",
+                "http://www.foods.cl/categoria-producto/legumbres/",]
     allows_domains = ['foods.cl']
     def parse(self, response):
         sel = Selector(response)
@@ -17,8 +19,8 @@ class Foods(Spider):
                 item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 aux = sel.xpath('a/h3/text()').extract()[0].title().split("(")
                 item['producto'] = aux[0]
-                item['precio'] = sel.xpath('a/span/span/text()').extract()[0].strip("$").strip("\xa0")
-                item['fuente'] ="http://www.foods.cl/"
+                item['precio'] = sel.xpath('a/span/span/text()').extract()[0].strip("$").strip("\xa0").replace(",","")
+                item['fuente'] ="www.foods.cl"
                 #Se le elimina el ultimo valor ')', es irrelevante.
                 unidad_tmp = aux[1].strip(")")
                 unidad_norm = Normalization.general(unidad_tmp)

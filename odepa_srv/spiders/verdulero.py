@@ -18,7 +18,7 @@ class Verdulero(Spider):
                 item = OdepaSrvItem.inicializar(OdepaSrvItem())
                 item['producto'] = sel.xpath('h3/a/text()').extract()[0].title()
                 item['precio'] = sel.xpath('div/p[2]/ins/text()').extract()[0].strip("$").replace(",","")
-                item['fuente'] = "http://www.elverdulero.cl"
+                item['fuente'] = "www.elverdulero.cl"
                 #La unidad de medida y su cantidad se encuentra en el nombre, por lo tanto es el parámatro de entrada para normalizar
                 unidad_tmp = item['producto']
                 unidad_norm = Normalization.general(unidad_tmp)

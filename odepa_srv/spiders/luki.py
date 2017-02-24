@@ -31,8 +31,8 @@ class luki(Spider):
 
                 unidad_tmp = sel.xpath('div[1]/center/h6/a/text()').extract()[0].split("-")[0]
                 unidad_norm = Normalization.general(unidad_tmp)
-                item['unidad'] = unidad_norm['unidad']
-                item['cantidad'] = unidad_norm['cantidad']
+                #item['unidad'] = unidad_norm['unidad']
+                #item['cantidad'] = unidad_norm['cantidad']
                 item['precio'] = sel.xpath('div[2]/b/span[2]/text()').extract()[0].replace(".0","")
-                item['fuente']="http://www.luki.cl/"
+                item['fuente']="www.luki.cl/"
                 yield (item)

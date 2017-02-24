@@ -32,7 +32,7 @@ class Jumbo(Spider):
             item = OdepaSrvItem.inicializar(OdepaSrvItem())
             item['producto'] = nombres[i].find('b').renderContents()
             item['precio']=  str(precios[i].renderContents()).strip("$")
-            item ['fuente'] = "http://www.jumbo.cl"
+            item ['fuente'] = "www.jumbo.cl"
             yield (item)
         	
 

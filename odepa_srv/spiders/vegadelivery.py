@@ -8,7 +8,9 @@ from odepa_srv.items import *
 class vegaDelivery(Spider):
     name="vegaDelivery"
     start_urls = ["http://www.lavegadelivery.cl/categoria.php?cat=1",
-                  "http://www.lavegadelivery.cl/categoria.php?cat=2"]
+                  "http://www.lavegadelivery.cl/categoria.php?cat=2",
+                  "http://www.lavegadelivery.cl/categoria.php?cat=3",
+                  "http://www.lavegadelivery.cl/categoria.php?cat=4"]
 
     allow_domains= ['lavegadelivery.cl']
     #Entra a las 2 url, conveniente ya que los codigos son los mismos.

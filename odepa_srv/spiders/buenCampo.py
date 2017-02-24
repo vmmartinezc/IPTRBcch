@@ -23,7 +23,7 @@ class Buencampo(Spider):
                 unidad_norm = Normalization.general(unidad_tmp)
                 item['unidad'] = unidad_norm['unidad']
                 item['cantidad'] = unidad_norm['cantidad']
-                item['fuente'] = "https://www.buencampo.cl/"
+                item['fuente'] = "www.buencampo.cl/"
                 #Descomentar para comprobar normalizacion visualmente
                 '''print (unidad_tmp)
                 print (item['unidad'])
