@@ -20,12 +20,7 @@ class SuperDespacho(Spider):
 
     def parse(self, response):
         url = "http://www.superdespacho.cl/"
-        driver = webdriver.Chrome()
-        driver.get(url)
-		#Se obtiene la fuente  de la pegina obtenida
-        html = driver.page_source 
-        s = BeautifulSoup(html,'html.parser')
-        precios = s.find_all('tr', 'ng-scope')
+        precios=0
         for td in precios:
             td = td.find_all('td')
             item = OdepaSrvItem.inicializar(OdepaSrvItem())
