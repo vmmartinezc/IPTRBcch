@@ -9,8 +9,21 @@ source test_virtual/bin/activate
 # Setup de folder
 cd ~/iptr-local/IPTRBcch/odepa_srv
 
+#verifico la versión de python; para asegurar entrada al ab. virtual
+python -V
+
 echo "Iniciando scrpit de scrapy"
 bash bash_od_bdfv_d.sh
 
+# Desactivamos el espacio virtual
+#source deactivate
+deactivate
 
-
+# Vamos a Correr el main de R, para esto:
+## 1. vamos al cd correspondiente
+cd ~/iptr-local/IPTRBcch/RScripts
+## 2. corremos el Script de R
+echo "Inicia construcción de BBDD"
+R CMD BATCH mainS.R
+## 3. Se genera un output con el run, ese se mueve a otra carpeta.
+mv mainS.Rout /home/spot/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP/Routput/R_`date +%Y%m%d_%H`_d.Rout
