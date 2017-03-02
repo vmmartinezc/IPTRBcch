@@ -47,8 +47,8 @@ class WriteToCsv(object):
     def open_spider(self, spider):
         self.file_name=csv.writer(open('output_'+spider.name+'.csv','w'))
 
-    def close_spider(self, spider):
-        self.file_name.close()
+    #def close_spider(self, spider):
+        #self.file_name.close()
 
     def process_item(self, item, spider):
         self.file_name.writerow([item['url'],

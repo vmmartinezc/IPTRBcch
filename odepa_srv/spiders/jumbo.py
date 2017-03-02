@@ -1,38 +1,46 @@
-
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-from scrapy.item import Field
 from scrapy.item import Item
 from scrapy.spiders import Spider
-from scrapy.selector import Selector
-from scrapy.contrib.loader import ItemLoader
+from scrapy_splash import SplashRequest
 from odepa_srv.items import *
-#from bs4 import BeautifulSoup
-#from selenium import webdriver
+import re
+#from scrapy.spiders import CrawlSpider, Rule
+#from scrapy.linkextractors import LinkExtractor
 
 
-
-#Página : http://www.jumbo.cl
 class Jumbo(Spider):
-    name="jumbo"
-    start_urls = ["http://www.jumbo.cl/FO/CategoryDisplay?cab=4006&int=11&ter=-1"]
-    allow_domains= ['jumbo.cl']
+    name = "jumbo"
+    #Tiempo de  transicion de descarga entre dos paginas
+    download_delay = 3
+    start_urls = [
+    #Frutas
+    "http://www.jumbo.cl/FO/CategoryDisplay?cab=4006&int=11&ter=124",
+    #Verduras
+    "http://www.jumbo.cl/FO/CategoryDisplay?cab=4006&int=11&ter=125",
+    #Frutos secos
+    "http://www.jumbo.cl/FO/CategoryDisplay?cab=4006&int=11&ter=123"
+    ]
+    
+    # http_user = 'splash-user'
+    # http_pass = 'splash-password'
 
-    def parse(self, response):
-    	#Se trabajará con el browser Chrome
-        driver = webdriver.Chrome()
-        driver.get(self.start_urls[0])
-        #Se obtiene la fuente  de la pegina obtenida
-        html = driver.page_source 
-        s = BeautifulSoup(html,'lxml')
-        nombres = s.find_all(id ='ficha')
-        precios = s.find_all('div', 'txt_precio_h')
-        for i in range(len(nombres)):
+    def start_requests(self):
+        for link in self.start_urls:
+            yield SplashRequest(
+                link,
+                self.parse_link, #Callback 
+                endpoint='render.json',
+                args={
+                    'har': 1,
+                    'html': 1
+                }
+            )
+
+    def parse_link(self, response):
+        print ( response.xpath('//*[@id="tabla_productos"]/tbody/tr/td/ul/li'))
+        for sel in response.xpath('//*[@id="tabla_productos"]/tbody/tr/td/ul/li'):
             item = OdepaSrvItem.inicializar(OdepaSrvItem())
-            item['producto'] = nombres[i].find('b').renderContents()
-            item['precio']=  str(precios[i].renderContents()).strip("$")
-            item ['fuente'] = "www.jumbo.cl"
-            yield (item)
-        	
-
+            item['producto'] = sel.xpath('div/div[2]/div[2]/a[@id="ficha"]/b/text()').extract()[0]
+            item['precio'] = sel.xpath('div/div[3]/div[1]/text()').extract()[0]
+            item['unidad'] = sel.xpath('div/div[3]/div[2]/text()').extract()[0]
+            yield(item)

@@ -5,20 +5,24 @@
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
 from odepa_srv.items import *
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
 #Página : http://www.manolofrutasyverduras.cl/
 
-class manolofrutasyverduras(Spider):
+class manolofrutasyverduras(CrawlSpider):
     name="manolo"
     start_urls = ["http://www.manolofrutasyverduras.cl/"]
+    allow_domains=['manolofrutasyverduras.cl']
+    rules = (
+            Rule(LinkExtractor(allow=('/index.php\?option=com_k2&view=item&id')), callback='parse_items'),
+        )
 
-    def parse(self, response):
+    def parse_items(self, response):
         sel = Selector(response)
-        verdurasfrutas = sel.xpath('//div[@class="nsp_art"]')
-        for sel in verdurasfrutas:
-            if(sel.xpath('div[1]/h4/a/text()').extract() and sel.xpath('div/div[2]/form/span/text()').extract()):
-                item = OdepaSrvItem.inicializar(OdepaSrvItem())
-                item['producto'] = sel.xpath('div[1]/h4/a/text()').extract()[0]
-                item['precio'] = sel.xpath('div/div[2]/form/span/text()').extract()[0]
-                item['fuente'] = "www.manolofrutasyverduras.cl"
-                yield (item)
-  
+        item = OdepaSrvItem.inicializar(OdepaSrvItem())
+
+        item['producto'] = sel.xpath('//*[@id="k2Container"]/div[3]/div[2]/p[1]/text()').extract()[0]
+        item['precio'] = sel.xpath('//*[@id="k2Container"]/div[3]/div[2]/p[2]/text()').extract()[0].replace("\xa0","").replace(".","").strip("$")
+        item['fuente'] = "www.manolofrutasyverduras.cl"
+        yield (item)
+

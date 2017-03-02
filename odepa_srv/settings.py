@@ -16,7 +16,26 @@ NEWSPIDER_MODULE = 'odepa_srv.spiders'
 
 ITEM_PIPELINES = { 'odepa_srv.WriteToCsv.WriteToCsv' : 1}
 csv_file_path = "output.csv"
+USER_AGENT = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"
 
+
+DOWNLOADER_MIDDLEWARES = {
+    # Engine side
+    'scrapy_splash.SplashCookiesMiddleware': 723,
+    'scrapy_splash.SplashMiddleware': 725,
+    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+    # Downloader side
+}
+
+SPIDER_MIDDLEWARES = {
+    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+}
+#SPLASH_URL = 'http://127.0.0.1:8050/'
+#Para windows
+SPLASH_URL = 'http://192.168.99.100:8050/'
+DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+#DOWNLOAD_DELAY=1
 #CONCURRENT_REQUESTS=1000
 #CONCURRENT_REQUESTS_PER_DOMAIN =1000
 
@@ -74,11 +93,12 @@ csv_file_path = "output.csv"
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 # NOTE: AutoThrottle will honour the standard settings for concurrency and delay
+#Configuracion automatica para el Delay de la extracción de datos por url.
 #AUTOTHROTTLE_ENABLED=True
 # The initial download delay
-#AUTOTHROTTLE_START_DELAY=5
-# The maximum download delay to be set in case of high latencies
-#AUTOTHROTTLE_MAX_DELAY=60
+#AUTOTHROTTLE_START_DELAY=1
+#The maximum download delay to be set in case of high latencies
+#AUTOTHROTTLE_MAX_DELAY=5
 # Enable showing throttling stats for every response received:
 #AUTOTHROTTLE_DEBUG=False
 

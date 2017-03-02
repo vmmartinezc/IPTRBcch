@@ -25,7 +25,8 @@ print ("Setting process...  Done")
 
 # 'followall' is the name of one of the spiders of the project.
 process.crawl('od_bdfv_d', domain="")
-process.crawl('vegaDelivery', domain="") 
+process.crawl('vegaDelivery', domain="") #U.M. Normalizada
+#Revisar actualizacion
 process.crawl('todoFruta', domain="") 
 process.crawl('verdurasyfrutas',domain="")
 process.crawl('granjaExp', domain="")
@@ -39,10 +40,12 @@ process.crawl('verdulero',domain="")
 process.crawl('jumbo',domain="")
 process.crawl('vegetalesyFrutas',domain="")
 process.crawl('luki',domain="") 
-process.crawl('laChacra',domain="") 
-process.crawl('manolo',domain="")  
+process.crawl('laChacra',domain="")
+#Cerró pagina 
+#process.crawl('verdulero',domain="") 
 process.crawl('tottus',domain="") 
 process.crawl('lider',domain="") 
+process.crawl('manolo',domain="") 
 
 #process.crawl('errback_example',domain="") Prueba de errores
 

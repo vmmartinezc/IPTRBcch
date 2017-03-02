@@ -1,45 +1,44 @@
 
 # -*- coding: utf-8 -*-
-
-from scrapy.item import Field
+#Página : http://www.superdespacho.cl
 from scrapy.item import Item
 from scrapy.spiders import Spider
-from scrapy.selector import Selector
-from scrapy.contrib.loader import ItemLoader
-#from bs4 import BeautifulSoup
-#from selenium import webdriver
-import re
+from scrapy_splash import SplashRequest
 from odepa_srv.items import *
-#Página : http://www.superdespacho.cl
+import re
+#from scrapy.spiders import CrawlSpider, Rule
+#from scrapy.linkextractors import LinkExtractor
+
 
 class SuperDespacho(Spider):
     name="superDesp"
     start_urls = ["http://www.superdespacho.cl/"]
     allow_domains = ['superdespacho.cl']
+    # http_user = 'splash-user'
+    # http_pass = 'splash-password'
+
+    #El metodo principal debe estar definido como start_requests, ya que no se necesitará el response con el tipico parse.
+    def start_requests(self):
+        for link in self.start_urls:
+            yield SplashRequest(
+                link,
+                self.parse_link, #Callback 
+                endpoint='render.json',
+                args={
+                    'har': 1,
+                    'html': 1,
+                }
+            )
+
+    def parse_link(self, response):
+        for sel in response.xpath('//*[@id="realizar-pedido"]/div'):
+            for subsel in sel.xpath('//div/table/tbody/tr'):
+                if subsel.xpath('td[1]/text()').extract() and subsel.xpath('td[2]/text()').extract():
+                    item = OdepaSrvItem.inicializar(OdepaSrvItem())
+                    item['producto'] = subsel.xpath('td[1]/text()').extract()[0].strip().replace("\t","").replace("\n","").replace(".","").strip("$")
+                    item['precio'] = subsel.xpath('td[2]/text()').extract()[0].strip().replace("\t","").replace("\n","").replace(".","").strip("$")
+                    item['fuente'] = "www.superdespacho.cl"
+                    yield(item)
 
 
-    def parse(self, response):
-        url = "http://www.superdespacho.cl/"
-        driver = webdriver.Chrome()
-        driver.get(url)
-		#Se obtiene la fuente  de la pegina obtenida
-        html = driver.page_source 
-        s = BeautifulSoup(html,'html.parser')
-        precios = s.find_all('tr', 'ng-scope')
-        for td in precios:
-            td = td.find_all('td')
-            item = OdepaSrvItem.inicializar(OdepaSrvItem())
-            item['producto'] = str(td[0].renderContents().strip())
-            #Formato de ejemplo de precio :  $2.300 por kilo
-            precio = td[1].get_text().strip("\n").strip().replace(".","")
-            pat = re.compile('\$\d{1,5}')    #ej. $3300
-            sub_precio = pat.search(precio)
-            if sub_precio:
-                item['precio'] = sub_precio.group().strip("$")
-                unidad_tmp = precio.replace(sub_precio.group(),"")
-                unidad_norm = Normalization.general(unidad_tmp)
-                item['unidad'] = unidad_norm['unidad']
-                item['cantidad'] = unidad_norm['cantidad']
-                
-            item['fuente'] = "www.superdespacho.cl/"
-            yield (item)
+
