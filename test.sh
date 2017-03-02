@@ -9,10 +9,14 @@ source test_virtual/bin/activate
 # Setup de folder
 cd ~/iptr-local/IPTRBcch/odepa_srv
 
+#verifico la versión de python; para asegurar entrada al ab. virtual
+python -V
+
 echo "Iniciando scrpit de scrapy"
 bash bash_od_bdfv_d.sh
 
 # Desactivamos el espacio virtual
+#source deactivate
 deactivate
 
 # Vamos a Correr el main de R, para esto:
