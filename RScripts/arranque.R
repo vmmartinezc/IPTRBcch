@@ -1,4 +1,4 @@
-
+rm(list=ls()) 
 ## Identifico path para cargar los datos:
 if (path.expand('~/')=='/Users/victormartinez/'){
   print('Mac Victor')
@@ -37,8 +37,7 @@ library(formattable)
 library(RColorBrewer)
 library(data.table)
 
-
-
+print('Las librerías se cargaron con éxito')
 print(newpack)
 rm(newpack)
 rm(packvic)
