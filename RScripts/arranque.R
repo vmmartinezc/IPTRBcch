@@ -20,7 +20,7 @@ setwd(pathR) # Direcci??n working
 packvic <- readRDS('inicial.rds') # Paquetes que hay que tener instalados (lectura)
 ## a. Instalar paquetes SSI es necesario.
 newpack <- packvic[!(packvic %in% installed.packages()[,"Package"])] #comparar paquetes en la máquina con los necesarios
-if(length(newpack)) install.packages(newpack)  # Sólo instalar si hay diferencias
+if(length(newpack)) install.packages(newpack, ,repos = "http://cran.us.r-project.org")  # Sólo instalar si hay diferencias
 
 ## b. Librerias Cargadas
 library(grid)
