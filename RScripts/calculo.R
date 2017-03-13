@@ -73,13 +73,9 @@ if (nrow((newfile))!=0){
                                aux1[,c('variedadINE')],
                                'Pera')
     #PLATANO
-    aux1$variedadINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(Plata.*)")),
+    aux1$variedadINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(Platan.*)")),
                                aux1[,c('variedadINE')],
                                'Platano')
-    #ARÁNDANO
-    aux1$variedadINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(Aran.*)")),
-                               aux1[,c('variedadINE')],
-                               'Festacion')
     #}
     # 2. Se comienza el cálculo
       #a. me aseguro que este con formato numérico
