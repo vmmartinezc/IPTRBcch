@@ -8,9 +8,9 @@ cd /home/spot/iptr-local/IPTRBcch/odepa_srv/
 
 # Run Python Script Odepa Boletin Diario Frutas y Verdurias Diario (pscr_od_bdfv_d)
 python pscr_od_bdfv_d.py
-
+	
 #Primero se le agrega al archivo de odepa que tiene el nombre de los atributos en la primera fila, definido en python
-echo 'url,producto,variedad,mercado,volumen,calidad,precioMin,precioProm,precioMax,unidad','tipo'>> output.csv
+echo 'url,producto,variedad,mercado,volumen,calidad,precioMin,precioProm,precioMax,precio,cantidad,unidad,fuente,tipo'>> output.csv
 #cat  od_bdfv_dcsv> output.csv
 cat  output_* >>output.csv
 #Se crea archivos de errores

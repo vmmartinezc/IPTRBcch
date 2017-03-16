@@ -50,16 +50,17 @@ class tottus(Spider):
                 else : 
                     item['producto'] = item['producto']
                 item['unidad']=sel.xpath('div[3]/div[2]/text()').extract()[0]
+                #unidad_tmp = sel.xpath('div[3]/div[1]/a/h5/div/text()').extract()[0].strip().strip("\n")
+                #unidad_norm = Normalization.general(unidad_tmp)
+                #item['unidad'] = unidad_norm['unidad']
+                #item['cantidad'] = unidad_norm['cantidad']
                 
-                unidad_tmp = item['unidad']
-                if unidad_tmp:
-                    unidad_norm = Normalization.tottus(unidad_tmp)
-                    item['unidad'] = unidad_norm['unidad']
-                    item['cantidad'] = unidad_norm['cantidad']
-                    #item['precio'] = unidad_tmp
-                else:
-                    item['unidad'] = item['unidad']
-                    item['cantidad'] = '0'
-                
+                #Descomentar para comprobar normalizacion visualmente
+                '''
+                print (unidad_tmp)
+                print (item['unidad'])
+                print (item['cantidad'])
+                print ("*************")
+                '''                
                 yield (item)
     

@@ -22,9 +22,15 @@ class VegaVirtual(Spider):
                 
                 #La unidad de medida junto con su cantidad se encuentra en el nombre del producto
                 unidad_tmp = item['producto']
-                unidad_norm = Normalization.vegavirtual(unidad_tmp)
+                unidad_norm = Normalization.general(unidad_tmp)
                 item['unidad'] = unidad_norm['unidad']
                 item['cantidad'] = unidad_norm['cantidad']
-                item['producto'] = unidad_norm['producto']
-
+                #Arreglar normalizacion de nombre
+                #item['producto'] = unidad_norm['producto']
+               
+                #Descomentar para comprobar normalizacion visualmente
+                #print (unidad_tmp)
+                #print (item['unidad'])
+                #print (item['cantidad'])
+                #print ("*************")
                 yield (item) 

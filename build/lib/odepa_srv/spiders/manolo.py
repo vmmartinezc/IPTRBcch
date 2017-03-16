@@ -24,11 +24,5 @@ class manolofrutasyverduras(CrawlSpider):
         item['producto'] = sel.xpath('//*[@id="k2Container"]/div[3]/div[2]/p[1]/text()').extract()[0]
         item['precio'] = sel.xpath('//*[@id="k2Container"]/div[3]/div[2]/p[2]/text()').extract()[0].replace("\xa0","").replace(".","").strip("$")
         item['fuente'] = "www.manolofrutasyverduras.cl"
-        unidad_norm = Normalization.manolo(item['precio'])
-        item['unidad'] = unidad_norm['unidad']
-        item['cantidad'] = unidad_norm['cantidad']
-        item['precio'] = unidad_norm['precio']
-
-
         yield (item)
 

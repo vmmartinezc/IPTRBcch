@@ -44,11 +44,11 @@ class OdepaBdfvSpider(scrapy.Spider):
                 item['variedad'] = sel.xpath('td[3]/text()').extract()[0]
                 item['calidad'] = sel.xpath('td[4]/text()').extract()[0]
                 item['volumen'] = sel.xpath('td[5]/text()').extract()[0]
-                item['precioMin'] = sel.xpath('td[6]/text()').extract()[0].replace(".","")
-                item['precioMax'] = sel.xpath('td[7]/text()').extract()[0].replace(".","")
-                item['precioProm'] = sel.xpath('td[8]/text()').extract()[0].replace(".","")
+                item['precioMin'] = sel.xpath('td[6]/text()').extract()[0]
+                item['precioMax'] = sel.xpath('td[7]/text()').extract()[0]
+                item['precioProm'] = sel.xpath('td[8]/text()').extract()[0]
                 item['unidad'] = sel.xpath('td[9]/text()').extract()[0]
-                item['fuente'] = 'www.odepa.cl'
+                item['fuente'] = sel.xpath('td[9]/text()').extract()[0]
                 item['url'] = response.url.split('==')[1]
                 item['tipo'] = 'ODEPA'
                 #item.add_value('url', response.url.split('==')[1])

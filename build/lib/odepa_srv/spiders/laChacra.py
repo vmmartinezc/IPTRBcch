@@ -29,12 +29,6 @@ class Chacra(CrawlSpider):
             item['precio'] = sel.xpath('//*[@id="our_price_display"]/text()').extract()[0].strip("$").replace(".","")
             if sel.xpath('//*[@id="product_reference"]/span/text()').extract():
                 item['unidad']= sel.xpath('//*[@id="product_reference"]/span/text()').extract()[0]
-                unidad_norm = Normalization.chacra(item['unidad'])
-                item['unidad'] = unidad_norm['unidad']
-                item['cantidad'] = unidad_norm['cantidad']
-            else:
-                item['unidad'] = "Sin informacion"
-                item['cantidad'] = "Sin informacion" 
             item['fuente'] = "www.lachacra.cl"
             yield (item)
 

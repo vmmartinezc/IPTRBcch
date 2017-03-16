@@ -37,8 +37,6 @@ import csv
 import codecs
 from odepa_srv import items
 from odepa_srv import settings
-from odepa_srv.items import *
-
 
 # producto,volumen,url,precioProm,calidad,variedad,precioMin,mercado,precioMax,unidad,fuente,tipo
 
@@ -53,27 +51,7 @@ class WriteToCsv(object):
         #self.file_name.close()
 
     def process_item(self, item, spider):
-        if item['tipo'].find("ODEPA")!=-1:
-            norma = Normalization.odepa(item['unidad'])      
-            item['cantidad'] = norma['cantidad']
-            item['unidad'] = norma['unidad']
-            self.file_name.writerow([item['url'],
-                                        item['producto'],
-                                        item['variedad'],
-                                        item['mercado'],
-                                        item['volumen'],
-                                        item['calidad'],
-                                        item['precioMin'],
-                                        item['precioProm'],
-                                        item['precioMax'],
-                                        item['precio'],
-                                        item['cantidad'],
-                                        item['unidad'],
-                                        item['fuente'],
-                                        item['tipo']
-                                        ])
-        else:
-            self.file_name.writerow([item['url'],
+        self.file_name.writerow([item['url'],
                                         item['producto'],
                                         item['variedad'],
                                         item['mercado'],

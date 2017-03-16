@@ -38,13 +38,6 @@ class SuperDespacho(Spider):
                     item['producto'] = subsel.xpath('td[1]/text()').extract()[0].strip().replace("\t","").replace("\n","").replace(".","").strip("$")
                     item['precio'] = subsel.xpath('td[2]/text()').extract()[0].strip().replace("\t","").replace("\n","").replace(".","").strip("$")
                     item['fuente'] = "www.superdespacho.cl"
-                    unidad_tmp = item['precio']
-                    unidad_norm = Normalization.superDes(unidad_tmp)
-                    item['unidad'] = unidad_norm['unidad']
-                    item['cantidad'] = unidad_norm['cantidad']
-                    item['precio'] = unidad_norm['precio']
-                    item['fuente'] = unidad_tmp
-                   
                     yield(item)
 
 
