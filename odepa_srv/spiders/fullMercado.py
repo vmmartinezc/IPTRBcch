@@ -33,5 +33,6 @@ class fullMercado(CrawlSpider):
             item['unidad'] = sel.xpath('//*[@itemprop="description"]/p/span/text()').extract()[0]
         else:
             item['unidad'] ='Sin formato'
+        item['unidad'] = item['unidad'].replace(",","")
         item['fuente'] = 'www.fullmercado.cl'
         yield(item)
