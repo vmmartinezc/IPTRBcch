@@ -25,5 +25,6 @@ cd ~/iptr-local/IPTRBcch/RScripts
 ## 2. corremos el Script de R
 echo "Inicia construcción de BBDD"
 R CMD BATCH mainS.R
+## Rscript mainS.R
 ## 3. Se genera un output con el run, ese se mueve a otra carpeta.
-mv mainS.Rout /home/spot/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP/Routput/R_`date +%Y%m%d_%H`_d.Rout
+#mv mainS.Rout /home/spot/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP/Routput/R_`date +%Y%m%d_%H`_d.Rout

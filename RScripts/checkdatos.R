@@ -48,16 +48,16 @@ print('Se encontraron los siguientes archivos no procesados:')
   newfile$outlier <- cbind( newfile$size < newfile$li) 
   
   # Crea el Archivo problema si hay un cambio extraño en el tamaño de un archivo.
-  ifelse(newfile$outlier=='TRUE',problema<-newfile$nom,problema<-0)
+  #ifelse(newfile$outlier=='TRUE',problema<-newfile$nom,problema<-0)
   
-  if(length(problema)){
-    print('No hay cambios de tamaño en los archivos')
+  #if(length(problema)){
+    #print('No hay cambios de tamaño en los archivos')
     #Agregar Acciones
-  }else{
-    print('Estos archivos tienen un cambio fuerte en el tamaño')
-    print(problema)
+  #}else{
+   # print('Estos archivos tienen un cambio fuerte en el tamaño')
+  #  print(problema)
     #Agregar Acciones: Llamar SSH al sistema
-  }
+  #}
 
 ## c. ¿Se descargaron todas las páginas?
 #################################################################

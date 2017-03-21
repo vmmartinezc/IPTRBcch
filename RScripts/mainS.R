@@ -23,6 +23,9 @@ if (path.expand('~/')=='/Users/victormartinez/'){
   pathGit<-'~/iptr-local/prod/IPTRBcch/RScripts'
   pathDrpx <- '~/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP'
 }
+#Homogenizo el Locade con el que usa el computador. Como estamos usando muchos sistemas operativos con 
+# lenguajes gringos y páginas con caracteres en español, R se confunde.
+Sys.setlocale('LC_ALL','C')
 
 ## 1. Arranque de Programas
 setwd(pathGit) # Direcci??n working
@@ -35,6 +38,10 @@ source('checkdatos.R')
 setwd(pathGit) #ir al path correcto (Git)
 source('preparabbdd.R')
 
+
 # 4. Cálculo índice
 setwd(pathGit) #ir al path correcto (Git)
-source('calculoIPC.R')
+source('calculo.R')
+
+#FIN
+

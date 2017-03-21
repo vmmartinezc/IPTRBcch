@@ -23,9 +23,16 @@ if (path.expand('~/')=='/Users/victormartinez/'){
 # Cargo las bases de entrada a actualizar en el proceso:
 setwd(pathDrpx)
 temp1 <- file.info(list.files(pattern="*d.csv"))
-oldfile<-readRDS('Rbases/done.rds')
-done<-readRDS('Rbases/done.rds')
+oldfile<-readRDS('Rbases/oldfilebd.rds')
+#done<-readRDS('Rbases/done.rds')
 bm<-readRDS('Rbases/bm1.rds')
+
+#Un Archivo done vacío
+try(done<-data.frame(file=character(),
+                     Obs_inthe_file=character(),
+                     newObs=character(),
+                     ratio=character(),
+                     stringsAsFactors=FALSE))
 
 # tomo las bases que aún no se procesan
 
@@ -334,8 +341,9 @@ for (i in 1:nrow(newfile)){
   try(done[i,c('newObs')]<-nrow(aux1))           # Observaciones nuevas procesadas en el archivo
   try(done[i,c('ratio')]<-round(100*(nrow(aux1)/nrow(aux)),digits = 2)) # Ratio de lo nuevo
 }
+  
+  try(oldfile<-rbind(done,oldfile))
 
-try(done<-rbind(done,oldfile))
   
 }else{
   print('Nada que procesar!!')
@@ -344,7 +352,27 @@ try(done<-rbind(done,oldfile))
 print('Fin del Proceso!!')
 
 ## Incluyo lo procesado en la base madre (BM) y en la base done:
-saveRDS(done,file='Rbases/done.rds')
 #Guardo la Base Madre
 saveRDS(bm,file='Rbases/bm1.rds')
+#saveRDS(oldfile1,file='Rbases/done.rds')
+saveRDS(oldfile,file='Rbases/oldfilebd.rds')
+
+procbm<-oldfile
+
+procbm$fecha<-str_extract(procbm$file,"[0-9]+")
+procbm$hora<-str_extract(procbm$file,"(_.*_)")
+procbm$hora<-str_extract(procbm$hora,"[0-9]+")
+#hora lo dejo cómo numérico:
+procbm$hora<-as.numeric(as.character(procbm$hora))
+#Dejo La fecha con formato date
+procbm$fecha<-as.Date(as.character(procbm$fecha),'%Y%m%d')
+procbm<- procbm[with(procbm, order(as.POSIXct(fecha),hora)), ]
+#Borro Fecha y hora, lo usé solo para re-ordenar.
+procbm$fecha <- NULL
+procbm$hora <- NULL
+
+write.csv(procbm,'Rbases/procbm.csv')
+
+
+
 
