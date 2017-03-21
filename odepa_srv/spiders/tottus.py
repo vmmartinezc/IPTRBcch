@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-from scrapy.item import Field
-from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 import re
 
 #Página : http://www.tottus.cl/
@@ -51,7 +48,8 @@ class tottus(Spider):
                     item['producto'] = item['producto']
                 item['unidad']=sel.xpath('div[3]/div[2]/text()').extract()[0]
                 
-                unidad_tmp = item['unidad']
+
+                '''unidad_tmp = item['unidad']
                 if unidad_tmp:
                     unidad_norm = Normalization.tottus(unidad_tmp)
                     item['unidad'] = unidad_norm['unidad']
@@ -59,7 +57,7 @@ class tottus(Spider):
                     #item['precio'] = unidad_tmp
                 else:
                     item['unidad'] = item['unidad']
-                    item['cantidad'] = '0'
+                    item['cantidad'] = '0'''
                 
                 yield (item)
     

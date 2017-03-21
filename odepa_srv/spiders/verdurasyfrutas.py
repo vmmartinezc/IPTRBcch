@@ -3,10 +3,9 @@
 
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 from scrapy_splash import SplashRequest
 import re
-
 #Página : http://www.verduras-y-frutas.cl
 
 
@@ -24,7 +23,7 @@ class VerdurasyFrutas(Spider):
                 args={
                     'har': 1,
                     'html': 1,
-                    'wait': 10,
+                    'wait': 1,
                 },
                 dont_filter=True
 
@@ -49,9 +48,9 @@ class VerdurasyFrutas(Spider):
                     item['unidad'] = "Unidades"
                     item['cantidad'] = cant_uni[0]
                 else:
-                    unidad_tmp = sel.xpath('td[3]/center/text()').extract()[0].strip("\t").strip("\n")
-                    unidad_norm = Normalization.verdurasyfrutas(unidad_tmp)
+                    item['unidad'] = sel.xpath('td[3]/center/text()').extract()[0].strip("\t").strip("\n")
+                    '''unidad_norm = Normalization.verdurasyfrutas(unidad_tmp)
                     item['unidad'] = unidad_norm['unidad']
-                    item['cantidad'] = unidad_norm['cantidad']
+                    item['cantidad'] = unidad_norm['cantidad']'''
                 yield (item)
     	

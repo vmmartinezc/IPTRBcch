@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
-import re
+from odepa_srv.items import OdepaSrvItem
 
 # Página  : www.lagranjaexpress.cl/
 
@@ -27,16 +25,6 @@ class GranjaExpress(Spider):
 
                     item['producto'] = tr.xpath('.//td[3]/text()').extract()[0].strip("\xa0").title()
                     item ['fuente'] = "www.lagranjaexpress.cl"
-                    unidad_tmp = tr.xpath('.//td[4]/div/text()').extract()[0].title()
-                    unidad_norm = Normalization.general(unidad_tmp)
-                    item['unidad'] = unidad_norm['unidad']
-                    item['cantidad'] = unidad_norm['cantidad']
-                
-                    '''
-                    Descomentar para comprobar normalizacion visualmente
-                    print (unidad_tmp)
-                    print (item['unidad'])
-                    print (item['cantidad'])
-                    print ("*************")
-                    '''
+                    item['unidad']= tr.xpath('.//td[4]/div/text()').extract()[0].title()
+        
                     yield (item) 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 
 
 class vegaDelivery(Spider):
@@ -27,10 +27,10 @@ class vegaDelivery(Spider):
                 item['precio'] = (sel.xpath('.//p[@class="precio"]/text()').extract()[0]).strip("$").replace(".","").split("-")[0] # ej. precio =  $2.300
                 item['fuente']= 'www.lavegadelivery.cl'
                 #Se obtiene la unidad temporal
-                unidad_tmp =  (sel.xpath('.//p[@class="precio"]/text()').extract()[0]).strip("$").replace(".","").split("-")[1]
-                unidad_norm = Normalization.general(unidad_tmp)
+                item['unidad'] =  (sel.xpath('.//p[@class="precio"]/text()').extract()[0]).strip("$").replace(".","").split("-")[1]
+                '''unidad_norm = Normalization.general(unidad_tmp)
                 item['cantidad'] = unidad_norm['cantidad']
-                item['unidad'] = unidad_norm['unidad']
+                item['unidad'] = unidad_norm['unidad']'''
                 #Descomentar para comprobar normalizacion visualmente
                 ''' 
                 print (unidad_tmp)

@@ -3,7 +3,7 @@
 
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 #Página : http://www.lachacra.cl/
@@ -27,15 +27,12 @@ class Chacra(CrawlSpider):
             item = OdepaSrvItem.inicializar(OdepaSrvItem())
             item['producto'] = sel.xpath('//*[@id="pb-left-column"]/h2/text()').extract()[0]
             item['precio'] = sel.xpath('//*[@id="our_price_display"]/text()').extract()[0].strip("$").replace(".","")
+            item['fuente'] = "www.lachacra.cl"
             if sel.xpath('//*[@id="product_reference"]/span/text()').extract():
                 item['unidad']= sel.xpath('//*[@id="product_reference"]/span/text()').extract()[0]
-                unidad_norm = Normalization.chacra(item['unidad'])
-                item['unidad'] = unidad_norm['unidad']
-                item['cantidad'] = unidad_norm['cantidad']
             else:
                 item['unidad'] = "Sin informacion"
                 item['cantidad'] = "Sin informacion" 
-            item['fuente'] = "www.lachacra.cl"
             yield (item)
 
                 

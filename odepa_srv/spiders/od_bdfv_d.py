@@ -38,7 +38,6 @@ class OdepaBdfvSpider(scrapy.Spider):
         for sel in response.xpath('//table/tr'):
             if sel.xpath('td[2]/text()'):
                 item = OdepaSrvItem.inicializar(OdepaSrvItem())
-                #item = ReviewLoader(response=response, selector=sel)
                 item['mercado'] = sel.xpath('td[1]/text()').extract()[0]
                 item['producto'] = sel.xpath('td[2]/text()').extract()[0]
                 item['variedad'] = sel.xpath('td[3]/text()').extract()[0]
@@ -51,5 +50,4 @@ class OdepaBdfvSpider(scrapy.Spider):
                 item['fuente'] = 'www.odepa.cl'
                 item['url'] = response.url.split('==')[1]
                 item['tipo'] = 'ODEPA'
-                #item.add_value('url', response.url.split('==')[1])
                 yield item

@@ -3,7 +3,8 @@
 
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
+import re
 #Página : https://www.luki.cl/
 class luki(Spider):
     name="luki"
@@ -29,11 +30,7 @@ class luki(Spider):
                 else : 
                     item['producto'] = sel.xpath('div[1]/center/h6/a/text()').extract()[0].split("-")[0].title()
 
-                unidad_tmp = sel.xpath('div[1]/center/h6/a/text()').extract()[0].split("-")[0]
-                unidad_norm = Normalization.general(unidad_tmp)
-                if unidad_norm:
-                    item['unidad'] = unidad_norm['unidad']
-                    item['cantidad'] = unidad_norm['cantidad']
+                item['unidad'] = sel.xpath('div[1]/center/h6/a/text()').extract()[0].split("-")[0]
                 item['precio'] = sel.xpath('div[2]/b/span[2]/text()').extract()[0].replace(".0","")
                 item['fuente']="www.luki.cl/"
                 yield (item)

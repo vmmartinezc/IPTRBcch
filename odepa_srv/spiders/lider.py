@@ -2,11 +2,7 @@
 from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy_splash import SplashRequest
-from odepa_srv.items import *
-import re
-#from scrapy.spiders import CrawlSpider, Rule
-#from scrapy.linkextractors import LinkExtractor
-
+from odepa_srv.items import OdepaSrvItem
 
 class Lider(Spider):
     name = "lider"
@@ -51,11 +47,8 @@ class Lider(Spider):
             item['precio'] = sel.xpath('div[2]/div[1]/div/span[2]/b/text()').extract()[0].replace("\t","").replace("\n","").replace(".","").replace("$","")
             item['fuente'] = "www.lider.cl"
             if sel.xpath('div[2]/div[1]/div/span[1]/text()').extract():
-                unidad_tmp = sel.xpath('div[2]/div[1]/div/span[1]/text()').extract()[0]
-                unidad_norm = Normalization.lider(unidad_tmp)
-                item['unidad'] = unidad_norm['unidad']
-                item['cantidad'] = unidad_norm['cantidad']
+                item['unidad']= sel.xpath('div[2]/div[1]/div/span[1]/text()').extract()[0]
             else :
-                item['unidad']=""
+                item['unidad']="Sin informacion"
 
             yield(item)

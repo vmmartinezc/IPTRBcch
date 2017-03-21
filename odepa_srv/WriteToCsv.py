@@ -53,27 +53,7 @@ class WriteToCsv(object):
         #self.file_name.close()
 
     def process_item(self, item, spider):
-        if item['tipo'].find("ODEPA")!=-1:
-            norma = Normalization.odepa(item['unidad'])      
-            item['cantidad'] = norma['cantidad']
-            item['unidad'] = norma['unidad']
-            self.file_name.writerow([item['url'],
-                                        item['producto'],
-                                        item['variedad'],
-                                        item['mercado'],
-                                        item['volumen'],
-                                        item['calidad'],
-                                        item['precioMin'],
-                                        item['precioProm'],
-                                        item['precioMax'],
-                                        item['precio'],
-                                        item['cantidad'],
-                                        item['unidad'],
-                                        item['fuente'],
-                                        item['tipo']
-                                        ])
-        else:
-            self.file_name.writerow([item['url'],
+        self.file_name.writerow([item['url'],
                                         item['producto'],
                                         item['variedad'],
                                         item['mercado'],
