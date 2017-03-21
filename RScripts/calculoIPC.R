@@ -1,9 +1,6 @@
-# Author: Víctor martinez
-# Fecha : 1 March 2017
-# collaborators: 
-# Propósito: Crear Estadísticas de precios
-#==========================================
-# 0. Perar el sistema para Run: cargar paquetes y librerias iniciales.
+## Utilizo la base mdre construida en los procesos anteriores
+# Scrip para hacer el �ndice de precios:
+# 0. Arranco ordenando archivos de la carpeta
 rm(list=ls()) 
 ## Identifico path para cargar los datos:
 if (path.expand('~/')=='/Users/victormartinez/'){
@@ -24,17 +21,13 @@ if (path.expand('~/')=='/Users/victormartinez/'){
   pathDrpx <- '~/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP'
 }
 
-## 1. Arranque de Programas
-setwd(pathGit) # Direcci??n working
-source('arranque.R')
+setwd(pathDrpx)
+done<-readRDS('Rbases/done.rds')
+bm<-readRDS('Rbases/bm1.rds')
 
-# 2. Revisar lo que nos entrega el proceso en python
-source('checkdatos.R')
+# Ordeno la base madre por: producto, tienda, fecha
+bmine<-subset.data.frame(bm,bm$productosINE!=0) 
+bmine<-bmine[order(bmine$producto,bmine$productosINE,bmine$tienda,bmine$url),] 
 
-# 3. Prepara BASE MADRE
-setwd(pathGit) #ir al path correcto (Git)
-source('preparabbdd.R')
 
-# 4. Cálculo índice
-setwd(pathGit) #ir al path correcto (Git)
-source('calculoIPC.R')
+

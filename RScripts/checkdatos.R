@@ -104,10 +104,13 @@ if (nrow(newfile)==0) { # Si no hay nuevos archivos que lo diga
   pfile <- as.data.frame(pfile)
   colnames(pfile)<-'oldfile'
   oldfile <- rbind(oldfile,pfile)
-
+  #PArche, como son 22 páginas las imputo:
+  A<-A[1:22,]
   #Exporto archivo procesaro hoy
   C1 <- readRDS('Rbases/seguimiento.rds')
-  C <- rbind(C,C1)
+  #C <- rbind.fill(C1,C)
+  C <- rbind(C1,C[,names(C1)])
+  #C <- rbind.fill(C1,C)
   
   C$fecha <- as.Date(str_extract(rownames(C),'[0-9]+'),'%Y%m%d')
   C <- C[with(C, order(as.POSIXct(fecha),hora)), ]
