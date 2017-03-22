@@ -40,6 +40,9 @@ mv errores.csv /home/spot/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP/err
 cd /home/spot/iptr-local
 find . -name \*.pyc -delete
 
+#Normalizamos archivo descargado
+cd /home/spot/Dropbox/iptr-sharedJP/bbddbranch
+python normaliza_por_archivo.py
 #/usr/local/stata/./stata -b do /home/ruben/Dropbox/IPTR/proc/amb_prueba/od_bdfv_d_v0.20/stata/do/main.do 
 
 #cd /home/ruben/Dropbox/IPTR/proc/amb_prueba/od_bdfv_d_v0.20/ 
