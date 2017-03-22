@@ -156,10 +156,6 @@ for (i in 1:nrow(newfile)){
   aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(^duraz.*)")),
                              aux1[,c('productosINE')],
                              'festacion')
-  #pepino dulce
-  aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(^pepi.*dulc.*)")),
-                             aux1[,c('productosINE')],
-                             'festacion')
   #PIÑA
   aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(^pi.*a)")),
                              aux1[,c('productosINE')],
@@ -272,6 +268,11 @@ for (i in 1:nrow(newfile)){
   aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(^pepino.*)")),
                              aux1[,c('productosINE')],
                              'vestacion') 
+  # CASO ESPECIAL
+  #pepino dulce
+  aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(^pepi.*dulc.*)")),
+                              aux1[,c('productosINE')],
+                              'festacion')
   #HABA
   aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(^haba.*)")),
                              aux1[,c('productosINE')],
@@ -321,11 +322,11 @@ for (i in 1:nrow(newfile)){
   aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(^papa.*)")),
                              aux1[,c('productosINE')],
                              'papas') 
-  aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(.*papa.*Congel.*)")),
+  aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(.*papa.*congel.*)")),
                              aux1[,c('productosINE')],
                              'papascongeladas')  
   
-  aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(.*papa.*Frita.*)")),
+  aux1$productosINE <- ifelse(is.na(str_extract(aux1[,c('producto')],"(.*papa.*frita.*)")),
                              aux1[,c('productosINE')],
                              'papasfritas')  
   
