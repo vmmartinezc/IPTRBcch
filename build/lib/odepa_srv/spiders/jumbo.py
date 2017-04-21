@@ -2,10 +2,8 @@
 from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy_splash import SplashRequest
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 import re
-#from scrapy.spiders import CrawlSpider, Rule
-#from scrapy.linkextractors import LinkExtractor
 
 
 class Jumbo(Spider):
@@ -32,7 +30,8 @@ class Jumbo(Spider):
                 endpoint='render.json',
                 args={
                     'har': 1,
-                    'html': 1
+                    'html': 1,
+                    'wait':0.5,
                 }
             )
 
@@ -43,4 +42,5 @@ class Jumbo(Spider):
             item['producto'] = sel.xpath('div/div[2]/div[2]/a[@id="ficha"]/b/text()').extract()[0]
             item['precio'] = sel.xpath('div/div[3]/div[1]/text()').extract()[0]
             item['unidad'] = sel.xpath('div/div[3]/div[2]/text()').extract()[0]
+            item['fuente'] = 'www.jumbo.cl'
             yield(item)

@@ -16,8 +16,8 @@ if (path.expand('~/')=='/Users/victormartinez/'){
   pathDrpx <- '~/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP'
 } else if (path.expand('~/')=='/home/spot/'){
   print('Servidor')
-  pathGit<-'~/iptr-local/IPTRBcch/RScripts'
-  pathDrpx <- '~/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP'
+  pathGit<-'/home/spot/iptr-local/IPTRBcch/RScripts'
+  pathDrpx <- '/home/spot/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP'
 } else {
   print('Juan Pablo')
   pathGit<-'~/iptr-local/prod/IPTRBcch/RScripts'

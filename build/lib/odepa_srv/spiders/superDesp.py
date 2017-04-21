@@ -4,10 +4,8 @@
 from scrapy.item import Item
 from scrapy.spiders import Spider
 from scrapy_splash import SplashRequest
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 import re
-#from scrapy.spiders import CrawlSpider, Rule
-#from scrapy.linkextractors import LinkExtractor
 
 
 class SuperDespacho(Spider):
@@ -38,6 +36,8 @@ class SuperDespacho(Spider):
                     item['producto'] = subsel.xpath('td[1]/text()').extract()[0].strip().replace("\t","").replace("\n","").replace(".","").strip("$")
                     item['precio'] = subsel.xpath('td[2]/text()').extract()[0].strip().replace("\t","").replace("\n","").replace(".","").strip("$")
                     item['fuente'] = "www.superdespacho.cl"
+                    item['unidad'] = item['precio']
+                   
                     yield(item)
 
 

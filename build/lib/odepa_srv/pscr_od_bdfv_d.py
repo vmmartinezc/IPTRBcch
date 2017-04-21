@@ -36,7 +36,6 @@ process.crawl('fullMercado',domain="")
 process.crawl('buenCampo', domain="")
 process.crawl('foods', domain="")
 process.crawl('feriaDelivery', domain="")
-process.crawl('verdulero',domain="")
 process.crawl('jumbo',domain="")
 process.crawl('vegetalesyFrutas',domain="")
 process.crawl('luki',domain="") 
@@ -45,10 +44,11 @@ process.crawl('laChacra',domain="")
 #process.crawl('verdulero',domain="") 
 process.crawl('tottus',domain="") 
 process.crawl('lider',domain="") 
-process.crawl('manolo',domain="") 
-
-#process.crawl('errback_example',domain="") Prueba de errores
-
+#process.crawl('manolo',domain="") 
+process.crawl('tostani',domain="")
+process.crawl('manzana',domain="")
+#process.crawl('huerta',domain="")
+process.crawl('deliveryvyf',domain="")
 process.start() # the script will block here until the crawling is finished
 
 

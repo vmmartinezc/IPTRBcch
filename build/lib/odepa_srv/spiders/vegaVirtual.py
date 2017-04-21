@@ -3,8 +3,7 @@
 
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
-import re
+from odepa_srv.items import OdepaSrvItem
 #Página : http://www.vegavirtual.cl
 
 class VegaVirtual(Spider):
@@ -19,18 +18,12 @@ class VegaVirtual(Spider):
                 item['precio'] = sel.xpath('div/div[2]/span/span/text()').extract()[0].strip("$").replace(".","")
                 item['fuente'] = "www.vegavirtual.cl"
                 item['producto'] =  sel.xpath('div/div[2]/div[1]/a/text()').extract()[0]
-                
+                item['unidad'] = item['producto']
                 #La unidad de medida junto con su cantidad se encuentra en el nombre del producto
-                unidad_tmp = item['producto']
-                unidad_norm = Normalization.general(unidad_tmp)
+                '''unidad_tmp = item['producto']
+                unidad_norm = Normalization.vegavirtual(unidad_tmp)
                 item['unidad'] = unidad_norm['unidad']
                 item['cantidad'] = unidad_norm['cantidad']
-                #Arreglar normalizacion de nombre
-                #item['producto'] = unidad_norm['producto']
-               
-                #Descomentar para comprobar normalizacion visualmente
-                #print (unidad_tmp)
-                #print (item['unidad'])
-                #print (item['cantidad'])
-                #print ("*************")
+                item['producto'] = unidad_norm['producto']'''
+
                 yield (item) 

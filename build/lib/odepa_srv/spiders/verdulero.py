@@ -3,7 +3,7 @@
 
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 #Página : http://www.elverdulero.cl
 class Verdulero(Spider):
     name="verdulero"

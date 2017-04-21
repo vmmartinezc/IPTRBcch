@@ -3,9 +3,9 @@
 
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 from scrapy_splash import SplashRequest
-
+import re
 #Página : http://www.verduras-y-frutas.cl
 
 
@@ -23,7 +23,7 @@ class VerdurasyFrutas(Spider):
                 args={
                     'har': 1,
                     'html': 1,
-                    'wait': 10,
+                    'wait': 1,
                 },
                 dont_filter=True
 
@@ -38,5 +38,19 @@ class VerdurasyFrutas(Spider):
                 item['producto'] = sel.xpath('td[2]/a/b/text()').extract()[0].title()
                 item['unidad'] = sel.xpath('td[3]/center/text()').extract()[0].strip("\t").strip("\n")
                 item['fuente'] = "www.verduras-y-frutas.cl"
+                pat = re.compile('\d{1,2}\s?(X|x)\s?\d{1,5}')
+                uni_nombre = pat.search(item['producto'])
+                
+                #Se normaliza al momento si se tiene la unidad de medida 
+                if uni_nombre:
+                    item['producto'] = item['producto'].replace(uni_nombre.group(),"").replace("Malla","")
+                    cant_uni = uni_nombre.group().lower().split("x")
+                    item['unidad'] = "Unidades"
+                    item['cantidad'] = cant_uni[0]
+                else:
+                    item['unidad'] = sel.xpath('td[3]/center/text()').extract()[0].strip("\t").strip("\n")
+                    '''unidad_norm = Normalization.verdurasyfrutas(unidad_tmp)
+                    item['unidad'] = unidad_norm['unidad']
+                    item['cantidad'] = unidad_norm['cantidad']'''
                 yield (item)
     	

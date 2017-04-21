@@ -3,7 +3,7 @@
 
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import  OdepaSrvItem
 #Página : http://www.elverdulero.cl
 class VegyFru(Spider):
     name="vegetalesyFrutas"
@@ -22,12 +22,10 @@ class VegyFru(Spider):
                 item['precio'] = sel.xpath('td[3]/text()').extract()[0].strip().strip("$").replace(".","")
                 item['fuente'] = "www.vegetalesyfrutas.cl"
                 #La unidad de medida y su cantidad se encuentra en el nombre, por lo tanto es el parámatro de entrada para normalizar
-                '''unidad_tmp = item['producto']
-                unidad_norm = Normalization.general(unidad_tmp)
+                item['unidad'] = item['producto']
+                '''unidad_norm = Normalization.vegetalesyfrutas(unidad_tmp)
                 item['unidad'] = unidad_norm['unidad']
                 item['cantidad'] = unidad_norm['cantidad']
-                item['producto'] = unidad_norm['producto']   
-                '''
-
+                item['producto'] = unidad_norm['producto']  '''
                 yield (item)
                 

@@ -3,8 +3,9 @@
 
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
-from odepa_srv.items import *
+from odepa_srv.items import OdepaSrvItem
 #Página : https://www.buencampo.cl/
+
 
 class Buencampo(Spider):
     name="buenCampo"
@@ -18,16 +19,7 @@ class Buencampo(Spider):
                 aux = sel.xpath('article/h2/a/text()').extract()[0].split('-')
                 item['precio']  = sel.xpath('article/div/div[2]/div/div/text()').extract()[0]
                 item['producto']= aux[0].title().replace(",0","")
-                #Normalizacion de unidad
-                unidad_tmp = aux[1]
-                unidad_norm = Normalization.general(unidad_tmp)
-                item['unidad'] = unidad_norm['unidad']
-                item['cantidad'] = unidad_norm['cantidad']
                 item['fuente'] = "www.buencampo.cl/"
-                #Descomentar para comprobar normalizacion visualmente
-                '''print (unidad_tmp)
-                print (item['unidad'])
-                print (item['cantidad'])
-                print ("*************")
-                '''
+                #Normalizacion de unidad
+                item['unidad']  = aux[1]  
                 yield (item)
