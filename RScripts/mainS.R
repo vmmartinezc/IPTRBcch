@@ -14,7 +14,7 @@ if (path.expand('~/')=='/Users/victormartinez/'){
   print('MAC Ruben')
   pathGit<-'~/iptr-local/prod/IPTRBcch/RScripts'
   pathDrpx <- '~/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP'
-} else if (path.expand('~/')=='/home/spot/'){
+} else if (path.expand('~/')=="/root/"){
   print('Servidor')
   pathGit<-'/home/spot/iptr-local/IPTRBcch/RScripts'
   pathDrpx <- '/home/spot/Dropbox/iptr-sharedJP/bbddbranch/frutas_verdurasJP'
